@@ -28,32 +28,32 @@
   </tr>
   <tr>
     <td>第 1 章：基础认知与定位</td>
-    <td><a href="/Users/agiray/Desktop/github/100-questions-of-ai-agent/100-questions-of-loop-engineering/01-基础认知与定位.md">链接</a></td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-loop-engineering/01-%E5%9F%BA%E7%A1%80%E8%AE%A4%E7%9F%A5%E4%B8%8E%E5%AE%9A%E4%BD%8D.md">链接</a></td>
     <td>✓ 已发布</td>
   </tr>
   <tr>
     <td>第 2 章：loop 的组成与运行机制</td>
-    <td><a href="/Users/agiray/Desktop/github/100-questions-of-ai-agent/100-questions-of-loop-engineering/02-loop的组成与运行机制.md">链接</a></td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-loop-engineering/02-loop%E7%9A%84%E7%BB%84%E6%88%90%E4%B8%8E%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6.md">链接</a></td>
     <td>✓ 已发布</td>
   </tr>
   <tr>
     <td>第 3 章：踩坑与反模式</td>
-    <td><a href="/Users/agiray/Desktop/github/100-questions-of-ai-agent/100-questions-of-loop-engineering/03-踩坑与反模式.md">链接</a></td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-loop-engineering/03-%E8%B8%A9%E5%9D%91%E4%B8%8E%E5%8F%8D%E6%A8%A1%E5%BC%8F.md">链接</a></td>
     <td>✓ 已发布</td>
   </tr>
   <tr>
     <td>第 4 章：验证质量与成本控制</td>
-    <td><a href="/Users/agiray/Desktop/github/100-questions-of-ai-agent/100-questions-of-loop-engineering/04-验证质量与成本控制.md">链接</a></td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-loop-engineering/04-%E9%AA%8C%E8%AF%81%E8%B4%A8%E9%87%8F%E4%B8%8E%E6%88%90%E6%9C%AC%E6%8E%A7%E5%88%B6.md">链接</a></td>
     <td>✓ 已发布</td>
   </tr>
   <tr>
     <td>第 5 章：工程落地与真实工作流</td>
-    <td><a href="/Users/agiray/Desktop/github/100-questions-of-ai-agent/100-questions-of-loop-engineering/05-工程落地与真实工作流.md">链接</a></td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-loop-engineering/05-%E5%B7%A5%E7%A8%8B%E8%90%BD%E5%9C%B0%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%B7%A5%E4%BD%9C%E6%B5%81.md">链接</a></td>
     <td>✓ 已发布</td>
   </tr>
   <tr>
     <td>第 6 章：边界争议与未来判断</td>
-    <td><a href="/Users/agiray/Desktop/github/100-questions-of-ai-agent/100-questions-of-loop-engineering/06-边界争议与未来判断.md">链接</a></td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-loop-engineering/06-%E8%BE%B9%E7%95%8C%E4%BA%89%E8%AE%AE%E4%B8%8E%E6%9C%AA%E6%9D%A5%E5%88%A4%E6%96%AD.md">链接</a></td>
     <td>✓ 已发布</td>
   </tr>
   <tr>
