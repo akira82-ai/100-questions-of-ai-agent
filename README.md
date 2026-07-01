@@ -24,7 +24,7 @@
 
 <table>
   <tr>
-    <td colspan="3"><strong>关于 Loop Engineering 的 100 个问题</strong></td>
+    <td colspan="3"><strong>《关于 Loop Engineering 的 100 个问题》</strong></td>
   </tr>
   <tr>
     <td>第 1 章：基础认知与定位</td>
