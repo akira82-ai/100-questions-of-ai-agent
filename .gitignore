@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# 本地成书 / 演示产物(由 markdown 自动生成,不入库)
+*.docx
+*.pdf
+*.key
+*.pptx
+
+# 封面 / 图片产物
+*.jpg
+*.jpeg
+*.png
+
+# 本地调研素材(官网镜像 HTML、资料.txt 等,不公开)
+资料/
