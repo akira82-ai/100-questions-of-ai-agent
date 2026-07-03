@@ -63,6 +63,52 @@
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td colspan="3"><strong>《关于 WorkBuddy 的 100 个问题》</strong></td>
+  </tr>
+  <tr>
+    <td>第 1 章：基础认知与定位</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-workbuddy/01-%E5%9F%BA%E7%A1%80%E8%AE%A4%E7%9F%A5%E4%B8%8E%E5%AE%9A%E4%BD%8D.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 2 章：核心架构与关键机制</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-workbuddy/02-%E6%A0%B8%E5%BF%83%E6%9E%B6%E6%9E%84%E4%B8%8E%E5%85%B3%E9%94%AE%E6%9C%BA%E5%88%B6.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 3 章：新手踩坑与反模式</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-workbuddy/03-%E6%96%B0%E6%89%8B%E8%B8%A9%E5%9D%91%E4%B8%8E%E5%8F%8D%E6%A8%A1%E5%BC%8F.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 4 章：结果验证与稳定性</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-workbuddy/04-%E7%BB%93%E6%9E%9C%E9%AA%8C%E8%AF%81%E4%B8%8E%E7%A8%B3%E5%AE%9A%E6%80%A7.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 5 章：真实办公流与场景实战</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-workbuddy/05-%E7%9C%9F%E5%AE%9E%E5%8A%9E%E5%85%AC%E6%B5%81%E4%B8%8E%E5%9C%BA%E6%99%AF%E5%AE%9E%E6%88%98.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 6 章：边界、替代与未来判断</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-workbuddy/06-%E8%BE%B9%E7%95%8C%E3%80%81%E6%9B%BF%E4%BB%A3%E4%B8%8E%E6%9C%AA%E6%9D%A5%E5%88%A4%E6%96%AD.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 7 章：参考资料</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-workbuddy/07-%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>作者：AI 磊叔</td>
+    <td>字数：约 22000</td>
+    <td>日期：2026 年 07 月 03 日</td>
+  </tr>
+</table>
+
 ## 联系方式
 
 - 微信：`AIRay1015`
