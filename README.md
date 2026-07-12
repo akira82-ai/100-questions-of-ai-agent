@@ -201,6 +201,52 @@
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td colspan="3"><strong>《关于飞书 CLI 的 100 个问题》</strong></td>
+  </tr>
+  <tr>
+    <td>第 1 章：认知颠覆</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-lark-cli/01-%E8%AE%A4%E7%9F%A5%E9%A2%A0%E8%A6%86.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 2 章：杀手级场景</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-lark-cli/02-%E6%9D%80%E6%89%8B%E7%BA%A7%E5%9C%BA%E6%99%AF.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 3 章：三层架构与安全机制</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-lark-cli/03-%E4%B8%89%E5%B1%82%E6%9E%B6%E6%9E%84%E4%B8%8E%E5%AE%89%E5%85%A8%E6%9C%BA%E5%88%B6.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 4 章：安装配置与认证踩坑</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-lark-cli/04-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E4%B8%8E%E8%AE%A4%E8%AF%81%E8%B8%A9%E5%9D%91.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 5 章：自动化工作流与进阶实战</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-lark-cli/05-%E8%87%AA%E5%8A%A8%E5%8C%96%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E8%BF%9B%E9%98%B6%E5%AE%9E%E6%88%98.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 6 章：跨平台对比与边界反思</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-lark-cli/06-%E8%B7%A8%E5%B9%B3%E5%8F%B0%E5%AF%B9%E6%AF%94%E4%B8%8E%E8%BE%B9%E7%95%8C%E5%8F%8D%E6%80%9D.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 7 章：参考资料</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-lark-cli/07-%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>作者：AI 磊叔</td>
+    <td>字数：约 68000</td>
+    <td>日期：2026 年 07 月 12 日</td>
+  </tr>
+</table>
+
 ## 联系方式
 
 - 微信：`AIRay1015`
