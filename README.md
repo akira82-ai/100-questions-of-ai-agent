@@ -287,16 +287,6 @@
     <td>✓ 已发布</td>
   </tr>
   <tr>
-    <td>第 8 章：参考资料</td>
-    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-vibe-coding/08-%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99.md">链接</a></td>
-    <td>⏳ 待发布</td>
-  </tr>
-  <tr>
-    <td>第 9 章：审查报告</td>
-    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-vibe-coding/09-%E5%AE%A1%E6%9F%A5%E6%8A%A5%E5%91%8A.md">链接</a></td>
-    <td>⏳ 待发布</td>
-  </tr>
-  <tr>
     <td>作者：AI 磊叔</td>
     <td>字数：约 34500</td>
     <td>日期：2026 年 07 月 14 日</td>
