@@ -247,6 +247,62 @@
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td colspan="3"><strong>《关于 vibe Coding 的 100 个问题》</strong></td>
+  </tr>
+  <tr>
+    <td>第 1 章：认知与定位：它是什么、你怕不怕</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-vibe-coding/01-%E5%90%AC%E8%AF%B4%E8%AF%B4%E8%AF%9D%E5%B0%B1%E8%83%BD%E5%81%9AApp.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 2 章：上手第一步：从想法到第一句指令</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-vibe-coding/02-%E5%AE%8C%E5%85%A8%E4%B8%8D%E6%87%82%E4%BB%A3%E7%A0%81%E7%AC%AC%E4%B8%80%E5%A4%A9.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 3 章：把想法变成能跑的东西</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-vibe-coding/03-%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E7%9A%84AI%E5%81%9A%E5%87%BA%E6%9D%A5%E7%9A%84%E4%B8%9C%E8%A5%BF%E6%80%BB%E4%B8%8D%E5%AF%B9.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 4 章：从能跑到能上线</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-vibe-coding/04-%E6%9C%AC%E5%9C%B0%E8%83%BD%E8%B7%91%E6%80%8E%E4%B9%88%E8%AE%A9%E5%88%AB%E4%BA%BA%E7%94%A8.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 5 章：翻车与安全：一周三起灾难的真相</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-vibe-coding/05-%E4%B8%80%E5%91%A8%E4%B8%89%E8%B5%B7AI%E6%83%A8%E6%A1%88.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 6 章：质量与可控：做出来的东西经得起用</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-vibe-coding/06-%E5%81%9A%E5%87%BA%E6%9D%A5%E7%9A%84%E4%B8%9C%E8%A5%BF%E6%80%8E%E4%B9%88%E7%AE%97%E9%9D%A0%E8%B0%B1.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 7 章：边界、角色与未来</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-vibe-coding/07-%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BC%9A%E8%A2%AB%E5%8F%96%E4%BB%A3%E5%90%97.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 8 章：参考资料</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-vibe-coding/08-%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99.md">链接</a></td>
+    <td>⏳ 待发布</td>
+  </tr>
+  <tr>
+    <td>第 9 章：审查报告</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-vibe-coding/09-%E5%AE%A1%E6%9F%A5%E6%8A%A5%E5%91%8A.md">链接</a></td>
+    <td>⏳ 待发布</td>
+  </tr>
+  <tr>
+    <td>作者：AI 磊叔</td>
+    <td>字数：约 34500</td>
+    <td>日期：2026 年 07 月 14 日</td>
+  </tr>
+</table>
+
 ## 联系方式
 
 - 微信：`AIRay1015`
