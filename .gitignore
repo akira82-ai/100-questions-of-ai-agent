@@ -12,6 +12,9 @@
 *.jpeg
 *.png
 
+# 例外:docs/ 是 GitHub Pages 公开站点目录,其图片需入库
+!docs/**
+
 # 本地调研素材(官网镜像 HTML、资料.txt 等,不公开)
 资料/
 
