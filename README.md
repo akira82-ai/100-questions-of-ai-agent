@@ -293,6 +293,54 @@
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td colspan="3"><strong>《关于 FDE 的 100 个问题》</strong></td>
+  </tr>
+  <tr>
+    <td>第 1 章：决策——黄金机会还是旧岗位包装</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-fde/01-%E9%BB%84%E9%87%91%E6%9C%BA%E4%BC%9A%E8%BF%98%E6%98%AF%E6%97%A7%E5%B2%97%E4%BD%8D%E5%8C%85%E8%A3%85.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 2 章：FDE 到底是个什么角色</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-fde/02-FDE%E5%88%B0%E5%BA%95%E6%98%AF%E4%B8%AA%E4%BB%80%E4%B9%88%E8%A7%92%E8%89%B2.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 3 章：FDE 需要哪些能力</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-fde/03-FDE%E9%9C%80%E8%A6%81%E5%93%AA%E4%BA%9B%E8%83%BD%E5%8A%9B.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 4 章：我该怎么转进去</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-fde/04-%E6%88%91%E8%AF%A5%E6%80%8E%E4%B9%88%E8%BD%AC%E8%BF%9B%E5%8E%BB.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 5 章：为什么真实落地比想象难十倍</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-fde/05-%E4%B8%BA%E4%BB%80%E4%B9%88%E7%9C%9F%E5%AE%9E%E8%90%BD%E5%9C%B0%E6%AF%94%E6%83%B3%E8%B1%A1%E9%9A%BE%E5%8D%81%E5%80%8D.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 6 章：转行后能做成什么真东西</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-fde/06-%E8%BD%AC%E8%A1%8C%E5%90%8E%E8%83%BD%E5%81%9A%E6%88%90%E4%BB%80%E4%B9%88%E7%9C%9F%E4%B8%9C%E8%A5%BF.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>第 7 章：FDE 是过渡角色吗、往哪走才不白干</td>
+    <td><a href="https://github.com/akira82-ai/100-questions-of-ai-agent/blob/main/100-questions-of-fde/07-FDE%E6%98%AF%E8%BF%87%E6%B8%A1%E8%A7%92%E8%89%B2%E5%90%97%E3%80%81%E5%BE%80%E5%93%AA%E8%B5%B0%E6%89%8D%E4%B8%8D%E7%99%BD%E5%B9%B2.md">链接</a></td>
+    <td>✓ 已发布</td>
+  </tr>
+  <tr>
+    <td>作者：AI 磊叔</td>
+    <td>字数：约 39800</td>
+    <td>日期：2026 年 07 月 18 日</td>
+  </tr>
+</table>
+
+> 参考资料（`07-参考资料.md`，按领域分组、引用降序）整理中，完成后将并入上表。
+
 ## 联系方式
 
 - 微信：`AIRay1015`
