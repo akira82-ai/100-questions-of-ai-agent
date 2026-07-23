@@ -82,12 +82,12 @@
   <g transform="translate(0,158)">
     <g transform="translate(140,0)">
       <use href="#card" width="280" height="130"/>
-      <text x="140" y="68" text-anchor="middle" class="kpi-num">63<tspan fill="#38BDF8" font-size="46">+</tspan></text>
+      <text x="140" y="68" text-anchor="middle" class="kpi-num">86<tspan fill="#38BDF8" font-size="46">+</tspan></text>
       <text x="140" y="106" text-anchor="middle" class="kpi-lbl">知名企业</text>
     </g>
     <g transform="translate(460,0)">
       <use href="#card" width="280" height="130"/>
-      <text x="140" y="68" text-anchor="middle" class="kpi-num">15</text>
+      <text x="140" y="68" text-anchor="middle" class="kpi-num">22</text>
       <text x="140" y="106" text-anchor="middle" class="kpi-lbl">座城市</text>
     </g>
     <g transform="translate(780,0)">
@@ -107,48 +107,48 @@
   <g transform="translate(60,358)">
     <g transform="translate(0,0)">
       <text x="0" y="20" class="ind-name">消费 · 食品 · 美妆</text>
-      <rect x="232" y="6" width="200" height="18" rx="9" fill="url(#bar)"/>
-      <text x="440" y="20" class="ind-num">13</text>
+      <rect x="232" y="6" width="210" height="18" rx="9" fill="url(#bar)"/>
+      <text x="450" y="20" class="ind-num">16</text>
     </g>
     <g transform="translate(0,40)">
-      <text x="0" y="20" class="ind-name">互联网 · 平台 · 内容</text>
-      <rect x="232" y="6" width="169" height="18" rx="9" fill="url(#bar)"/>
-      <text x="409" y="20" class="ind-num">11</text>
+      <text x="0" y="20" class="ind-name">文娱 · 电竞 · 教育</text>
+      <rect x="232" y="6" width="210" height="18" rx="9" fill="url(#bar)"/>
+      <text x="450" y="20" class="ind-num">16</text>
     </g>
     <g transform="translate(0,80)">
       <text x="0" y="20" class="ind-name">软件 · SaaS · 产业互联</text>
-      <rect x="232" y="6" width="169" height="18" rx="9" fill="url(#bar2)"/>
-      <text x="409" y="20" class="ind-num">11</text>
+      <rect x="232" y="6" width="184" height="18" rx="9" fill="url(#bar2)"/>
+      <text x="424" y="20" class="ind-num">14</text>
     </g>
     <g transform="translate(0,120)">
-      <text x="0" y="20" class="ind-name">文娱 · 电竞 · 教育</text>
-      <rect x="232" y="6" width="154" height="18" rx="9" fill="url(#bar)"/>
-      <text x="394" y="20" class="ind-num">10</text>
+      <text x="0" y="20" class="ind-name">汽车 · 出行 · 物流</text>
+      <rect x="232" y="6" width="158" height="18" rx="9" fill="url(#bar)"/>
+      <text x="398" y="20" class="ind-num">12</text>
     </g>
     <g transform="translate(0,160)">
-      <text x="0" y="20" class="ind-name">硬件 · 光电 · 智能制造</text>
-      <rect x="232" y="6" width="123" height="18" rx="9" fill="url(#bar2)"/>
-      <text x="363" y="20" class="ind-num">8</text>
+      <text x="0" y="20" class="ind-name">互联网 · 平台 · 内容</text>
+      <rect x="232" y="6" width="144" height="18" rx="9" fill="url(#bar)"/>
+      <text x="384" y="20" class="ind-num">11</text>
     </g>
     <g transform="translate(0,200)">
-      <text x="0" y="20" class="ind-name">汽车 · 出行 · 物流</text>
-      <rect x="232" y="6" width="108" height="18" rx="9" fill="url(#bar)"/>
-      <text x="348" y="20" class="ind-num">7</text>
+      <text x="0" y="20" class="ind-name">硬件 · 光电 · 智能制造</text>
+      <rect x="232" y="6" width="144" height="18" rx="9" fill="url(#bar2)"/>
+      <text x="384" y="20" class="ind-num">11</text>
     </g>
     <g transform="translate(0,240)">
       <text x="0" y="20" class="ind-name">跨境出海 · 数字营销</text>
-      <rect x="232" y="6" width="77" height="18" rx="9" fill="url(#bar2)"/>
-      <text x="317" y="20" class="ind-num">5</text>
+      <rect x="232" y="6" width="105" height="18" rx="9" fill="url(#bar2)"/>
+      <text x="345" y="20" class="ind-num">8</text>
     </g>
     <g transform="translate(0,280)">
       <text x="0" y="20" class="ind-name">制造 · 工业 · 建设</text>
-      <rect x="232" y="6" width="92" height="18" rx="9" fill="url(#bar)"/>
-      <text x="332" y="20" class="ind-num">6</text>
+      <rect x="232" y="6" width="79" height="18" rx="9" fill="url(#bar)"/>
+      <text x="319" y="20" class="ind-num">6</text>
     </g>
     <g transform="translate(0,320)">
       <text x="0" y="20" class="ind-name">医药 · 健康</text>
-      <rect x="232" y="6" width="62" height="18" rx="9" fill="url(#bar2)"/>
-      <text x="302" y="20" class="ind-num">4</text>
+      <rect x="232" y="6" width="53" height="18" rx="9" fill="url(#bar2)"/>
+      <text x="293" y="20" class="ind-num">4</text>
     </g>
   </g>
 
@@ -211,6 +211,13 @@
     <circle cx="922" cy="645" r="3.5" fill="#7DD3FC"/>
     <circle cx="940" cy="687" r="3.5" fill="#7DD3FC"/>
     <circle cx="988" cy="735" r="3.5" fill="#7DD3FC"/>
+    <circle cx="735" cy="668" r="3.5" fill="#7DD3FC"/>
+    <circle cx="845" cy="602" r="3.5" fill="#7DD3FC"/>
+    <circle cx="1028" cy="698" r="3.5" fill="#7DD3FC"/>
+    <circle cx="1018" cy="712" r="3.5" fill="#7DD3FC"/>
+    <circle cx="690" cy="715" r="3.5" fill="#7DD3FC"/>
+    <circle cx="888" cy="782" r="3.5" fill="#7DD3FC"/>
+    <circle cx="958" cy="760" r="3.5" fill="#7DD3FC"/>
 
     <!-- 单城标签 -->
     <text x="1018" y="611" class="cmap">烟台</text>
@@ -218,6 +225,10 @@
     <text x="898" y="640" class="cmap">洛阳</text>
     <text x="945" y="703" class="cmap">武汉</text>
     <text x="998" y="738" class="cmap">福州</text>
+    <text x="712" y="690" class="cmap">成都</text>
+    <text x="828" y="596" class="cmap">西安</text>
+    <text x="1034" y="716" class="cmap">宁波</text>
+    <text x="672" y="735" class="cmap">昆明</text>
 
     <!-- 聚集区 callout 框 -->
     <g>
@@ -440,13 +451,18 @@
       <text x="186" y="26" text-anchor="middle" class="pill">万华集团</text>
       <rect x="264" width="124" height="40" rx="20" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
       <text x="326" y="26" text-anchor="middle" class="pill">海柔创新</text>
+      <rect x="400" width="120" height="40" rx="20" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="460" y="26" text-anchor="middle" class="pill">塔斯汀</text>
+      <rect x="532" width="104" height="40" rx="20" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="584" y="26" text-anchor="middle" class="pill">猫眼</text>
+      <rect x="648" width="132" height="40" rx="20" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="714" y="26" text-anchor="middle" class="pill">万辰集团</text>
+      <rect x="792" width="132" height="40" rx="20" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="858" y="26" text-anchor="middle" class="pill">虹软科技</text>
+      <rect x="936" width="116" height="40" rx="20" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="994" y="26" text-anchor="middle" class="pill">富安娜</text>
     </g>
 
-    <!-- 行8: 更多 -->
-    <g transform="translate(0,434)">
-      <rect width="1060" height="40" rx="20" fill="#A78BFA" fill-opacity="0.10" stroke="#A78BFA" stroke-opacity="0.35" stroke-dasharray="4 4"/>
-      <text x="530" y="26" text-anchor="middle" class="more">… 以及 优矩互动 · 君润数智 · 米果国际 · 埃林哲 · 甄零科技 · 美渠 · 沪数 · 海科数联 · 荣大 · 宏信建发 等共 63+ 家企业</text>
-    </g>
   </g>
 
 </svg>
