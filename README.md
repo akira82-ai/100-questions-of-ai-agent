@@ -1,39 +1,41 @@
 # 100 Questions of AI Agent
 
-## 这个仓库是做什么的
+## What this repository is for
 
-这个仓库用来持续沉淀各种 AI / Agent 主题下的 `100 questions` 文档。
+This repository is a growing collection of `100 questions` documents on various AI / Agent topics.
 
-我想做这件事，初衷很简单。
+The idea behind it is simple.
 
-一方面，我想用一种更有趣的方式去收集资料。很多主题如果只是零散记笔记，最后很容易变成一堆链接、一堆截图、一堆随手记下来的片段，过段时间自己都懒得回看。换成 `100 个问题` 这种形式以后，资料会慢慢有结构，阅读、搜索、整理、写作，也都会更有抓手。
+On one hand, I wanted a more engaging way to collect material. When a topic is just scattered notes, it easily turns into a pile of links, screenshots, and fragments that I am too lazy to revisit later. The `100 questions` format forces structure, which makes reading, searching, organizing, and writing far more actionable.
 
-另一方面，我也想借这个过程，把自己的思考、判断、踩坑经验沉淀下来。很多时候，真正值钱的并不是“这个概念我看过”，而是“我怎么理解它”“我在哪些地方踩过坑”“我后来为什么改了看法”。这些东西如果不主动整理，很快就会散掉。
+On the other hand, I wanted to use the process to crystallize my own thinking, judgment, and hard-won lessons. What is truly valuable is rarely "I have read about this concept"; it is "how I understand it", "where I stepped on a rake", and "why I later changed my mind". Left unorganized, that dissipates quickly.
 
-所以这个仓库，既是在收集资料，也是在逼自己把判断写清楚。希望最后留下来的，不只是一些信息汇总，而是一套套带着思考痕迹的主题文档。
+So this repository is both a knowledge base and a discipline: it pushes me to write my judgments down clearly. The end goal is not a stack of summaries, but a set of topic documents that carry the traces of real thinking.
 
-## 这个仓库可以怎么用
+## How to use this repository
 
-你可以把它当成一个可直接阅读的主题文档库来看。
+Treat it as a directly readable topic library.
 
-可以拿去读，拿去学习，拿去快速建立对一个主题的整体理解。也可以把里面的问题、结构、资料路径继续拿去蒸馏，变成你自己的文章、课程、清单或者研究框架。
+Read it to learn, to build a quick overall picture of a topic, or to distill the questions, structures, and source paths into your own articles, courses, checklists, or research frameworks.
 
-如果你在做 Agent、做内容系统、做知识库，或者在写自己的 skill，这个仓库也可以直接当成内容参考。很多主题拆法、章节组织方式、问题设计方式、以及资料转正文的路径，都可以复用。
+If you are building Agents, content systems, or knowledge bases, or writing your own skills, this repository works as a content reference. Many of the topic-breakdown methods, chapter organizations, question designs, and source-to-text paths are reusable.
 
-## 文档列表
+All eight books below are in **English** and live at the repository root. The Chinese editions are maintained locally and are not published here.
 
-| # | 书名 | 链接 | 发布日期 | 字数 |
-|---|------|------|----------|------|
-| 1 | 《关于 Loop Engineering 的 100 个问题》 | [阅读](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-loop-engineering) | 2026-07-01 | 约 64,648 |
-| 2 | 《关于 WorkBuddy 的 100 个问题》 | [阅读](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-workbuddy) | 2026-07-03 | 约 22,000 |
-| 3 | 《关于 Codex 的 100 个问题》 | [阅读](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-codex) | 2026-07-04 | 约 78,000 |
-| 4 | 《关于 AI 产品经理的 100 个问题》 | [阅读](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-ai-pm) | 2026-07-07 | 约 62,000 |
-| 5 | 《关于 飞书 CLI 的 100 个问题》 | [阅读](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-lark-cli) | 2026-07-12 | 约 57,000 |
-| 6 | 《关于 vibe Coding 的 100 个问题》 | [阅读](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-vibe-coding) | 2026-07-14 | 约 34,500 |
-| 7 | 《关于 FDE 的 100 个问题》 | [阅读](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-fde) | 2026-07-18 | 约 39,800 |
-| 8 | 《关于 Graph Engineering 的 100 个问题》 | [阅读](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-graph-engineering) | 2026-07-26 | 约 38,000 |
+## Book list
 
-## 联系方式
+| # | Title | Link | Published | Words (EN) |
+|---|-------|------|-----------|------------|
+| 1 | 100 Questions on Loop Engineering | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-loop-engineering) | 2026-07-01 | ~15,900 |
+| 2 | 100 Questions on WorkBuddy | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-workbuddy) | 2026-07-03 | ~14,200 |
+| 3 | 100 Questions on Codex | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-codex) | 2026-07-04 | ~34,000 |
+| 4 | 100 Questions on the AI Product Manager | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-ai-pm) | 2026-07-07 | ~30,200 |
+| 5 | 100 Questions on Lark CLI | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-lark-cli) | 2026-07-12 | ~27,000 |
+| 6 | 100 Questions on vibe Coding | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-vibe-coding) | 2026-07-14 | ~23,100 |
+| 7 | 100 Questions on the Forward Deployed Engineer (FDE) | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-fde) | 2026-07-18 | ~25,500 |
+| 8 | 100 Questions on Graph Engineering | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-graph-engineering) | 2026-07-26 | ~26,500 |
 
-- 微信：`AIRay1015`
-- GitHub：`akira82-ai`
+## Contact
+
+- WeChat: `AIRay1015`
+- GitHub: `akira82-ai`

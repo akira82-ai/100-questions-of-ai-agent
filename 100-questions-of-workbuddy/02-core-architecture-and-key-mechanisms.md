@@ -1,0 +1,73 @@
+# Chapter 2 · Core Architecture and Key Mechanisms
+
+## 16. When should you use Ask, Plan, and Craft respectively?
+
+The biggest difference among these three entries is not the name; what really separates them is action depth. Ask is more like clarifying the question first, suited to knowledge consultation, material understanding, and plan comparison, tasks that first take a judgment and do not urgently touch files. Plan suits higher-risk, longer-step things: first let it list the execution path, which files it will touch, and what it may produce, then you decide whether to continue after reviewing. Craft goes straight for the finished product; by default it reads materials, processes files, and generates results. Many people mix them up by stuffing everything into Craft, so a task meant only to discuss starts acting. Picking the right mode equals keeping execution authority in the correct place.
+
+## 17. Why does entering Craft directly without clarifying scope in Ask most easily hurt files?
+
+Because Craft's default mindset is to complete the task, not to keep confirming boundaries with you. As long as your description still carries vague space, it fills in the understanding itself, then reads files, edits content, and produces results along that understanding. The problem is right there: many people have not thought clearly in their head which batch of files to process, which can only be viewed not edited, which directory the result should land in, yet already gave a task with action instructions. For a chat tool, this is just a wrong answer; for an executing tool like WorkBuddy, it becomes reading more, editing more, generating more. Clarify the scope in the Ask stage first, and entering Craft later is more stable.
+
+## 18. How do you tell whether a task should stop at Plan instead of starting directly?
+
+Look at three things first. One, will this task touch important files, especially irreversible actions like overwriting, archiving, and batch organizing. Two, are there multiple branch judgments in the task, such as first filter, then summarize, then generate several different products. Three, do you yourself still want to see how it intends to do it. If two of these three hit, stopping at Plan is usually more cost-effective. The value of Plan is not slowing execution; its real role is surfacing hidden risk. You glance at the steps, input, output, and directory arrangement, and much later rework can be saved in advance. The longer the chain, the more Plan looks like insurance.
+
+## 19. When is the Auto model enough, and when must you specify the model yourself?
+
+In daily office work, Auto is often enough, especially for clearly bounded tasks like material organizing, document generation, spreadsheet analysis, and routine Q and A. Because WorkBuddy already picks a more suitable model by task type, saving you the mental load of switching manually each time. But once you start caring about a very specific capability, you should specify it yourself. For example, if you value reasoning depth, multimodal recognition, a specific vendor's Chinese performance, or your team has verified a model is more stable in a fixed process, then leaving it to Auto yields less. Auto suits general efficiency; manual specifying suits clear optimization.
+
+## 20. Why does the same task become noticeably less stable the moment you switch models?
+
+Because for WorkBuddy, the model is far from just a skin; it is more like the underlying driver. The task description, skills, and connectors you see are unchanged, but the one actually responsible for understanding instructions, weighing priorities, organizing content, and deciding when to call tools is the specific model. Switch the model and the rhythm switches. Some dare to complete proactively, some are more conservative; some excel at long-text organizing, some are more stable on spreadsheets and images; some output fast but loose on details. In ordinary chat, this difference is only answer style; in scenarios that generate files and deliverables, it directly shows as stability difference. So a running process is better not to switch its base frequently.
+
+## 21. What layer of judgment does the Expert handle versus the model?
+
+The model is more like an engine; the Expert is more like a driving style. The model decides comprehension, reasoning, context capacity, and tool-call ceiling. The Expert decides the perspective, process, and industry habits it uses to handle tasks. For the same material, switching the model may change detail completeness; switching the Expert may change the entry approach entirely: a product role first breaks down requirements, operations first looks at conversion, research first fills background. Many easily merge these two layers, thinking calling an Expert equals changing the brain, but the Expert is more like a professional work method layered on top of the existing model. Both layers matter, but at different points.
+
+## 22. What tasks deserve an Expert Team, and what tasks are fine with a single Expert?
+
+A single Expert suits problems with a clear main line, such as writing a piece of content, doing an analysis, or organizing one type of material, where the core judgment sits in one professional perspective, so one Expert is enough. An Expert Team suits cross-role collaboration work, such as when you need research, a structured plan, and landing execution; then letting the lead split to different roles running in parallel is smoother than one role forcing through to the end. The docs also clearly note that an Expert Team usually costs more credits, so it cannot be the default option. The real reason to pull a team is never I want to be more advanced; it must land on a task that naturally has division of labor. Tasks without division of labor, forcing multiple people, often only add coordination cost.
+
+## 23. Why does installing more Skills not necessarily make you stronger?
+
+Because Skills are never collectibles; they intervene in the execution chain. The more you install, the more it looks like more choices on the surface, but in reality it also means more callable paths in the context. The docs specifically remind you to enable only the Skills the current task needs, which reduces irrelevant interference and mis-call probability. This reminder is critical. Many treat the Skill market like a plugin store, fill it up first, then when tasks get complex they cannot even tell which path it will take. The truly strong usage is not in installing more; the key is knowing which few to open and which to close for this task. Fewer but accurate is often more stable than all but messy.
+
+## 24. How do you tell whether a repeated process should be distilled into a Skill?
+
+See whether the process already runs smoothly. Many make Skills too early, before the manual process is even stable, rushing to encapsulate, and end up only fixing the chaos. A process truly worth distilling usually has three signals: the steps are fairly fixed, input and output are relatively stable, and you have repeated it more than a few times, each time making roughly the same judgment. Only at this point does a Skill make sense, because it reuses a mature path. On the flip side, if the task background changes each time, or you are still exploring the best approach, it is more suited to keep running manually. Skills suit fixing consensus, not inventing consensus for you in advance.
+
+## 25. What exactly are the most annoying download, upload, and switch steps that Connectors cut out?
+
+What they cut is not one button; they cut the whole moving chain. Before, you had to go to the external system to find the file, download it locally, drag it into the tool, and after processing re-upload, paste links, and confirm the format did not break. Connectors join these steps into one line, letting WorkBuddy directly read, fetch, write, and search in the external service. For people, the most annoying part was never the analysis moment; moving materials back and forth between systems is what wears you down. Once a Connector is attached, this low-value action clearly decreases, and your focus shifts from moving materials over to moving results forward. That is its most practical value.
+
+## 26. Why does connecting Tencent Docs directly change your way of working?
+
+Because once documents do not need to land on the local machine first, the opening move of processing materials changes. Before it was download, organize, upload; after connecting Tencent Docs, you more easily issue tasks directly around the online material, letting it search, read, summarize, generate, and write back. This change looks like just a few fewer operations, but the actual impact is large. It swaps the work entry from file copy to the source document itself, and many formats, charts, and complex tables are easier to preserve, without worrying each time about content distortion after exporting back and forth. Once the tool connects to the source of materials, people more easily treat it as a workbench rather than a temporary processing station.
+
+## 27. How do you tell whether your task needs a Connector or just local files?
+
+See whether the materials live long-term in an external system. If your materials are just a few files on the desktop, and after processing this time no write-back is needed, local files are enough, simple and clear in boundary. But if the task cannot leave online docs, email, knowledge base, or meeting materials, or the result must flow back into the original system, then the Connector is not just a plus; it has become the main chain. Simpler: any task where you feel downloading and uploading back and forth is annoying deserves thinking about whether a Connector can be attached. The criterion is not mystical; it is where the real site of this work is. If the site is online, do not force it back to local to do again.
+
+## 28. Why is the Workspace both an efficiency matter and a safety boundary?
+
+Many first understand the Workspace as a project organizing tool, which is of course right, but it has another harder role: drawing a boundary for the task. Within one Workspace, history tasks, result files, and context are easier to string together, and continuing to process is smoother; this is the efficiency layer. The other is the safety layer. Limiting the task to a certain Workspace tells WorkBuddy: this time mainly look here, do here, produce here. Once the scope is clear, the probability of misreading other directories and touching unrelated files drops a lot. So the Workspace looks like a management feature, but actually helps you rein in the execution radius. For a file-operating Agent, this boundary is valuable.
+
+## 29. Why is handing the whole desktop to WorkBuddy usually a bad idea?
+
+Because the desktop was never a clean task area; it often mixes temporary files, old versions, screenshots, downloads, personal materials, and all kinds of residue you have nearly forgotten. Handing the whole desktop out equals defaulting it to judge what is relevant and what is not among a pile of noise. Once this judgment is wrong, at best it reads irrelevant materials, at worst it pulls things that should not be touched into the task. A more practical point: file names on the desktop are usually irregular, hard to form a stable process. The truly stable practice is to give it a dedicated directory, even just a temporarily new folder, which is far safer than handing out the whole desktop directly.
+
+## 30. What the Remote Assistant really changes: the entry point, or how execution works when you are away from the computer?
+
+The bigger change is actually the latter. Sending a sentence from the phone looks like just switching an entry, but the interesting part of the assistant is that after you leave the computer, the task can keep running on that machine, and the result comes back to you. It loosens the thing that you must sit at the workstation to push work. On the road, in a meeting, or when you suddenly think of a job elsewhere, you can throw it over first and let the computer side execute. The docs also remind clearly that the computer must stay on and running WorkBuddy, so it is not cloud magic; it is more like remotely extending your work computer out. The entry changed, and the execution rhythm changed with it.
+
+## 31. Why must automation be built only after the manual run is proven?
+
+Because automation amplifies both stable processes and wrong processes. When you run manually, you see where it misunderstood, which step had the directory set wrong, which result format is not yet stable, and can add a sentence on the spot to pull it back. Once in automation, the system only triggers by time and executes by preset; it will not re-think for you whether this process is mature. The docs clearly position automation on periodic, repetitive tasks; this premise is important, showing it suits taking over verified things. Manual first, then automate, logically like making the mold before mass production. If the mold is not stable, the more you produce, the more painful the rework.
+
+## 32. MCP and Skills both look like extensions; what problem does each actually solve?
+
+Skills solve how to do something more like a mature process; MCP solves whether you can connect to external tools and data. Skills lean toward work method and task routine, such as encapsulating a class of actions into reusable capability, making it better at a certain kind of work in conversation. MCP is more like an interface layer, connecting external capabilities like file read-write, databases, notifications, and business systems to the model, letting its hand reach out. Both look like extensions but differ in direction. Skills refine the doing method internally; MCP pulls the tool boundary outward. To improve execution technique, use Skills; to connect systems, data, and services, you need MCP.
+
+## 33. Why do Memory, data management, and task archiving affect whether you can keep going later?
+
+Because what is truly hard for an Agent was never doing it once; the hard part is connecting next time. Memory keeps some long-term preferences and background so it does not have to know you from zero each time. Task archiving and data management keep historical results, shared files, and old task states, so a few days later you do not only remember I did something before but cannot find which step I reached. The docs place these features in positions that look like background settings, and many ignore them, but once tasks multiply, they directly decide whether you keep accumulating or keep restarting. Being able to continue is the real staying power of an office Agent.
