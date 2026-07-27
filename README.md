@@ -26,14 +26,14 @@ All eight books below are in **English** and live at the repository root. The Ch
 
 | # | Title | Link | Published | Words (EN) |
 |---|-------|------|-----------|------------|
-| 1 | 100 Questions on Loop Engineering | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-loop-engineering) | 2026-07-01 | ~15,900 |
-| 2 | 100 Questions on WorkBuddy | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-workbuddy) | 2026-07-03 | ~14,200 |
-| 3 | 100 Questions on Codex | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-codex) | 2026-07-04 | ~34,000 |
-| 4 | 100 Questions on the AI Product Manager | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-ai-pm) | 2026-07-07 | ~30,200 |
-| 5 | 100 Questions on Lark CLI | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-lark-cli) | 2026-07-12 | ~27,000 |
-| 6 | 100 Questions on vibe Coding | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-vibe-coding) | 2026-07-14 | ~23,100 |
-| 7 | 100 Questions on the Forward Deployed Engineer (FDE) | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-fde) | 2026-07-18 | ~25,500 |
-| 8 | 100 Questions on Graph Engineering | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-graph-engineering) | 2026-07-26 | ~26,500 |
+| 1 | The 100 Questions of Loop Engineering | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-loop-engineering) | 2026-07-01 | ~15,900 |
+| 2 | The 100 Questions of WorkBuddy | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-workbuddy) | 2026-07-03 | ~14,200 |
+| 3 | The 100 Questions of Codex | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-codex) | 2026-07-04 | ~34,000 |
+| 4 | The 100 Questions of the AI Product Manager | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-ai-pm) | 2026-07-07 | ~30,200 |
+| 5 | The 100 Questions of Lark CLI | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-lark-cli) | 2026-07-12 | ~27,000 |
+| 6 | The 100 Questions of vibe Coding | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-vibe-coding) | 2026-07-14 | ~23,100 |
+| 7 | The 100 Questions of the Forward Deployed Engineer (FDE) | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-fde) | 2026-07-18 | ~25,500 |
+| 8 | The 100 Questions of Graph Engineering | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-graph-engineering) | 2026-07-26 | ~26,500 |
 
 ## Contact
 
