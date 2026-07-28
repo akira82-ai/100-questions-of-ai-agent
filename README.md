@@ -1,6 +1,6 @@
 # 100 Questions of AI Agent
 
-800 practical, judgment-first questions on AI Agents, LLMs, RAG, vibe coding, and Agent engineering — 8 free books.
+Free, continuously updated books of practical, judgment-first questions covering AI agents, Large Language Models (LLMs), RAG, vibe coding, agent engineering, etc.
 
 ## Contact
 
