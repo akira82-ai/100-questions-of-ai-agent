@@ -18,6 +18,8 @@ The practical test is one question: does this work actually need explicit state 
 
 A graph's legitimate existence needs at least one of three conditions: steps branch on intermediate results, the flow needs to go back and redo, or state must persist across runs. To judge whether you overdid it, ask: if I flatten this graph into a sequential function, does functionality get lost? If not, do not graph yet. Another signal is when the graph's complexity grows with the team's org chart rather than the task. Stop then and go back to figure out what the data flow actually looks like.
 
+More concretely, several fake graphs look like this: two steps are sequenced only because you greeted them in that order, not because the second truly reads the first's output, and the wait between them buys nothing; every stage gets a sync barrier first just because it feels tidier, when the next step does not actually need the whole group, and that wait is real wasted latency; and a job like deduplicating or flattening a list, which a few lines of deterministic code could finish, gets its own agent, which is paying agent rent for the plumbing. An agent should be reserved for judgment, not for wiring.
+
 ## 38. Why is the pit of losing information when passing context between sub-agents so common?
 
 Context passing relies on serialization and truncation. Each agent has its own context window; at handoff only the compressed state can be passed, and the truly critical information is often dropped during compression. The downstream agent gets the upstream's summary, not its full reasoning, and has no way to know what was lost in the summary.
@@ -105,6 +107,8 @@ A linear writing pipeline gets no real parallel benefit but pays the full price 
 The extra failure modes a multi-agent setup introduces in a linear pipeline bring unclear benefit, because the chain could be done serially by a single agent within the same step, with better controllability. Multi-perspective verification is another matter: have several agents analyze the same problem independently, then a judge adjudicates conflicts. This debate pattern pushes cost above 2.5 times a single model, but in tasks like legal classification, financial verification, and medical diagnosis where one error is extremely costly, the error-rate drop earns it back.
 
 So the judgment is simple: if the task decomposes linearly and wants controllability and cheapness, prefer a single agent; if the task needs cross-validation and cannot afford errors, then go multi-agent.
+
+A sample done right is a large migration: break the work into units a single agent can hold steadily, one call site, one failing test, one module, and spin up a sub-agent in its own workspace for each, while another agent adversarially reviews every change before merging. No one wrote dozens of sequential prompts to run that migration; a script coordinated the crew, and review was written into the topology itself rather than bolted on after.
 
 ## 49. How do I decide whether to add an agent now or first fix the single agent's prompt?
 

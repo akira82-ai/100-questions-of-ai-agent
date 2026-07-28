@@ -25,6 +25,8 @@
 | X-AlexMartin | X_上的_Alex_Martin | Prompt engineering is dead |
 | X-FeicaiClub | X_上的_FeicaiClub | Chinese popular science, reader positioning |
 | X-TowardsAI / X-AI超元域 | X_上的_Towards_AI / X_上的_AI超元域 | Term clarification, mainstream phrasing |
+| X-MIKE | X_上的_MIKE《Stop Building Agents That Wait in Line》 | Single-agent long-run three failures (agentic laziness / self-preferential bias / goal drift), six topologies (fan-out / fan-in / diamond / routing / verification / converging-cycle), five anti-patterns (false edges / barrier by default / paying agent rent for mechanical work / non-converging loop / skipping verification), model layering (default inherits session model, must be set per node), Bun Zig to Rust migration sample |
+| X-wandermist | X_上的_wandermist《Everyone Is Wrong About Graph Engineering》 | Loop/Graph comparison table, org-chart metaphor (loop = while, graph = org chart, loop a special case of graph), four-question self-check, three new capabilities a graph adds (dedicated parallel nodes / explicit auditable control flow / fan-out-fan-in), prior art (LangGraph StateGraph / AutoGen GraphFlow / Google ADK + A2A), real and over-marketed coexist |
 
 ### Domain B · Official and Authoritative Long-Form (WEB_)
 | Abbrev | Source file | Main contribution |
@@ -72,6 +74,7 @@
 - Q1.13 A graph is not universal (when not to graph): WEB-LangGraph3y, WEB-Anthropic-BEA
 - Q1.14 Who should learn Graph Engineering: X-老金-假问题, WEB-aibuilderclub, X-FeicaiClub
 - Q1.15 Origin hook (2.8M views): X-Steinberger, WEB-FrontierNews, manifesto-DSDojo
+- This round added (X-MIKE / X-wandermist): Q1.1 single-agent long-run three failures, Q1.2 org-chart metaphor and 'and then' diagnostic, Q1.3 a loop as a special case of a graph, Q1.4 anti-hype both poles overheated, Q1.5 and Q1.14 naming event not a technical event (prior art predates the name)
 
 ### Chapter 2 · Core Architecture and Key Mechanisms
 - Q2.1 Edge carries conditions: WEB-LangGraph3y, WEB-DigitalApplied
@@ -94,6 +97,7 @@
 - Q2.18 Graph's controlled boundary: WEB-GitHub, WEB-fallbrook
 - Q2.19 Topologies supervisor-worker etc.: WEB-DigitalApplied, WEB-LangGraph3y, WEB-devto
 - Q2.20 Loop-to-graph evolution signals: WEB-LangGraph3y, X-Archive, WEB-aibuilderclub
+- This round added (X-MIKE): Q2.2 a linear chain is the most fragile graph (single path, no redundancy), Q2.13 six topologies and industry dynamic-workflow patterns (fan-out / fan-in / diamond / routing / verification / converging-cycle)
 
 ### Chapter 3 · Pitfalls and Anti-Patterns
 - Q3.1 Compound-error multiplication: WEB-agentmarketcap, WEB-Eigent
@@ -116,6 +120,7 @@
 - Q3.18 Cost gate: WEB-devto, WEB-agentmarketcap
 - Q3.19 Whether-to-graph decision tree: WEB-aibuilderclub, WEB-FrontierNews
 - Q3.20 Tool-output injection to RCE: WEB-fallbrook, WEB-GitHub, WEB-devto
+- This round added (X-MIKE): Q3.2 three fake graphs (false edges / barrier by default / paying agent rent for mechanical work), Q3.13 large-migration sample (one sub-agent per fix, independent workspace, adversarial review before merge)
 
 ### Chapter 4 · Verification, Quality, and Advanced Techniques
 - Q4.1 Default stay in loop first: WEB-aibuilderclub, WEB-Anthropic-BEA
@@ -133,6 +138,7 @@
 - Q4.13 Graph slows delivery: WEB-LangGraph3y, WEB-aibuilderclub
 - Q4.14 Prove graph is worth it: WEB-aibuilderclub, WEB-agentmarketcap
 - Q4.15 Workflow enough, don't climb: WEB-Anthropic-BEA, WEB-Langfuse
+- This round added (X-wandermist): Q4.1 four-question self-check (whether you truly changed paradigm), Q4.10 three new capabilities a graph adds (dedicated parallel nodes / explicit auditable control flow / fan-out-fan-in), Q4.12 a graph's maintenance account and new failure modes (multiple prompts / state schema / merge drops source / routing infinite loop / state leak)
 
 ### Chapter 5 · Engineering in Practice and Real Scenarios
 - Q5.1 typed state / reducer: WEB-zostaff, WEB-GitHub
@@ -150,6 +156,7 @@
 - Q5.13 Finance approval must stop: WEB-zostaff, WEB-fallbrook
 - Q5.14 Framework selection: WEB-Langfuse, WEB-FrontierNews
 - Q5.15 When to introduce outer graph: WEB-Langfuse, WEB-aibuilderclub
+- This round added (X-MIKE / X-wandermist): Q5.9 model layering, default inherits session model and must be set per node, Q5.13 naming event not a technical event (prior art predates the name)
 
 ### Chapter 6 · Boundaries, Alternatives, and Reflections
 - Q6.1 True/false judgment + rebranding stakes: WEB-FrontierNews, X-老金-假问题
@@ -167,3 +174,4 @@
 - Q6.13 Those who bet on underlying syntax benefit from word changes: WEB-FrontierNews, X-老金-假问题
 - Q6.14 Three marketing-noise phrases: WEB-FrontierNews, X-AlexMartin, WEB-agentmarketcap
 - Q6.15 Cross-node authorization fail-closed: WEB-fallbrook, WEB-GitHub
+- This round added (X-wandermist): Q6.1 naming event not a technical event (prior art predates the name), Q6.13 real and over-marketed coexist (lasting value in dedicated parallel nodes / auditable control flow / fan-out-fan-in)

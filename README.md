@@ -60,6 +60,6 @@ If this collection saves you an afternoon of scattered searching, a star is the 
 | 5 | The 100 Questions of Lark CLI | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-lark-cli) | 2026-07-12 | ~27,000 |
 | 6 | The 100 Questions of vibe Coding | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-vibe-coding) | 2026-07-14 | ~23,100 |
 | 7 | The 100 Questions of the Forward Deployed Engineer (FDE) | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-fde) | 2026-07-18 | ~25,500 |
-| 8 | The 100 Questions of Graph Engineering | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-graph-engineering) | 2026-07-26 | ~26,500 |
+| 8 | The 100 Questions of Graph Engineering | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-graph-engineering) | 2026-07-26 | ~28,000 |
 
 Everything in this repository lives on GitHub. Star or watch the repo to follow new books — I post summaries on X, but the source always lands here first.
