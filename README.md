@@ -1,5 +1,11 @@
 # 100 Questions of AI Agent
 
+## Contact
+
+- WeChat: `AIRay1015`
+- GitHub: `akira82-ai`
+- X: https://x.com/AgiRay1015
+
 ## What this repository is for
 
 This repository is a growing collection of `100 questions` documents on various AI / Agent topics.
@@ -20,7 +26,7 @@ Read it to learn, to build a quick overall picture of a topic, or to distill the
 
 If you are building Agents, content systems, or knowledge bases, or writing your own skills, this repository works as a content reference. Many of the topic-breakdown methods, chapter organizations, question designs, and source-to-text paths are reusable.
 
-All eight books below are in **English** and live at the repository root. The Chinese editions are maintained locally and are not published here.
+All eight books below are in **English** and live at the repository root.
 
 ## Book list
 
@@ -34,8 +40,3 @@ All eight books below are in **English** and live at the repository root. The Ch
 | 6 | The 100 Questions of vibe Coding | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-vibe-coding) | 2026-07-14 | ~23,100 |
 | 7 | The 100 Questions of the Forward Deployed Engineer (FDE) | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-fde) | 2026-07-18 | ~25,500 |
 | 8 | The 100 Questions of Graph Engineering | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-graph-engineering) | 2026-07-26 | ~26,500 |
-
-## Contact
-
-- WeChat: `AIRay1015`
-- GitHub: `akira82-ai`
