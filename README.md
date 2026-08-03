@@ -28,7 +28,7 @@ So this repository is both a knowledge base and a discipline: it pushes me to wr
 
 ## Topics covered
 
-Eight books, 800 questions, covering the full AI Agent practitioner stack:
+Nine books, 900 questions, covering the full AI Agent practitioner stack plus essential developer tooling:
 
 - **Loop Engineering** and **Graph Engineering** — how to orchestrate and supervise multi-agent systems.
 - **Codex** and **vibe Coding** — building software with agents, from first prototype to production.
@@ -61,5 +61,6 @@ If this collection saves you an afternoon of scattered searching, a star is the 
 | 6 | The 100 Questions of vibe Coding | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-vibe-coding) | 2026-07-14 | ~23,100 |
 | 7 | The 100 Questions of the Forward Deployed Engineer (FDE) | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-fde) | 2026-07-18 | ~25,500 |
 | 8 | The 100 Questions of Graph Engineering | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-graph-engineering) | 2026-07-26 | ~28,000 |
+| 9 | The 100 Questions of GitHub (关于 GitHub 的 100 个问题) | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-github) | 2026-08-02 | ~19,400 |
 
 Everything in this repository lives on GitHub. Star or watch the repo to follow new books — I post summaries on X, but the source always lands here first.
