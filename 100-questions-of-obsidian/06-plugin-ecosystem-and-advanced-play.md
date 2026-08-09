@@ -1,6 +1,6 @@
 # Chapter 6 · Plugin Ecosystem and Advanced Play: broaden horizons, don't get lost
 
-Too many plugins make the vault slow, which makes it easier to quit. This chapter is not about filling plugins, but which to install, which not, and a few plays that broaden horizons. For advanced things, knowing the path exists is enough, do not rush in.
+Too many plugins make the vault slow, which makes it easier to quit. This chapter is not about filling plugins, but which to install, which not, and a few plays that broaden horizons. For advanced things, knowing the path exists is enough, do not rush in. However flashy the plugins, they serve your own accumulation; the root is still your vault.
 
 ## 83. Does Obsidian have official AI? If not, how to pick community plugins?
 

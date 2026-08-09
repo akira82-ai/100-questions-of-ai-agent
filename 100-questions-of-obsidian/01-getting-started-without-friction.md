@@ -1,14 +1,14 @@
 # Chapter 1 · Getting Started Without the Friction
 
-You have probably been there: you keep seeing other people's perfect knowledge-base screenshots, yet whenever you open Obsidian you just stare at a blank page. In this chapter we are not in a hurry to install plugins or pile on concepts. We get the act of writing going first. Obsidian plus AI has many play styles, but the foundation is the notes you accumulate yourself. Without them, even the smartest AI is just a chat box that forgets everything the moment you close the window.
+You have probably been there: you keep seeing other people's perfect knowledge-base screenshots, yet whenever you open Obsidian you just stare at a blank page. In this chapter we are not in a hurry to install plugins or pile on concepts. We get the act of writing going first. Obsidian plus AI has many play styles, but the foundation is the notes you accumulate yourself. Without them, even the smartest AI is just a chat box that forgets everything the moment you close the window. Drop the conversation into your own vault, and AI can pick up your context instead of starting blank every time.
 
 This book is for people who want their daily input to turn into accumulation and output, and for people willing to do a little manual tagging while they write. It is not for people chasing zero-manual full automation, not for people who treat AI as a replacement for their own thinking, and not for people who need an entire team to share one knowledge base. If you fall into the latter groups, the play styles ahead may disappoint you.
 
-## 1. I chat with AI every day and forget it all. Did I waste my time? Don't panic, do this first
+## 1. I chat with AI every day and forget it all. Did I waste my time? First puncture this claim, then act
 
-You have surely heard the line: chat with AI and forget it, and it was all for nothing. The thing is, once you close the chat window those sparks of insight stay outside the screen, because every new conversation the AI does not recognize you. It has no idea where you left off last week or where you got stuck. Storing without processing, the things piled in your bookmarks slowly lose value too, and before long you cannot even be bothered to open them. Plenty of people only realized after deleting their so-called second brain that what actually proved useful in the end was the few lines they wrote by hand. Those conversations that were never written down, a week later you probably cannot recall what came out of them.
+You chat with AI two hours a day, and the moment you close the window, that spark of insight just evaporates. Once the chat is closed, those ideas stay outside the screen, because every new conversation the AI does not recognize you, it has no idea where you left off last week or where you got stuck. Storing without processing, the things piled in your favorites also slowly lose value, and before long you cannot even be bothered to open them. Plenty of people only realized after deleting their so-called second brain that what actually proved useful in the end was the few lines they wrote by hand. Those conversations never written down, a week later you probably cannot recall what came out of them.
 
-Don't panic. The first step is not to rush into learning tools. Every time something useful comes up in a chat, spend thirty seconds dropping it into a fixed place. Even just three lines: what you were solving, the one key sentence the AI gave, what to try next. The smarter AI gets, the more you need a place of your own to receive its output, otherwise what it spits out just flows through you. Don't worry about whether it is tidy yet. Save it first.
+Don't panic. The first step is not to rush into learning tools. Every time something useful comes up in a chat, spend thirty seconds dropping it into a fixed place. Even just three lines: what you were solving, the one key sentence the AI gave, what to try next. The smarter AI gets, the more you need a place of your own to receive its output, otherwise what it spits out just flows through you. Don't worry about whether it is tidy yet. Save it first. Give AI a place of your own, and it truly works for you, instead of making things up from nothing.
 
 Copy-paste template (use directly):
 
@@ -21,7 +21,7 @@ Copy-paste template (use directly):
 
 ## 2. Everyone says the smarter AI gets, the less you need notes. Where is the trap?
 
-You have surely heard it: AI knows everything, so someday you won't need to memorize or take notes, just hand it all over. Sounds great. But the people who actually believed it, looking back three months later, find one thing: they forgot everything they talked about.
+You have surely heard it: AI knows everything, so someday you won't need to memorize or take notes, just hand it all over. Sounds great. But the people who actually believed it, looking back three months later, find one thing: they forgot everything they talked about. Don't rush to blame your memory for getting worse; the gap is not you, it's AI. It starts blank every time, with no context of yours.
 
 The trap is treating AI as your memory. Every time it opens a new conversation it does not know you. It does not know what you were mulling over last week, where you got stuck, what you concluded. You close the window and those sparks evaporate. You take notes to leave clues for your future self. AI cannot see those. It starts from blank every time; the context you feed it only lives inside that one window. Some people felt relieved after angrily deleting their so-called second brain, precisely because that was just an overstuffed warehouse they never actually read. It will not proactively connect this chat with what you wrote before; cross-session continuity depends on you maintaining it. Taking notes was never for AI to read. It is so your future self can pick up the thread next time.
 
@@ -138,7 +138,7 @@ Copy-paste template (use directly):
 
 Many use WeChat favorites as a second brain, only to find the favorites folder grows fuller and fuller, yet when they really need it not one item comes to mind. The problem is those items lie inside WeChat, an island.
 
-It does not connect with your other notes, nor can it be uniformly searched. Someone admitted their self-improvement favorites were never opened again afterward. There is also discussion that knowledge management that truly helps people is about making what you recorded retrievable and reusable, not dropping it into a drawer never opened again.
+Plainly speaking, favoriting equals burying. It does not connect with your other notes, nor can it be uniformly searched. Someone admitted their self-improvement favorites were never opened again afterward. The knowledge management that truly helps people is about making what you recorded retrievable and reusable, not dropping it into a drawer never opened again.
 
 Moving to Obsidian is different. Every note can connect with others and be searched. What you accumulated in WeChat, once imported, truly enters your knowledge flow, instead of gathering dust on someone else's turf.
 

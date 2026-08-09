@@ -1,6 +1,6 @@
 # Chapter 5 · Real-World Scenarios: exam prep, writing, research, workplace, ready to use
 
-Everything before was underlying capability; this chapter goes straight into scenarios. Each scenario gives you a copyable workflow; the only point is: AI gives the draft, you make the trade-offs. Do not hand out the judgment step.
+Everything before was underlying capability; this chapter goes straight into scenarios. Each scenario gives you a copyable workflow; the only point is: AI gives the draft, you make the trade-offs. Do not hand out the judgment step. And the draft AI can give you sticks to your own thread, on the premise that your notes themselves have accumulated, so it can pick up where you left off.
 
 ## 65. Grad school / civil service exam: how to let AI generate mock questions and test points based on my notes?
 

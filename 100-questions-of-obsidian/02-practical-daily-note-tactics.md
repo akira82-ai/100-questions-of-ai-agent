@@ -1,6 +1,6 @@
 # Chapter 2 · Practical Daily-Note Tactics
 
-You have probably had this experience: you took hundreds of notes, but when you really need them not one can be retrieved. This chapter is not about AI; it explains the act of taking notes thoroughly. Only then can AI read your vault, and the premise is that the notes themselves have structure, not a pile of copy-pasted fragments.
+You have probably had this experience: you took hundreds of notes, but when you really need them not one can be retrieved. This chapter is not about AI; it explains the act of taking notes thoroughly. Only then can AI read your vault, and the premise is that the notes themselves have structure, not a pile of copy-pasted fragments. What you record has structure and connections, so that what AI answers based on it later is rooted.
 
 ## 15. I took 800 notes and never use them. What counts as "usable"?
 

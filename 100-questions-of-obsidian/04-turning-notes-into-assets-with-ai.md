@@ -1,6 +1,6 @@
 # Chapter 4 · Turning Notes into Assets with AI: from storing to using
 
-Notes piled into a mountain still a pile of dust, the problem is not taking them but not using them. This chapter is about how to let AI turn your accumulation into usable things, not another smarter favorites folder. After connecting AI, the real value begins.
+Notes piled into a mountain still a pile of dust, the problem is not taking them but not using them. This chapter is about how to let AI turn your accumulation into usable things, not another smarter favorites folder. After connecting AI, the real value begins. The more your accumulation can be answered from by AI, the more your notes truly become assets, not a digital junk pile.
 
 ## 47. My notes pile into a mountain, how does AI help me "use" them instead of "store"?
 
@@ -10,7 +10,7 @@ The sign of using is simple: when you write, related old notes jump out on their
 
 ## 48. What is Vault QA, and how to let AI answer based on my accumulation?
 
-Vault QA means using your notes as a knowledge base; when you ask AI a question it reads your vault first then answers. The biggest difference from asking a chatbot directly is the answer comes from your own accumulation, not generated from nothing by the model.
+Vault QA means using your notes as a knowledge base; when you ask AI a question it reads your vault first then answers. The biggest difference from asking a chatbot directly is the answer comes from your own accumulation, not generated from nothing by the model. But it has a ceiling: when notes are not connected, or the question needs cross-years synthesis, naive retrieval easily only catches a few superficially related items and answers off. The denser the links, the more you process back, the more accurate it gets.
 
 Someone built a vault with the LLM Wiki approach, splitting raw and wiki layers, with a master index.md in wiki. Before asking, let AI read index.md to understand the whole, then answer based on wiki content, and require it to cite specific source pages, and honestly say if the vault has no such info. This way when you ask "what was my conclusion about X last year", it flips through your own notes, not vague talk from the web.
 
@@ -38,9 +38,9 @@ Copy-paste template (use directly):
 
 ## 50. Will my second brain just be a logbook? How to tell if it really "thinks"?
 
-Someone directly deleted their second brain, saying it was just a mover, moving things from one place to another, not thinking more itself. Others, after using a vault for over five years, reflected that a big vault does not equal thinking. The difference between a logbook and real thinking is processing.
+Someone directly deleted their second brain, saying it was just a mover, moving things from one place to another, not thinking more itself. Others, after using a vault for over five years, reflected that a big vault does not equal thinking. The difference between a logbook and real thinking is processing, is whether anyone has truly flipped through it. More piercing: many treat favoriting as effort and a big vault as growth, but actually just hoard a pile they never read.
 
-A logbook only records without processing, noting one today and one tomorrow, no connections between them, looking back is a pile of stream. Real thinking is when you make a judgment while recording: these two are related, that note overturned a previous conclusion, and periodically look back. Someone returned from digital tools to paper precisely because they found themselves only hoarding in the digital vault without reading. The criterion is straightforward: are there connections between your notes, have you processed them back, can the old ones be used when you write something new. If all three are empty, then it is indeed just a logbook.
+A logbook only records without processing, noting one today and one tomorrow, no connections between them, looking back is a pile of stream. Real thinking is when you make a judgment while recording: these two are related, that note overturned a previous conclusion, and periodically look back. Someone returned from digital tools to paper precisely because they found themselves only hoarding in the digital vault without reading. The criterion is straightforward: are there connections between your notes, have you processed them back, can the old ones be used when you write something new. If all three are empty, then it is indeed just a logbook. And whether your vault thinks determines whether what AI answers from it in the future is rooted or made up from nothing.
 
 Copy-paste template (use directly):
 
@@ -60,7 +60,7 @@ MOC is a map gathering same-topic notes; AI helps you put scattered notes into t
 
 ## 52. Let AI periodically review old notes, how to set it without notification hell?
 
-Someone used periodic notes plus a review plugin, but set the frequency too dense, popping notifications daily, and finally just turned it off and never looked again. For reviewing, frequency matters more than intensity.
+Someone used periodic notes plus a review plugin, but set the frequency too dense, popping notifications daily, and finally just turned it off and never looked again. For reviewing, frequency matters more than intensity. Behind this is one thing: in 2026 many people uninstalled AI tools precisely to take back the attention it had stolen.
 
 Use Periodic Notes with calendar, fix a time weekly or monthly to look back, not urging you daily. Someone switched from pursuing perfect structure to dropping real ideas into the inbox every day, and put review on the weekend. You set a minimum frequency you will actually execute, like flipping through the inbox and this week's additions every two weeks, AI helps pull out the related old notes from this period for comparison. Do not let it pop daily; that annoyance makes you abandon the whole system.
 

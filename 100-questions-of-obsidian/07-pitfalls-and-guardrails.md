@@ -1,6 +1,6 @@
 # Chapter 7 · Pitfalls and Guardrails
 
-The previous six chapters taught you how to build and use. This chapter reverses, specifically about crashes. Not to scare you, but to step on them for you first. Almost everyone has fallen into these pits; the only difference is early or late.
+The previous six chapters taught you how to build and use. This chapter reverses, specifically about crashes. Not to scare you, but to step on them for you first. Almost everyone has fallen into these pits; the only difference is early or late. The line repeated across the previous six chapters is the negative example here: drop the conversation into your own vault, and AI truly works for you; do not let the vault live for you.
 
 ## 93. The 5 pits beginners most easily step on
 
@@ -66,7 +66,7 @@ The hidden bill of "free" is your hardware, first see if VRAM and memory are eno
 
 Chatting AI without sinking indeed equals wasted chat, so earlier I taught you to collect conversations into the vault. But there is a deeper pit on the other end: someone pursues "full automation", letting an agent automatically read notes, auto-organize, auto-send summaries daily, themselves completely uninvolved. Result the notes get more automated and refined, the owner more automated and less thinking, finally the vault lives for the owner, the owner long unable to use it.
 
-The balance in one sentence: conversations leave traces, organizing leaves hands. AI-generated things you review before collecting, periodic review you flip yourself. Automation can save you time, cannot make decisions for you. Fail to hold this line, the second brain changes from yours to AI's.
+The balance in one sentence: conversations leave traces, organizing leaves hands. AI-generated things you review before collecting, periodic review you flip yourself. Automation can save you time, cannot make decisions for you. Fail to hold this line, the second brain changes from yours to AI's. The more hands you keep, the more rooted what AI answers based on your accumulation will be in the future.
 
 ## 99. The second brain is mythologized, which promises you must never believe
 

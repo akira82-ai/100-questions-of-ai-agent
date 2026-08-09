@@ -1,6 +1,6 @@
 # Chapter 3 · Connecting AI to Obsidian: the minimum path, don't quit over config
 
-Many get stuck at the step of connecting AI, afraid of installing plugins, configuring models, privacy issues. This chapter specifically breaks these stuck points, giving you a minimum viable path: local if possible, with guardrails if you must go cloud. Config is not the goal; getting AI to read your notes is.
+Many get stuck at the step of connecting AI, afraid of installing plugins, configuring models, privacy issues. This chapter specifically breaks these stuck points, giving you a minimum viable path: local if possible, with guardrails if you must go cloud. Config is not the goal; getting AI to read your notes is. It reads your own accumulation, not made up from nothing; the more solid that root, the more reliable the answers.
 
 ## 31. First time connecting AI to Obsidian, is installing just one plugin enough? Which one?
 
