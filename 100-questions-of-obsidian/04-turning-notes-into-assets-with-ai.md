@@ -6,13 +6,13 @@ Notes piled into a mountain still a pile of dust, the problem is not taking them
 
 Someone reviewing their vault said the most valuable was actually the casual fragments jotted down, yet more found the vault slowly turned into a junk pile, impossible to restart. Storing without processing, the things piled in the inbox slowly lose value, and before long you cannot even be bothered to open them.
 
-The sign of using is simple: when you write, related old notes jump out on their own; when you ask a question, AI answers based on what you recorded before, not making up from zero. Someone uses Smart Connections, and while writing a paragraph it surfaces a few related old notes in the sidebar, that is the feeling of using. Storing just moves things into a warehouse; using is letting the warehouse feed you back. Do not pursue a perfectly organized vault first; let AI read it, even if just dropping real ideas into the inbox every day.
+The sign of using is simple: when you write, related old notes jump out on their own; when you ask a question, AI answers based on what you recorded before, not making up from zero. Someone uses Smart Connections, and while writing a paragraph it surfaces a few related old notes in the sidebar, that is the feeling of using. Storing just moves things into a warehouse; using is letting the warehouse feed you back. Do not pursue a perfectly organized vault first; let AI read it, even if just dropping real ideas into the inbox every day. A step further: once bidirectional links weave your notes into an interconnected web, AI can also surface hidden patterns you did not notice, like how you always stall on the same type of goal at quarter-end.
 
 ## 48. What is Vault QA, and how to let AI answer based on my accumulation?
 
 Vault QA means using your notes as a knowledge base; when you ask AI a question it reads your vault first then answers. The biggest difference from asking a chatbot directly is the answer comes from your own accumulation, not generated from nothing by the model. But it has a ceiling: when notes are not connected, or the question needs cross-years synthesis, naive retrieval easily only catches a few superficially related items and answers off. The denser the links, the more you process back, the more accurate it gets.
 
-Someone built a vault with the LLM Wiki approach, splitting raw and wiki layers, with a master index.md in wiki. Before asking, let AI read index.md to understand the whole, then answer based on wiki content, and require it to cite specific source pages, and honestly say if the vault has no such info. This way when you ask "what was my conclusion about X last year", it flips through your own notes, not vague talk from the web.
+Someone built a vault with the LLM Wiki approach, splitting raw and wiki layers, with a master index.md in wiki. Before asking, let AI read index.md to understand the whole, then answer based on wiki content, and require it to cite specific source pages, and honestly say if the vault has no such info. This way when you ask "what was my conclusion about X last year", it flips through your own notes, not vague talk from the web. Some also use in-vault search to let AI precisely locate and cite old viewpoints instead of free-associating, so the answer holds up.
 
 Copy-paste template (use directly):
 
@@ -25,7 +25,7 @@ When answering, cite the specific source page in wiki/; if the knowledge base ha
 
 This cheat is Smart Connections. It embeds your notes so that while you write, related old notes auto-surface beside you, no manual searching.
 
-Someone migrating from another tool made dropping the pursuit of perfect structure their first move, because surfacing while writing is more practical than a perfect folder tree. You are writing a thought about a concept, and it lists three related notes you wrote half a year ago in the sidebar; you can pick up the previous thread at a glance. Its premise is the notes themselves have content and connections; an empty vault has nothing to surface. After installing, open any note and start writing, the sidebar comes alive, that is the cheat.
+Someone migrating from another tool made dropping the pursuit of perfect structure their first move, because surfacing while writing is more practical than a perfect folder tree. You are writing a thought about a concept, and it lists three related notes you wrote half a year ago in the sidebar; you can pick up the previous thread at a glance. Its premise is the notes themselves have content and connections; an empty vault has nothing to surface. After installing, open any note and start writing, the sidebar comes alive, that is the cheat. Some also just say to a note "generate the note for this note", and AI automatically lists related old links and tags properties, so the new writing connects to old accumulation on the spot.
 
 Copy-paste template (use directly):
 
@@ -124,7 +124,7 @@ Cannot produce a specific source → probably making up, do not adopt
 
 Someone adds frontmatter to notes, marking topic, status, relations in the header, and AI filters correctly at retrieval. Others rely on links to weave related notes into a net, AI follows links to find context. Neither is the whole.
 
-Links give structure, telling AI these notes are a group. The preface gives intent, like you write clearly at the top of a note what problem this solves, which project it relates to, so AI reading here knows your purpose of recording it, not just the literal. Someone wrote a CLAUDE.md for the vault, explaining the vault's structure and rules to AI, equivalent to a user manual for AI. Links plus preface plus this manual, then AI truly understands your accumulation; relying on any single one is not enough.
+Links give structure, telling AI these notes are a group. The preface gives intent, like you write clearly at the top of a note what problem this solves, which project it relates to, so AI reading here knows your purpose of recording it, not just the literal. Someone wrote a CLAUDE.md for the vault, explaining the vault's structure and rules to AI, equivalent to a user manual for AI. Links plus preface plus this manual, then AI truly understands your accumulation; relying on any single one is not enough. Some skip CLAUDE.md and instead write a me.md as a translation layer, spelling out who they are and what they are doing; the benefit is any AI that reads it works, no need to re-explain yourself each time.
 
 ## 57. How to make AI cite my note sources instead of making up?
 
@@ -177,13 +177,13 @@ Only write for me, not think for me; conclusions and phrasing decided by me.
 
 Yes, and this is where AI beats humans. Someone using local RAG, AI does graph retrieval along links, digging out notes you never manually linked but content-related.
 
-Hidden relationships hide in semantics; you did not realize the two were related when recording, but AI reading the whole vault can compare. Like you noted a pitfall of a project half a year ago, and another similar problem last month; AI placing the two side by side via links and semantics, you see you repeatedly step on the same pit. The premise of digging is notes have substantial content and connection foundation; an empty vault digs little. You periodically let AI do this relationship sorting, easier to bump into those hidden clues than flipping the vault yourself.
+Hidden relationships hide in semantics; you did not realize the two were related when recording, but AI reading the whole vault can compare. Like you noted a pitfall of a project half a year ago, and another similar problem last month; AI placing the two side by side via links and semantics, you see you repeatedly step on the same pit. The premise of digging is notes have substantial content and connection foundation; an empty vault digs little. You periodically let AI do this relationship sorting, easier to bump into those hidden clues than flipping the vault yourself. Someone precisely relied on this to discover they had written the same lesson three years running in project reviews, solving it as a new problem each time, and the moment AI sorted it out it was all exposed.
 
 ## 62. My vault spans years, how does AI understand "the me across time"?
 
 Someone uses diary plus periodic notes, recording every day, week, year, and the vault has a timeline. AI reading these time-fielded notes can piece together your thoughts at different stages.
 
-Mark the date clearly in frontmatter, diary named by day, periodic notes grouped by month and year; AI asking "how is my view of X two years ago different from now" can pull out the notes from both ends along the timeline for comparison. Someone switched from pursuing perfect structure to dropping real ideas into the inbox every day, and over time the vault becomes your own time archive. The me across time relies on continuous recording with time marks, so AI can string the scattered you into a line, not a pile of unordered fragments.
+Mark the date clearly in frontmatter, diary named by day, periodic notes grouped by month and year; AI asking "how is my view of X two years ago different from now" can pull out the notes from both ends along the timeline for comparison. Someone switched from pursuing perfect structure to dropping real ideas into the inbox every day, and over time the vault becomes your own time archive. The me across time relies on continuous recording with time marks, so AI can string the scattered you into a line, not a pile of unordered fragments. Some also fix four types of review notes, weekly, monthly, quarterly, yearly, letting AI look back and plan across different time scales, so last year's you and this year's you can be laid out in contrast.
 
 Copy-paste template (use directly):
 

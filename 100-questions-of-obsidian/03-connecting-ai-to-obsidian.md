@@ -6,7 +6,7 @@ Many get stuck at the step of connecting AI, afraid of installing plugins, confi
 
 Some agonize over installing a bunch of plugins to connect AI, but actually one is enough for the first time. Install Copilot, the one in Obsidian that chats with AI directly and can answer based on your notes, and can process selected text directly.
 
-Someone building a knowledge base explicitly said before the vault passes a hundred pages, do not install Dataview, Templater and those; the complexity of the toolchain kills motivation before you build the habit. Same for connecting AI: first install just one Copilot, get the feel of "AI reads my notes" working, add others when you truly need them. Too many plugins and the vault gets slow, which makes it even easier to quit. One is enough, get moving first.
+Someone building a knowledge base explicitly said before the vault passes a hundred pages, do not install Dataview, Templater and those; the complexity of the toolchain kills motivation before you build the habit. Same for connecting AI: first install just one Copilot, get the feel of "AI reads my notes" working, add others when you truly need them. Too many plugins and the vault gets slow, which makes it even easier to quit. One is enough, get moving first. For those who dread installing plugins, there is an even lighter path: paste the note-file path to a desktop AI and it locates and rewrites the matching file, so you run AI reading your notes with zero plugins.
 
 Copy-paste template (use directly):
 
@@ -40,7 +40,7 @@ Base URL: http://localhost:11434/v1
 
 Three mainstream plugins in front of you and you agonize. Actually choose by what you want most, no agonizing.
 
-Want to chat with AI directly in Obsidian, process selected text, answer based on notes: choose Copilot, it is most like a chat box plus note retrieval. Want AI to automatically understand your vault, auto-surface related old notes while writing: choose Smart Connections, it embeds your notes so AI recognizes your accumulation. Want local RAG Q&A, no dependency on a chat interface: choose ObsidianRAG. Someone migrating from another tool made dropping the pursuit of perfection their first move; same for plugins, install one that best fits current need, get it smooth before considering others. Don't do all three at once; that is where the stuck begins.
+Want to chat with AI directly in Obsidian, process selected text, answer based on notes: choose Copilot, it is most like a chat box plus note retrieval. Want AI to automatically understand your vault, auto-surface related old notes while writing: choose Smart Connections, it embeds your notes so AI recognizes your accumulation. Want local RAG Q&A, no dependency on a chat interface: choose ObsidianRAG. Someone migrating from another tool made dropping the pursuit of perfection their first move; same for plugins, install one that best fits current need, get it smooth before considering others. Don't do all three at once; that is where the stuck begins. Some also just hand a desktop AI read access to the vault; it builds the index itself and can read and rewrite your notes without any plugin, and pasting a note-file path to a desktop-side assistant like ChatGPT or Gemini also lets it locate and edit the file directly.
 
 ## 34. Afraid of API key leakage, how to open an account most safely?
 
@@ -94,13 +94,13 @@ Local models eat your own hardware; only comfortable with GPU 8GB+ or Mac 16GB+,
 
 The most feared is AI confidently making up things your vault does not have. The key to making AI answer only from your notes is turning on the switch based on notes.
 
-Plugins like Copilot, when asking, select vault-based or similar mode, and it retrieves your notes before answering, instead of spitting training knowledge directly. Someone migrating from another tool valued most that notes always belong to you and are precisely retrievable. Others found AI's answer is stable only when it cites your note sources; what is made up from nothing deserves most vigilance. When you ask, explicitly tell it to answer only based on my notes, the probability of it making things up drops, and cases of answering not what you recorded also decrease.
+Plugins like Copilot, when asking, select vault-based or similar mode, and it retrieves your notes before answering, instead of spitting training knowledge directly. Someone migrating from another tool valued most that notes always belong to you and are precisely retrievable. Others found AI's answer is stable only when it cites your note sources; what is made up from nothing deserves most vigilance. When you ask, explicitly tell it to answer only based on my notes, the probability of it making things up drops, and cases of answering not what you recorded also decrease. Some also have AI precisely search the vault and cite their earlier viewpoints, like reminding them of a similar conclusion they wrote three months ago, so the answer actually holds up.
 
 ## 39. First time connecting AI, what should I ask to feel "an AI that gets me"?
 
 Connected AI but do not know what to ask, chat casually and feel no different from the web version. The first thing to ask is a question only your notes can answer.
 
-Open the diary you wrote today and ask it which to-dos I mentioned in this note. When it actually pulls the answer from your words, you feel the hand of an AI that gets me. Others use Smart Connections, and while writing it auto-surfaces related old notes; that moment it actually remembers what I noted three months ago is the most touching. First time do not ask what an encyclopedia can answer; ask what only your vault can answer, then you see AI connected with your accumulation.
+Open the diary you wrote today and ask it which to-dos I mentioned in this note. When it actually pulls the answer from your words, you feel the hand of an AI that gets me. Others use Smart Connections, and while writing it auto-surfaces related old notes; that moment it actually remembers what I noted three months ago is the most touching. First time do not ask what an encyclopedia can answer; ask what only your vault can answer, then you see AI connected with your accumulation. Some first feed AI a whole stretch of life background, then ask what they were wrestling with last week, and when it pulls the answer from the diary, that is the moment they truly feel it gets them.
 
 ## 40. A private AI knowledge base usable offline, what is the minimum config?
 
@@ -131,7 +131,7 @@ Choose by scenario and it is clear: sensitive content, diary, client materials, 
 
 Chatting with AI produces something useful, but close the window and it evaporates; which plugin is hassle-free for sinking it into the vault. The most hassle-free is Copilot, it is right in Obsidian, after chatting select that passage and save it as a note directly, no switching back and forth.
 
-Others use Smart Connections, which already reads your vault, and related notes it mentions in the chat auto-surface, you link back casually. The key is do not let the conversation go to waste; spend thirty seconds after chatting dropping background, conclusion, next step into the inbox, the template from chapter one. The plugin just saves you one step; what truly sinks the conversation is the three lines you store each time.
+Others use Smart Connections, which already reads your vault, and related notes it mentions in the chat auto-surface, you link back casually. The key is do not let the conversation go to waste; spend thirty seconds after chatting dropping background, conclusion, next step into the inbox, the template from chapter one. The plugin just saves you one step; what truly sinks the conversation is the three lines you store each time. Some also use an in-vault chat plugin with a few added skills, no local subscription fee, and the notes AI writes automatically carry links and properties, even one-click mind-maps, auto-summarized databases, and noise-stripped web pages saved as notes.
 
 ## 43. Too many plugins make the vault slow, how to control to just 2 being enough?
 
@@ -143,7 +143,7 @@ The control method is simple: problem first, plugin later. You hit a specific pa
 
 Someone specifically took apart an attack surface, saying the vulnerability is not just the content itself, but untrusted content stacked with the outbound channel, called the fatal three-piece set. Set three guardrails before connecting AI.
 
-First, protect private data first: diary, client materials, either go local model not leaving the machine, or encrypt with Cryptomator before storing. Second, manually review untrusted content: what AI gives, what is scraped from the web, you glance at it before it enters the vault, do not auto-pour. Third, minimize permissions on the outbound channel: keys only to what is needed, rotate regularly, install fewest plugins. Do all three and leakage risk drops to minimum. One bottom line: protect private content first, then talk about intelligence.
+First, protect private data first: diary, client materials, either go local model not leaving the machine, or encrypt with Cryptomator before storing. Second, manually review untrusted content: what AI gives, what is scraped from the web, you glance at it before it enters the vault, do not auto-pour. Third, minimize permissions on the outbound channel: keys only to what is needed, rotate regularly, install fewest plugins. Do all three and leakage risk drops to minimum. One bottom line: protect private content first, then talk about intelligence. It is also worth learning to give an agent three tiers of folder permissions: private holds diary and trade secrets, completely invisible to the agent; readonly is read-only, like reading excerpts; read+write lets it create and edit. Only let it touch the part you want it to touch.
 
 ## 45. Can I run local AI on my phone, or is it only a sync endpoint?
 

@@ -34,7 +34,7 @@ There are also review types, pulling old notes by your set frequency, used with 
 
 Someone doing GraphRAG retrieval found impulsively linked links lower accuracy, needing to down-weight impulsive links. This shows links used by AI have a real mechanism, not pure hype, but the premise is linking accurately.
 
-The benefit for ordinary users is concrete: the links you carefully made, AI along graph retrieval can find related notes keyword search cannot. Like you ask a concept, AI not only finds title-hit ones, but also pulls out the several linked via links, even if those notes never contained the word you asked. Few but accurate links, AI clearly understands you more. Random linking creates noise, that is where hype crashes. The premise of links being useful to you is always you first think clearly about the relationship between the two notes.
+The benefit for ordinary users is concrete: the links you carefully made, AI along graph retrieval can find related notes keyword search cannot. Like you ask a concept, AI not only finds title-hit ones, but also pulls out the several linked via links, even if those notes never contained the word you asked. Few but accurate links, AI clearly understands you more. Random linking creates noise, that is where hype crashes. The premise of links being useful to you is always you first think clearly about the relationship between the two notes. Someone who wove their notes into an interconnected network found AI surfaced hidden associations they had not seen; this kind of serendipitous discovery from graph retrieval is exactly the most real benefit of links for ordinary users.
 
 Copy-paste template (use directly):
 
@@ -49,13 +49,13 @@ Copy-paste template (use directly):
 
 Someone used Claude plus Obsidian to build an automated loop, others used Hermes plus Claude Code to form a Trinity system, letting AI read the vault, write pages, maintain the index itself. This kind of play is called Agentic, paired with MCP letting AI directly operate your file system.
 
-It is strong, but the threshold is high, needing to know how to set rules for AI, how to gate, otherwise AI messes up your vault itself. Someone used this framework for enterprise knowledge base, but that is an advanced need. For personal users, first get note-based Q&A, surfacing while writing smooth; Agentic is icing on the cake not snow in winter. Know the path exists, touch it when you want to play deeper later, do not let the cool demo lead your pace now.
+It is strong, but the threshold is high, needing to know how to set rules for AI, how to gate, otherwise AI messes up your vault itself. Someone used this framework for enterprise knowledge base, but that is an advanced need. For personal users, first get note-based Q&A, surfacing while writing smooth; Agentic is icing on the cake not snow in winter. Know the path exists, touch it when you want to play deeper later, do not let the cool demo lead your pace now. The picture of this play is a vault that becomes a personal wiki shared by human and agent, where the agent can read, search, build, and link, built once and reused forever. But the guardrail is here too: give the agent three tiers of folder permissions, private holds diary and trade secrets completely invisible to the agent, and only let it touch the part you want it to touch.
 
 ## 88. Let Claude / ChatGPT also read my vault, minimum viable connection?
 
 Someone used Codex to push Obsidian to the extreme, others used Hermes plus Claude Code to let external AI read the vault directly. The minimum viable connection is write a user manual for the vault, let external AI read by it.
 
-The method is put a CLAUDE.md at the vault root, explaining the vault's structure and rules, external AI reads this and understands your accumulation, no need to explain each time. Someone used the LLM Wiki approach, splitting raw and wiki layers, external AI first reads wiki/index.md to understand the whole then answers. This connection does not depend on a specific plugin; Claude, ChatGPT can read your vault by this manual. You write the manual once, later whichever AI reads is universal, more flexible than binding to one plugin.
+The method is put a CLAUDE.md at the vault root, explaining the vault's structure and rules, external AI reads this and understands your accumulation, no need to explain each time. Someone used the LLM Wiki approach, splitting raw and wiki layers, external AI first reads wiki/index.md to understand the whole then answers. This connection does not depend on a specific plugin; Claude, ChatGPT can read your vault by this manual. You write the manual once, later whichever AI reads is universal, more flexible than binding to one plugin. Harder-core still is the official CLI, letting an agent send commands straight to the running Obsidian, moving files while auto-maintaining links and querying all tags for minimal tokens without scanning the whole vault. This is another path of local-first plus cost-down.
 
 Copy-paste template (use directly):
 
@@ -70,7 +70,7 @@ Copy-paste template (use directly):
 
 Someone showed multi-agent debating play, looks impressive, but daily personal vault does not need it. Its value is in enterprise-level knowledge base complex scenarios, not you taking notes answering your own questions.
 
-Daily AI use, note-based Q&A, surfacing while writing, producing draft, these three cover most needs. Multi-agent debate needs gating, managing multiple models' outputs, complexity kills your motivation first. Someone used this for enterprise retainer, but that is an external paid service, not personal note flow. What you want daily is peace of mind, not watching AIs hold a meeting. Master the basic few, more real than chasing cool architecture, do not let config performance take your note time.
+Daily AI use, note-based Q&A, surfacing while writing, producing draft, these three cover most needs. Multi-agent debate needs gating, managing multiple models' outputs, complexity kills your motivation first. Someone used this for enterprise retainer, but that is an external paid service, not personal note flow. What you want daily is peace of mind, not watching AIs hold a meeting. Master the basic few, more real than chasing cool architecture, do not let config performance take your note time. One rule of thumb: the more certain the task, the more it should use a workflow and code rather than an agent; do not treat full automation as the goal, that is another pit.
 
 ## 90. Plugin command names keep changing, how to write notes not dragged by versions?
 
@@ -82,7 +82,7 @@ The method is for key operations do not only record command names, record what p
 
 Someone timed with a stopwatch, listed which plugins especially slow performance, the conclusion consistent: more installed, slower. The first step of health check is look at plugin count, turn off unused ones.
 
-Someone specifically health-checks the vault, finding which pages are sourceless islands, which concepts repeatedly mentioned but not independent pages, which connections are noise. The hard truth of slimming is less is more, cut plugins to two or three, subtract notes, the vault naturally fast. Someone switched from pursuing perfect structure to dropping real ideas into the inbox every day, and the vault got lighter. You do a round of health check periodically, delete islands, merge duplicates, turn off idle plugins, the vault's health is kept, do not wait until too slow to use to clean up.
+Someone specifically health-checks the vault, finding which pages are sourceless islands, which concepts repeatedly mentioned but not independent pages, which connections are noise. The hard truth of slimming is less is more, cut plugins to two or three, subtract notes, the vault naturally fast. Someone switched from pursuing perfect structure to dropping real ideas into the inbox every day, and the vault got lighter. You do a round of health check periodically, delete islands, merge duplicates, turn off idle plugins, the vault's health is kept, do not wait until too slow to use to clean up. There is also a handy hard metric: use one command to list all tags by count, checking island notes costs only about a hundred tokens while scanning the whole vault takes millions, and the agent understands structure and heals broken links, far more efficient than flipping through the vault by hand.
 
 Copy-paste template (use directly):
 
