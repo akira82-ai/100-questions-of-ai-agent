@@ -6,7 +6,11 @@ Everything before was underlying capability; this chapter goes straight into sce
 
 Someone used Obsidian for exam prep, ranking near the top on the initial test, not by grinding others' questions but by turning their own notes into a question bank. The method is feed each chapter's notes to AI, let it generate mock questions based on your expression, then check against the test points you recorded for gaps.
 
-Specifically, each section you recorded marks the key points clearly; let AI generate multiple-choice, short-answer, essay questions by your note structure, and the questions stick to your language, so at a glance you know which part you have not digested. Someone specifically used Obsidian for math exam prep stress-testing, linking formulas and derivations into a net, and AI generating questions along links is more accurate than blind grinding. Your notes are the question source, AI is responsible for deforming questions by your thread, you are responsible for doing and correcting. Practice this way, are you not tested exactly on what you already recorded? When material is huge, there is also a way: use an AI assistant scoped to the uploaded documents to draft a study blueprint first, chewing specifically through your pile of PDFs; let AI build the framework, but you fill in the understanding and flesh, do not hand it all over.
+Specifically, each section you recorded marks the key points clearly; let AI generate multiple-choice, short-answer, essay questions by your note structure, and the questions stick to your language, so at a glance you know which part you have not digested. Someone specifically used Obsidian for math exam prep stress-testing, linking formulas and derivations into a net, and AI generating questions along links is more accurate than blind grinding. Your notes are the question source, AI is responsible for deforming questions by your thread, you are responsible for doing and correcting. Practice this way, are you not tested exactly on what you already recorded? When material is huge, there is also a way: use an AI assistant scoped to the uploaded documents to draft a study blueprint first, chewing specifically through your pile of PDFs; let AI build the framework, but you fill in the understanding and flesh, do not hand it all over. If you want a directly copyable starting point, the community has scenario-based ready vaults, like Garden Gallery's student templates and LifeOS's study structure; clone one and adapt is faster than building from a blank vault. For more ready-template sources, see Question 85.
+
+Resource: Obsidian Garden Gallery https://vaults.obsidian-community.com
+
+Resource: Obsidian Garden Gallery https://vaults.obsidian-community.com/ · LifeOS https://github.com/quanru/obsidian-example-lifeos
 
 Copy-paste template (use directly):
 
@@ -73,6 +77,10 @@ Daily posting most fears running out of food, but the fragments in your vault ar
 
 The method is let AI read your notes from recent months, cluster by theme, like you recorded three fragments about efficiency, two about tools, and it synthesizes for you a topic like "efficiency pits ordinary people most easily step on". Someone uses Smart Connections, and related old notes auto-surface while writing, topic inspiration comes from these surfaces. You screen AI's topics, pick those matching what you want to say now; it can list dozens at once, you pick five or six truly writable. The mine is in your vault, AI helps pan for it, not make up topics from nothing. The same dictation flow can also produce mind-maps and video scripts; if you do not want to read from a script, riff off the mind-map, one piece of material used many ways.
 
+Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
+
+Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
+
 Copy-paste template (use directly):
 
 ```
@@ -104,6 +112,8 @@ Researchers' literature is often confidential or confidential-level, throwing to
 
 Running an open-source model locally, reading literature, summarizing, extracting viewpoints all completed on your machine, no platform registration, no data transfer. The cost is hardware, answers slower than cloud, but enough for personal literature close reading. Someone uses a local encrypted vault for sensitive material, then lets local AI read, double insurance. Key sensitive content does not go cloud; local model plus local encryption, hold this line and close reading has no leakage worry. Insufficient hardware, reduce model scale, do not send secrets out for speed.
 
+Resource: Ollama https://ollama.com/ · Copilot https://community.obsidian.md/plugins (search "Copilot") · Cryptomator https://cryptomator.org/
+
 Copy-paste template (use directly):
 
 ```
@@ -134,7 +144,11 @@ Copy-paste template (use directly):
 
 Someone manages dozens of clients, material scattered everywhere, never found when needed. Using a tool like Smart Connections, when you write a client proposal, related old material auto-surfaces beside you.
 
+Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
+
 It embeds your client notes; when you write proposal A, it lists in the sidebar the A-client preferences you recorded before, the pitfall of last communication, the playbook of similar projects. Someone migrating from another tool, after dropping the pursuit of perfect structure, felt relieved, because surfacing is faster than flipping folders. The premise is the material itself has content and connections; an empty vault has nothing to surface. While you write it hands the right one to your side, no more flipping the whole vault.
+
+Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
 
 ## 74. Writing proposals / reports, how to let AI draft based on my historical material without making up?
 
@@ -157,6 +171,8 @@ Once sensitive-industry data leaks out it is an accident. Someone uses a local e
 
 Key points: sensitive content never goes cloud, use local model plus local encryption; the vault connecting AI has an attack surface, minimum permission plus manual review is the bottom line; credentials opened with a dedicated email sub-account, rotated regularly, never into the vault. Someone took apart an attack surface, saying the vulnerability is not just the content itself, but untrusted content stacked with outbound channel. So for sensitive industries using AI, localization plus encryption plus permission control, the three-piece set, none dispensable, rather slow than step on the red line.
 
+Resource: Cryptomator https://cryptomator.org/
+
 Copy-paste template (use directly):
 
 ```
@@ -173,6 +189,8 @@ Someone at year-end uses AI to scan a whole year of diary and project notes, let
 
 The method is give it this year's periodic notes and project records, require it to distill by timeline what you did, where you got stuck, what progressed, and cite specific notes. The "biggest gain this week" "three things next week" you recorded with the weekly review template become ready raw material by year-end. Someone switched from pursuing perfect structure to dropping real ideas into the inbox every day, and over a year the vault is your time archive. AI synthesizes the draft, which counts as growth you decide, it does not make conclusions for you.
 
+Resource: Periodic Notes https://community.obsidian.md/plugins (search "Periodic Notes")
+
 Copy-paste template (use directly):
 
 ```
@@ -186,7 +204,13 @@ Copy-paste template (use directly):
 
 Reading bloggers most fear excerpting a pile but unable to use. Someone uses templates to structure each book's notes, then lets AI help distill into citable knowledge cards.
 
-The method is after finishing each book, record with the reading-note template: one-sentence summary, core viewpoint, inspiration and action, golden-quote excerpt, frontmatter marking book author. Let AI generate knowledge cards one by one based on these, one card one concept, plain-language explanation plus example plus association. You review and fix inaccuracies, the cards can be posted directly. Someone specifically does one-concept-one-card knowledge cards, with links to related topics, and these cards are bricks when writing long articles later. The cards come from books you read, excerpts you recorded, AI helps shape them, not read the book for you. Some also use a plugin to import the highlighted passages from a reading app straight into the vault, with the template carrying date and a jump-back to the source, so reading, highlighting, organizing, and outputting all run as one line; that is the four daily steps.
+The method is after finishing each book, record with the reading-note template: one-sentence summary, core viewpoint, inspiration and action, golden-quote excerpt, frontmatter marking book author. Let AI generate knowledge cards one by one based on these, one card one concept, plain-language explanation plus example plus association. You review and fix inaccuracies, the cards can be posted directly. Someone specifically does one-concept-one-card knowledge cards, with links to related topics, and these cards are bricks when writing long articles later. The cards come from books you read, excerpts you recorded, AI helps shape them, not read the book for you. To see what it really looks like, the Blue Topaz example vault demonstrates a ready structure of 'one card one concept plus Dataview'; copying it is faster than trial and error. Some also use a plugin to import the highlighted passages from a reading app straight into the vault, with the template carrying date and a jump-back to the source, so reading, highlighting, organizing, and outputting all run as one line; that is the four daily steps.
+
+Resource: Dataview https://community.obsidian.md/plugins (search "Dataview")
+
+Resource: Blue Topaz Example Vault https://github.com/cumany/Blue-topaz-examples · Dataview https://community.obsidian.md/plugins (search "Dataview")
+
+Resource: Blue Topaz example vault https://github.com/PKM-er/Blue-topaz-example
 
 Copy-paste template (use directly):
 
@@ -216,6 +240,8 @@ Startup ideas come in fragments, lose one and there is one less. Someone uses a 
 
 The method is any idea first one-click into the vault's inbox, not pursuing perfection on the spot. After a while let AI scan the inbox, gather similar ideas, mark which already done, which worth digging. Someone migrating from another tool made dropping the pursuit of perfection their first move; idea capture same, collect first then sort. Your ideas scattered in the vault, AI helps weave them into a net, you make trade-offs and push forward. The premise of not losing inspiration is collecting diligently; AI only gathers afterward, which one worth doing is still your call. One person, on a flash of insight during the commute, used a phone shortcut to voice-save it straight into daily notes; by the time they reached the office AI had already linked it to related notes, so the idea went from born to landed within a day.
 
+Resource: QuickAdd https://community.obsidian.md/plugins (search "QuickAdd")
+
 Copy-paste template (use directly):
 
 ```
@@ -230,7 +256,11 @@ Copy-paste template (use directly):
 
 Someone writing always circles back to the same view, thinking it fresh. Using a tool like Smart Connections, while writing it surfaces related old notes, you see at a glance you wrote similar three years ago.
 
+Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
+
 It does retrieval along links and semantics; while you write a paragraph, the sidebar lists similar ideas you recorded before, including those you long forgot. Someone reviewing three years of notes said the premise of linking is first thinking clearly about the relationship, AI surfacing same, link accurately then it reminds accurately. Before writing let it scan related old notes; repeated views it marks directly; you either change angle or cite what you wrote before, no pretending first discovery. This feature helps you say fewer wheel-rotating words, also helps you see how your thinking changed.
+
+Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
 
 ## 81. Cross-department collaboration material scattered, can personal vault+AI fill in? Where is the boundary?
 
@@ -243,6 +273,8 @@ What fills in is your personal accumulation, like project notes and meeting minu
 Someone ran the whole flow: see something good first drop into inbox, not pursuing digestion on the spot; periodically let AI gather inbox fragments, mark sources, link to corresponding topics; while writing AI surfaces related old notes; while drafting AI produces draft based on your historical material; you make judgment and trade-offs, finalize and send.
 
 The steps AI works: categorize, mark sources, surface, produce draft. The steps you work: drop real ideas, review AI's categorization, set direction and conclusion, revise final. Someone used the LLM Wiki approach, AI responsible for compiling raw into wiki and maintaining the master index, he responsible for thinking and writing. In the whole flow AI is the hand of moving and summarizing; the thinking part is always your own. The distance from collecting to producing is saved by AI doing those manual labors for you. Some also use a three-step flow of frictionless capture, auto-categorize, and instant retrieval on demand; someone who had piled their vault to the point of abandoning it used this to turn the inbox from ever-accumulating-annoyance into auto-empty, capture, sort, and retrieve all frictionless.
+
+Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
 
 Copy-paste template (use directly):
 

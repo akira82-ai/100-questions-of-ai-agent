@@ -35,6 +35,8 @@ A directly copyable categorization: create an `AI Draft` folder for all AI produ
 
 Local files do not equal safe, because Obsidian is always open, the vault is mostly plaintext most of the time, other programs can read it. To really defend, encrypt sensitive content separately; someone uses Cryptomator to wrap the whole vault, then sync to Nutstore, the cost is phone side more troublesome, free traffic limited. Others use disk-level encryption (BitLocker, Veracrypt) or community encryption plugins for static protection.
 
+Resource: Cryptomator https://cryptomator.org/
+
 Block three things separately: private data with encryption, do not write passwords directly in plain text; do not fully trust AI content, it really makes things up; see the outbound channel clearly, before sending notes to a cloud model think whether this paragraph is worth leaving local. Do not encrypt everything up front; first think clearly who you are afraid of; over-encryption only makes it awkward for yourself. It is also worth learning to give an agent three tiers of folder permissions: private holds diary and trade secrets, completely invisible to the agent; readonly is read-only, like reading excerpts; read+write lets it create and edit. Only let it touch the part you want it to touch, and sensitive content never leaves local.
 
 Copy-paste template (use directly):
@@ -76,4 +78,8 @@ Do not believe "once and for all". The second brain is external memory, suppleme
 
 ## 100. 3 things understood only after a year of use
 
-First, less is more. Obsidian official itself says "fewer dependencies safer", they even write their own chart library, do not run install scripts, and when you install a bunch of third-party plugins you are actually undoing this safety posture. Plugins enough is enough, more is burden and risk. Second, AI gives drafts, you make trade-offs. The outlines it lists, material it finds are good, but which sentence to cut, which to keep, how to conclude, must be your own; letting anyone do this for you is wasting your own thinking. Third, notes are yours. The benefit of local Markdown is the software dies and the vault remains, leave anytime you want. Tools come and go, what you wrote is what truly stays.
+First, less is more. Obsidian official itself says "fewer dependencies safer", they even write their own chart library, do not run install scripts, and when you install a bunch of third-party plugins you are actually undoing this safety posture. Plugins enough is enough, more is burden and risk. Before installing, use Obsidian Stats or Obsidian Community's safety scorecard to glance whether a plugin is still maintained; an abandoned plugin is the thunder that mysteriously crashes you later. Second, AI gives drafts, you make trade-offs. The outlines it lists, material it finds are good, but which sentence to cut, which to keep, how to conclude, must be your own; letting anyone do this for you is wasting your own thinking. Third, notes are yours. The benefit of local Markdown is the software dies and the vault remains, leave anytime you want. Tools come and go, what you wrote is what truly stays.
+
+Resource: Obsidian Stats https://www.obsidianstats.com
+
+Resource: Obsidian Community https://community.obsidian.md

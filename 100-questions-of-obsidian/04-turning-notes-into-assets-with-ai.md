@@ -8,6 +8,10 @@ Someone reviewing their vault said the most valuable was actually the casual fra
 
 The sign of using is simple: when you write, related old notes jump out on their own; when you ask a question, AI answers based on what you recorded before, not making up from zero. Someone uses Smart Connections, and while writing a paragraph it surfaces a few related old notes in the sidebar, that is the feeling of using. Storing just moves things into a warehouse; using is letting the warehouse feed you back. Do not pursue a perfectly organized vault first; let AI read it, even if just dropping real ideas into the inbox every day. A step further: once bidirectional links weave your notes into an interconnected web, AI can also surface hidden patterns you did not notice, like how you always stall on the same type of goal at quarter-end.
 
+Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
+
+Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
+
 ## 48. What is Vault QA, and how to let AI answer based on my accumulation?
 
 Vault QA means using your notes as a knowledge base; when you ask AI a question it reads your vault first then answers. The biggest difference from asking a chatbot directly is the answer comes from your own accumulation, not generated from nothing by the model. But it has a ceiling: when notes are not connected, or the question needs cross-years synthesis, naive retrieval easily only catches a few superficially related items and answers off. The denser the links, the more you process back, the more accurate it gets.
@@ -24,6 +28,10 @@ When answering, cite the specific source page in wiki/; if the knowledge base ha
 ## 49. While writing, AI auto-surfaces related old notes, how to turn on this "cheat"?
 
 This cheat is Smart Connections. It embeds your notes so that while you write, related old notes auto-surface beside you, no manual searching.
+
+Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
+
+Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
 
 Someone migrating from another tool made dropping the pursuit of perfect structure their first move, because surfacing while writing is more practical than a perfect folder tree. You are writing a thought about a concept, and it lists three related notes you wrote half a year ago in the sidebar; you can pick up the previous thread at a glance. Its premise is the notes themselves have content and connections; an empty vault has nothing to surface. After installing, open any note and start writing, the sidebar comes alive, that is the cheat. Some also just say to a note "generate the note for this note", and AI automatically lists related old links and tags properties, so the new writing connects to old accumulation on the spot.
 
@@ -58,11 +66,17 @@ Someone used AI to assist building the vault, auto-generating the master index a
 
 MOC is a map gathering same-topic notes; AI helps you put scattered notes into the corresponding MOC, saving you the manual labor. But whether the links are accurate is up to you; someone installed an auto-complete link plugin and while typing casually linked unrelated notes too, more noise. So let AI build the draft, you do the cutting and editing, faster than pure manual and cleaner than handing it all over. The value of links is in the connection itself; AI just helps spread the connection.
 
+Resource: Various Complements https://community.obsidian.md/plugins (search "Various Complements")
+
 ## 52. Let AI periodically review old notes, how to set it without notification hell?
 
 Someone used periodic notes plus a review plugin, but set the frequency too dense, popping notifications daily, and finally just turned it off and never looked again. For reviewing, frequency matters more than intensity. Behind this is one thing: in 2026 many people uninstalled AI tools precisely to take back the attention it had stolen.
 
+Resource: Periodic Notes https://community.obsidian.md/plugins (search "Periodic Notes")
+
 Use Periodic Notes with calendar, fix a time weekly or monthly to look back, not urging you daily. Someone switched from pursuing perfect structure to dropping real ideas into the inbox every day, and put review on the weekend. You set a minimum frequency you will actually execute, like flipping through the inbox and this week's additions every two weeks, AI helps pull out the related old notes from this period for comparison. Do not let it pop daily; that annoyance makes you abandon the whole system.
+
+Resource: Periodic Notes https://community.obsidian.md/plugins (search "Periodic Notes") · Calendar https://community.obsidian.md/plugins (search "Calendar")
 
 Copy-paste template (use directly):
 
@@ -94,7 +108,11 @@ Please read the new material in raw/ and compile it into wiki/.
 
 Someone confidently let AI organize, only to find the vault not clearer but with an extra layer of AI-generated, sourceless pages, a junk pile on a junk pile. The way to avoid is regular health checks.
 
-Give AI a health-check instruction: read the master index, find which pages lack sources, which concept definitions conflict, which pages are islands with no links, which concepts are repeatedly mentioned but not yet independent pages. Someone specifically uses this check to prevent vault rot. The key is you must let it mark sources, mark islands, then you decide delete or fill. AI organizing is not one-click done, it is rounds of review, each round clarifying sources and connections, so the vault does not get dirtier.
+Give AI a health-check instruction: read the master index, find which pages lack sources, which concept definitions conflict, which pages are islands with no links, which concepts are repeatedly mentioned but not yet independent pages. Someone specifically uses this check to prevent vault rot, and the community also turns this kind of check into ready-made Dataview queries, like s-blu's dataview_example_vault; copying a ready one is more accurate than writing from scratch. The key is you must let it mark sources, mark islands, then you decide delete or fill. AI organizing is not one-click done, it is rounds of review, each round clarifying sources and connections, so the vault does not get dirtier.
+
+Resource: Dataview https://community.obsidian.md/plugins (search "Dataview")
+
+Resource: Dataview https://community.obsidian.md/plugins (search "Dataview") · dataview_example_vault https://github.com/s-blu/dataview_example_vault
 
 Copy-paste template (use directly):
 
@@ -107,6 +125,10 @@ Please read wiki/index.md and do a health check:
 ## 55. Should I trust everything AI answers? Three ways to spot errors
 
 Someone using Smart Connections found AI occasionally makes up content not in the notes, especially when you ask vaguely. AI answering based on your vault does not mean it does not err; three ways to spot.
+
+Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
+
+Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
 
 First, see if it points to a specific note when answering; vague talk with no source gets a question mark. Second, directly ask it "which sentence in which note did you just cite"; one that truly read your vault can point it out, made-up ones expose themselves. Third, check against facts you clearly know, like you remember noting the opposite conclusion last month but it says no, that is hallucination. AI is an assistant that reads your vault, not an infallible god; your known judgment at the critical moment is the last gate.
 
@@ -125,6 +147,8 @@ Cannot produce a specific source → probably making up, do not adopt
 Someone adds frontmatter to notes, marking topic, status, relations in the header, and AI filters correctly at retrieval. Others rely on links to weave related notes into a net, AI follows links to find context. Neither is the whole.
 
 Links give structure, telling AI these notes are a group. The preface gives intent, like you write clearly at the top of a note what problem this solves, which project it relates to, so AI reading here knows your purpose of recording it, not just the literal. Someone wrote a CLAUDE.md for the vault, explaining the vault's structure and rules to AI, equivalent to a user manual for AI. Links plus preface plus this manual, then AI truly understands your accumulation; relying on any single one is not enough. Some skip CLAUDE.md and instead write a me.md as a translation layer, spelling out who they are and what they are doing; the benefit is any AI that reads it works, no need to re-explain yourself each time.
+
+Resource: Claude https://claude.ai/download
 
 ## 57. How to make AI cite my note sources instead of making up?
 
@@ -154,6 +178,10 @@ A feedable way is each note carries a bit of your own processing. Someone uses f
 
 Someone using Smart Connections found AI does not search your vault by keywords, but does graph retrieval along links; the two notes you linked, it defaults as related, pulling them together.
 
+Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
+
+Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
+
 This experience differs from ordinary search. You ask a concept, AI not only finds the title-hit note, but also pulls out the several linked via links, even if those notes never contained the word you asked. Someone migrating from another tool made dropping the pursuit of perfect structure their first move, switching to careful linking, because correctly linked notes make AI's understanding much more accurate. Random linking creates noise, but few but accurate links make AI clearly understand you more; that is why careful linking is worth it.
 
 ## 60. AI helps me write weekly reports/summaries, how to not let it think for me, only write for me?
@@ -182,6 +210,8 @@ Hidden relationships hide in semantics; you did not realize the two were related
 ## 62. My vault spans years, how does AI understand "the me across time"?
 
 Someone uses diary plus periodic notes, recording every day, week, year, and the vault has a timeline. AI reading these time-fielded notes can piece together your thoughts at different stages.
+
+Resource: Periodic Notes https://community.obsidian.md/plugins (search "Periodic Notes")
 
 Mark the date clearly in frontmatter, diary named by day, periodic notes grouped by month and year; AI asking "how is my view of X two years ago different from now" can pull out the notes from both ends along the timeline for comparison. Someone switched from pursuing perfect structure to dropping real ideas into the inbox every day, and over time the vault becomes your own time archive. The me across time relies on continuous recording with time marks, so AI can string the scattered you into a line, not a pile of unordered fragments. Some also fix four types of review notes, weekly, monthly, quarterly, yearly, letting AI look back and plan across different time scales, so last year's you and this year's you can be laid out in contrast.
 

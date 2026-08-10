@@ -111,6 +111,8 @@ Someone wanted to read a bit they had written that morning on the subway, only t
 
 One is Obsidian's official Sync, designed specifically for a local vault like yours, auto-aligning phone and computer, with the downside of a paid subscription. The other is even simpler: drop your vault folder straight into a system cloud drive and let it sync in the background, no plugins at all.
 
+Resource: Obsidian Sync https://obsidian.md/sync
+
 Don't touch Git, don't touch third-party sync plugins; those are for people with complex multi-device needs. As long as your vault stays in one folder inside the cloud drive, open it on another device and it is the same copy. When the day comes that the official Sync subscription hurts your wallet, consider something else then. It is not too late.
 
 Copy-paste template (use directly):
@@ -154,6 +156,10 @@ Many people get uneasy at the word membership, afraid functionality is locked wi
 
 The paid part is called Obsidian Sync and Publish. Let me be clear about the boundary: Sync is the official cross-device sync service, Publish sends your vault to the web for others to see. These two are extra services, not locks on the software itself. Use a system cloud drive to sync, use local files, not a cent spent. Some also found that however fancy the desktop setup, many plugins are unsupported on mobile and open slowly, and the cross-device experience falls short of expectations, true for both free and paid, so know it going in.
 
+Resource: Obsidian Sync https://obsidian.md/sync
+
+Resource: Obsidian Sync https://obsidian.md/sync · Obsidian Publish https://obsidian.md/publish
+
 So the rule is simple: as long as you write on your own computer and sync with a cloud drive or official Sync, free is enough. Only if you want officially hosted sync, or want to publish notes as a public site, do you need to consider paying.
 
 ## 13. Can I hand privacy-sensitive content (diary / client) to cloud AI right away?
@@ -162,6 +168,10 @@ Diary, client materials, this kind of sensitive content handed to cloud AI right
 
 The official stance is also clear: fewer plugins means a smaller attack surface. So for this kind of content, do not rush to connect a cloud model. Two steadier paths: either use a local model, data never leaves your computer; or encrypt before storing, say wrap the vault with Cryptomator, then decide whether to connect any external service.
 
+Resource: Cryptomator https://cryptomator.org/
+
+Resource: Cryptomator https://cryptomator.org/
+
 One bottom line: protect private content first, then talk about intelligence. Once you are clear about which data should or should not leave local, then touch AI with peace of mind.
 
 ## 14. Minimum viable path: how to experience "AI reads my notes" once with minimal config?
@@ -169,6 +179,10 @@ One bottom line: protect private content first, then talk about intelligence. On
 Someone connected their vault as instructed, asked it what they had been wrestling with last week, and it really pulled the answer from their diary. That was the moment they understood what an AI that gets me means. You want to experience AI reading your notes, but fear the config is too troublesome. Actually the minimum config is just two steps, no need to understand the principle first.
 
 Install one Copilot plugin, the one in Obsidian that chats with AI directly and can also answer based on your notes. Then give it a model source: either apply for a chat-model key and paste it in, or run an open-source model locally, data never leaves the machine.
+
+Resource: Copilot https://community.obsidian.md/plugins/copilot
+
+Resource: Copilot https://community.obsidian.md/plugins/copilot
 
 Once installed, open the diary you wrote today and ask it which to-dos I mentioned in this note. When it actually pulls the answer from your words, you have felt the hand of an AI that gets me. If installing a plugin feels like too much, there is an even lighter path: paste the note-file path straight to a desktop AI, and it can locate and rewrite the corresponding file, so you taste AI reading your notes with zero plugins.
 

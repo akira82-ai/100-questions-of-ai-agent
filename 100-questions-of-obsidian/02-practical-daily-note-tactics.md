@@ -14,6 +14,8 @@ You see others' dense links and think it is advanced, but when you link it gets 
 
 Links are for things used from different angles, like a concept that connects both to this reading note and to that project. Someone installed a plugin that auto-completes links, which smartly suggests vault titles while typing, and ended up linking unrelated notes on impulse, the noise in the vault growing. Someone else reviewing three years of notes said the premise of linking is you first think clearly about what relationship the two notes have; forcing links only turns the graph into a tangle.
 
+Resource: Various Complements https://community.obsidian.md/plugins (search "Various Complements")
+
 Before linking, ask: will I jump from the same note to both of these later? If yes, link. Link few but accurate, better than many but messy.
 
 ## 17. What is an MOC, and why is it better suited to the AI era than folders?
@@ -41,11 +43,21 @@ Too many tags equals no tags; searching returns a pile of same-named tags and it
 
 Someone uses Dataview to query notes as a database, on the premise that tags are clean. The right approach is tags represent a stable category, like reading notes, projects, not one-off states. Few but accurate tags, AI and you can search with the same vocabulary, later querying all reading notes in one sentence, no missing due to tag sprawl.
 
+Resource: Dataview https://community.obsidian.md/plugins (search "Dataview")
+
+Resource: Dataview https://community.obsidian.md/plugins (search "Dataview")
+
 ## 19. Should I learn templates (Templater)? Just copy these 3 and you are set
 
 Hearing "template engine" gives you a headache, feels Geek-only. Actually a plugin like Templater, a beginner just needs to copy the three most common templates, no need to understand the principle.
 
-One is a diary template, auto-filling today's date and weekday on new note; one is a reading-note template, fixing columns of one-sentence summary, core viewpoint, inspiration and action, so every book follows this; one is a meeting-notes template, auto-splitting attendees, topics, action items. Someone reviewing years of notes said their biggest relief was establishing fixed templates back then, otherwise the same format would be hand-typed hundreds of times. Install Templater first, set the template folder, copy these three in, and daily recording is immediately tidy.
+Resource: Templater https://community.obsidian.md/plugins (search "Templater")
+
+Resource: Templater https://community.obsidian.md/plugins (search "Templater")
+
+One is a diary template, auto-filling today's date and weekday on new note; one is a reading-note template, fixing columns of one-sentence summary, core viewpoint, inspiration and action, so every book follows this; one is a meeting-notes template, auto-splitting attendees, topics, action items. Someone reviewing years of notes said their biggest relief was establishing fixed templates back then, otherwise the same format would be hand-typed hundreds of times. If you do not even want to write these three from scratch, the community has free MIT-licensed diary and GTD templates on Vaultorial, and awesome-obsidian collects starter vaults like PARA Starter Kit and LYT Kit; copying and adapting is faster than writing from a blank YAML. Install Templater first, set the template folder, copy these three in, and daily recording is immediately tidy.
+
+Resource: Vaultorial https://vaultorial.com · awesome-obsidian https://github.com/kmaasrud/awesome-obsidian · LYT Kit https://github.com/nickmilo/LYT-Kit
 
 Copy-paste template (use directly):
 
@@ -74,6 +86,8 @@ Linked right, AI reads your vault like walking a map; linked wrong, it is scatte
 
 There is discussion breaking this retrieval into three steps, one point being impulsively added links should be down-weighted, truly repeatedly referenced ones promoted. This matches human experience: links you carefully made often represent real relationships, AI following them can dig out hidden connections; randomly linked ones turn the graph into noise. Someone else used an auto-complete plugin and ended up linking a bunch of unrelated ones, the vault getting messier with use.
 
+Resource: Various Complements https://community.obsidian.md/plugins (search "Various Complements")
+
 So think clearly about the relationship before linking, let links become retrievable real associations, then you see the value when AI uses them.
 
 Copy-paste template (use directly):
@@ -90,6 +104,8 @@ Copy-paste template (use directly):
 Logging a daily stream, piled over time, easily becomes a junk pile, impossible to restart. Someone went through a vault turning to junk and had to start over.
 
 Stream logging itself is not wrong; the wrong part is leaving it there unmanaged after writing. The method is give each day a light structure: what I did today, what I learned, what to do tomorrow, three columns are enough. Someone uses a capture plugin to send fragments to a designated note with one click, not letting inspiration scatter. Someone else reviewing said the key is not how much you record, but spending a minute each day categorizing the day's records and linking one related old note. Stream plus a little light processing will not rot at the bottom of the warehouse, and when AI reads here later there is a thread to follow.
+
+Resource: QuickAdd https://community.obsidian.md/plugins (search "QuickAdd")
 
 ## 23. How to take reading/article notes so it is not "copy-paste then gather dust"?
 
@@ -118,6 +134,10 @@ date-finished:
 Someone specifically uses frontmatter to add a structured header to each note, finding AI especially likes it during retrieval. Frontmatter is the metadata block wrapped in three dashes at the top of a note, like book, author, tags, date.
 
 Its benefit is machine-readable. You write one Dataview query and it lists all notes tagged reading-note, sorted by finish date, into a table; AI can also precisely filter by these fields instead of guessing from full text. Someone migrating from another tool made adding frontmatter their first move, because without this layer of structure, more notes are just a text pile.
+
+Resource: Dataview https://community.obsidian.md/plugins (search "Dataview")
+
+Resource: Dataview https://community.obsidian.md/plugins (search "Dataview")
 
 So add a few stable fields to every important note: tags, date, type. Later when AI asks which books you read this year, it pulls straight from frontmatter, no guessing note by note.
 
@@ -161,11 +181,17 @@ Images, screenshots, PDFs most easily become disconnected in the vault, stored b
 
 Someone uses an import plugin to bring material from Word, Notion, EverNote directly into the vault, keeping original structure and not losing links. Others use an image-viewing plugin to zoom images full-screen for detail. The key is do not just throw attachments into an island folder and call it done; write one sentence next to each image, each PDF, what it says and which note it relates to, link back with a link. This way when AI reads your project note, it can bring in the screenshots and PDFs inside, the material becomes connected, not loose sand.
 
+Resource: Importer https://community.obsidian.md/plugins (search "Importer") · Image Toolkit https://community.obsidian.md/plugins (search "Image Toolkit")
+
 ## 28. What is a dumb-but-stable method for naming and directories?
 
 Someone migrating from another note app was most relieved they used the dumb method back then: numeric prefixes for fixed ordering, folders no more than two levels.
 
-Numeric prefixes like 00-Inbox, 01-Diary, 03-Projects, the system sorts by number, you do not need to remember order. Folders only two levels, deeper use MOC and links, not a bunch of nesting. Someone else, after managing several vaults, understood one handy vault beats ten pretty ones, the simpler the structure the easier to stick with. For naming, diary by year-month-day, project by project name plus status, you know at a glance what it is. The dumb method is not fancy, but three years later you can still find things in a second.
+Numeric prefixes like 00-Inbox, 01-Diary, 03-Projects, the system sorts by number, you do not need to remember order. Folders only two levels, deeper use MOC and links, not a bunch of nesting. Someone else, after managing several vaults, understood one handy vault beats ten pretty ones, the simpler the structure the easier to stick with. If you want a ready-made folder skeleton, awesome-obsidian's PARA Starter Kit and LYT Kit are clone-ready starter vaults with the numeric prefixes already arranged, faster than arranging from scratch. For naming, diary by year-month-day, project by project name plus status, you know at a glance what it is. The dumb method is not fancy, but three years later you can still find things in a second.
+
+Resource: awesome-obsidian https://github.com/kmaasrud/awesome-obsidian
+
+Resource: awesome-obsidian https://github.com/kmaasrud/awesome-obsidian · LYT Kit https://github.com/nickmilo/LYT-Kit
 
 Copy-paste template (use directly):
 
@@ -190,6 +216,10 @@ my-vault/
 A diary most easily becomes a stream of what I ate today, and half a year later you do not want to read it yourself. But someone reviewing years of notes said the most valuable was exactly the casual fragments, including the real thoughts in diaries.
 
 To make the diary AI's future context, record the three columns of what happened today, what I learned, what to do tomorrow, plus a sentence of your current judgment and mood. Someone uses a periodic-notes plugin with calendar, weekly and monthly notes auto-generated. These real records accumulate, and when AI reads your vault later it can piece together the you across time from the diary, not just cold documents. The more honestly you write, the more AI understands you, and the answers can catch your thread.
+
+Resource: Calendar https://community.obsidian.md/plugins (search "Calendar")
+
+Resource: Periodic Notes https://community.obsidian.md/plugins (search "Periodic Notes") · Calendar https://community.obsidian.md/plugins (search "Calendar")
 
 Copy-paste template (use directly):
 
