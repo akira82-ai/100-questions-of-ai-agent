@@ -181,7 +181,7 @@ WHERE !source AND !source_url
 
 AI answering from your vault does not mean it gets things right. The vaguer your question, the more likely it patches in content the vault never contained. Three ways to catch it on the spot.
 
-First, check whether the answer points at a specific note; vague talk with no source gets a question mark. Second, follow up with "which sentence in which note did you just cite" — anything that truly read your vault can point, and fabrication exposes itself immediately. Third, test it against a fact you know: you remember writing the opposite conclusion last month and it claims the vault has nothing, that is hallucination. Someone using Smart Connections caught fabrication exactly with that second question. The last gate is always your own known judgment.
+First, check whether the answer points at a specific note; vague talk with no source gets a question mark. Second, follow up with "which sentence in which note did you just cite". Anything that truly read your vault can point, and fabrication exposes itself immediately. Third, test it against a fact you know: you remember writing the opposite conclusion last month and it claims the vault has nothing, that is hallucination. Someone using Smart Connections caught fabrication exactly with that second question. The last gate is always your own known judgment.
 
 Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
 

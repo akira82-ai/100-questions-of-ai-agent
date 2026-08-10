@@ -59,11 +59,9 @@ Judgment: Hearing "template engine" gives you a headache, feels Geek-only. Actua
 
 Action: Three templates, copy and use. One is a diary template, auto-filling today's date and weekday on new note; one is a reading-note template, fixing columns of one-sentence summary, core viewpoint, inspiration and action, so every book follows this; one is a meeting-notes template, auto-splitting attendees, topics, action items. Install Templater first, set the template folder, copy these three in, and daily recording is immediately tidy.
 
-Resource: Templater https://community.obsidian.md/plugins/templater-obsidian
-
 If you do not even want to write these three from scratch, the community has free MIT-licensed diary and GTD templates on Vaultorial, and awesome-obsidian collects starter vaults like PARA Starter Kit and LYT Kit; copying and adapting is faster than writing from a blank YAML.
 
-Resource: Vaultorial https://vaultorial.com · awesome-obsidian https://github.com/kmaasrud/awesome-obsidian · LYT Kit https://github.com/nickmilo/LYT-Kit-in-Mandarin
+Resource: Templater https://community.obsidian.md/plugins/templater-obsidian · Vaultorial https://vaultorial.com · awesome-obsidian https://github.com/kmaasrud/awesome-obsidian
 
 Copy-paste template (use directly):
 
