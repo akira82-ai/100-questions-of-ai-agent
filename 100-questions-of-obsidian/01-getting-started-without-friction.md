@@ -51,13 +51,13 @@ Once you write clearly, AI has something to read and connect. Today pick one thi
 
 ## 5. I have very few notes. Is it too early to start using Obsidian now?
 
-Some feel they have too few notes and worry it is too early to start, wanting to wait until they have accumulated more. But the people who use it smoothly almost all started from a handful of scattered notes. There was a grad-school candidate who at first just dropped in the fragments from daily review, and later the vault was full of things that grew from few to many. Someone else reviewing three years of notes said their biggest relief was not waiting until ready to start writing.
+Some feel they have too few notes and worry it is too early to start, wanting to wait until they have accumulated more. In the community people keep saying the biggest hurdle is actually that blank vault itself; some spent the first few weeks studying how to build PARA or Zettelkasten, and ended up not writing a single word. But the people who use it smoothly almost all started from a handful of scattered notes. There was a grad-school candidate who at first just dropped in the fragments from daily review, and later the vault was full of things that grew from few to many. Someone else reviewing three years of notes said their biggest relief was not waiting until ready to start writing.
 
 Few notes is not a weakness; it is actually the best time to build the habit, because there is no historical baggage to sort. Start now, write down one idea that came up today. The AI era needs exactly this, accumulating from the present. Later when you connect AI, what it reads is the things you grew along the way, not a pile you stuffed in temporarily.
 
 ## 6. First time opening Obsidian, what are the only three things I should do? One more is a burden
 
-Someone installed the software, stared at a blank page for two hours, and finally closed it. Online tutorials start with bidirectional links, plugins, MOCs, and the more you read the more panicked you get. Beginners most easily fall into over-configuring, wanting to build a perfect system before writing a single word.
+Someone installed the software, stared at a blank page for two hours, and finally closed it. Online tutorials start with bidirectional links, plugins, MOCs, and the more you read the more panicked you get. Beginners most easily fall into over-configuring, wanting to build a perfect system before writing a single word. Some joked they fell into a configuration rabbit hole, installed a pile of plugins and themes, yet wrote few notes.
 
 The core of Obsidian is a local Markdown folder, not those fancy tricks. In your first week you only need three things: create a vault of your own, keep an inbox for temporary fragments, and write your first daily note to get the feel back. Plugins, links, graph, all set aside. Talk about optimization only after you are writing into it every day. Too many plugins and the vault gets slow, which makes it even easier to quit.
 
@@ -107,7 +107,7 @@ Copy-paste template (use directly):
 
 ## 9. How do I sync notes between phone and computer with the least fuss? Don't jump to plugins
 
-Someone wanted to read a bit they had written that morning on the subway, only to find it had not synced, a letdown for nothing. If notes do not sync between phone and computer, they break in half, never at hand when you need them. Someone tried a dozen sync solutions on the market one by one and found the two least fussy were actually the simplest.
+Someone wanted to read a bit they had written that morning on the subway, only to find it had not synced, a letdown for nothing. If notes do not sync between phone and computer, they break in half, never at hand when you need them. Someone to save a few dollars a month used iCloud or Dropbox for free sync, only to hit conflicting files and 0kb ghost files on the phone, even overwriting existing content, ending up either losing notes or finally buying official Sync. Someone tried a dozen sync solutions on the market one by one and found the two least fussy were actually the simplest.
 
 One is Obsidian's official Sync, designed specifically for a local vault like yours, auto-aligning phone and computer, with the downside of a paid subscription. The other is even simpler: drop your vault folder straight into a system cloud drive and let it sync in the background, no plugins at all.
 
@@ -152,13 +152,13 @@ This week you only do one small thing: drop the ideas that pop up each day, the 
 
 Many people get uneasy at the word membership, afraid functionality is locked without paying. For personal local use, Obsidian is completely free. All core editing, linking, and plugin abilities are yours, no feature-paywall.
 
-The paid part is called Obsidian Sync and Publish. Let me be clear about the boundary: Sync is the official cross-device sync service, Publish sends your vault to the web for others to see. These two are extra services, not locks on the software itself. Use a system cloud drive to sync, use local files, not a cent spent.
+The paid part is called Obsidian Sync and Publish. Let me be clear about the boundary: Sync is the official cross-device sync service, Publish sends your vault to the web for others to see. These two are extra services, not locks on the software itself. Use a system cloud drive to sync, use local files, not a cent spent. Some also found that however fancy the desktop setup, many plugins are unsupported on mobile and open slowly, and the cross-device experience falls short of expectations, true for both free and paid, so know it going in.
 
 So the rule is simple: as long as you write on your own computer and sync with a cloud drive or official Sync, free is enough. Only if you want officially hosted sync, or want to publish notes as a public site, do you need to consider paying.
 
 ## 13. Can I hand privacy-sensitive content (diary / client) to cloud AI right away?
 
-Diary, client materials, this kind of sensitive content handed to cloud AI right away carries a bigger risk than you imagine. Someone specifically took apart the attack surface, saying the vulnerability is not just the content itself, but untrusted content stacked with the outbound channel.
+Diary, client materials, this kind of sensitive content handed to cloud AI right away carries a bigger risk than you imagine. Someone for convenience dropped their diary straight to a cloud large model, only later realizing that most private content had already left the machine. Someone specifically took apart the attack surface, saying the vulnerability is not just the content itself, but untrusted content stacked with the outbound channel.
 
 The official stance is also clear: fewer plugins means a smaller attack surface. So for this kind of content, do not rush to connect a cloud model. Two steadier paths: either use a local model, data never leaves your computer; or encrypt before storing, say wrap the vault with Cryptomator, then decide whether to connect any external service.
 

@@ -4,7 +4,7 @@ Too many plugins make the vault slow, which makes it easier to quit. This chapte
 
 ## 83. Does Obsidian have official AI? If not, how to pick community plugins?
 
-Obsidian itself does not do AI features; AI capability all comes from community plugins. Someone talking about the plugin ecosystem's future said the official prefers to be the base, leaving imagination to the community.
+Obsidian itself does not do AI features; AI capability all comes from community plugins. Someone talking about the plugin ecosystem's future said the official prefers to be the base, leaving imagination to the community. Someone reviewed themselves, spent months tuning plugins, swapping themes, looked back to find not a single line written in the vault, all time spent on config. Plugins serve your accumulation, not reverse.
 
 The order of picking plugins is problem first, plugin later, not reverse. You hit a specific stuck point, like wanting AI to Q&A based on notes, then search the corresponding plugin, not install whichever is hot. The common path is in settings turn off restricted mode, enter community plugin market search by name, remember to click enable after installing, many miss this enable step. The official does not choose for you; the mainstream few in the community (note-based Q&A, auto-link related notes) are validated by many people, start with one that best fits current need.
 
@@ -24,11 +24,13 @@ Copy-paste template (use directly):
 Add others when you truly hit a pain point; fewer plugins the more stable the vault.
 ```
 
-## 85. Little-known but useful small plugins (tags / graph / review types)?
+## 85. Where to find templates and ready-made vaults? Besides building your own, anything you can copy directly?
 
-Someone specifically compiled underrated plugins, several solving small but real pain points. The one that smartly auto-completes links by vault title while typing, links the right note on impulse, reducing manual search. The file-tree plugin with preview cards, hover to see note content without opening.
+Someone opening Obsidian for the first time stared at the blank page for two hours, not knowing what the first note should look like. You do not have to build the system from blank; many in the community have packaged their working flows into starter vaults and templates, fork one and tweak.
 
-There are also review types, pulling old notes by your set frequency, used with periodic notes. The highly upvoted in the most-underrated-plugin post are mostly this kind of silent nourishing, not the eye-catching large-model type. When picking, see which specific inconvenience it solves, not the download ranking. One or two small plugins enough; too many and the vault gets slow too, this line you must hold yourself.
+A few reliable entries: Vaultorial collects a bunch of free MIT-licensed starter vaults, daily notes, tasks, students, Zettelkasten, TTRPG all there, downloaded as zip no sign-up; Obsidian Garden Gallery's Vault Templates section curates productivity systems, academic flows, PARA/Zettelkasten frameworks, and you can also peek at others' digital gardens for inspiration; Vault Hub sorts templates, CSS snippets and dashboards by twenty-plus scenarios like student, developer, writer; the Templates section of the awesome-obsidian list names classic starts like LYT Kit, PARA Starter Kit, Obsidian Starter Templates. Chinese readers also have PKMer's vault market, with ready examples like a math knowledge base and a novel-writing vault.
+
+Do not be greedy, pick one closest to how you think now, swap the example content for your own and you are on the road. Copying a working system is far faster than grinding from a blank page, and you also learn the folder and tag conventions others have iterated on.
 
 ## 86. Are bidirectional links = GraphRAG hype or really useful, how do ordinary users benefit?
 
@@ -66,21 +68,25 @@ Copy-paste template (use directly):
 4. After that ask "answer based on my notes", it reads your vault by this manual
 ```
 
-## 89. Multi-agent debate looks cool, why avoid it daily?
+## 89. Where to follow news, tutorials, community? How not to drown in the tutorial sea?
 
-Someone showed multi-agent debating play, looks impressive, but daily personal vault does not need it. Its value is in enterprise-level knowledge base complex scenarios, not you taking notes answering your own questions.
+Someone installed plugins for months, swapped several themes, looked back to find not a single line written, all time spent on config. Obsidian's tutorials and shares are enough to drown you; follow the wrong sources and you burn a whole week watching how others play while your notes stay untouched.
 
-Daily AI use, note-based Q&A, surfacing while writing, producing draft, these three cover most needs. Multi-agent debate needs gating, managing multiple models' outputs, complexity kills your motivation first. Someone used this for enterprise retainer, but that is an external paid service, not personal note flow. What you want daily is peace of mind, not watching AIs hold a meeting. Master the basic few, more real than chasing cool architecture, do not let config performance take your note time. One rule of thumb: the more certain the task, the more it should use a workflow and code rather than an agent; do not treat full automation as the goal, that is another pit.
+Pick a few high-quality sources: Obsidian Roundup is a community-maintained weekly digest, new plugins, new plays, pitfalls all summed up; the official forum and the Chinese forum have real Q&A and example-vault shares; Reddit's r/ObsidianMD and the official Discord are the front line of seeing how others use it; Chinese readers follow SSPAI and AllinBon, plus PKMer's tutorials and Chinese plugin docs. The awesome-obsidian and awesome-obsidian-zh lists gather plugins, themes, templates, converters in one place, check them first when searching.
 
-## 90. Plugin command names keep changing, how to write notes not dragged by versions?
+One guardrail: subscribe to three or five curated sources, scan periodically, do not follow every tutorial. What you see is someone else's system, not your pass line. Stash the inspiration you catch into the inbox, go back when you actually use it, far easier than copying on the spot.
 
-Community plugin command names and shortcuts change with versions; someone specifically reminded that when citing specific commands note "follow the plugin's latest docs". Then writing notes will not be dragged by versions.
+## 90. Besides the official market, where else to hunt plugins and themes? How to install smoothly in China? How to pick without getting burned?
 
-The method is for key operations do not only record command names, record what problem it solves and roughly where to set. Like sync, you record "use Git plugin for private repo backup", specific command name changed you can also find in settings. Someone wrote sync solutions, listed eleven, but the core idea unchanged, only the entry position changes. You record intent and path, not a precise button name of some version, next plugin update you re-click by the idea, no rewrite the whole note.
+Someone following a tutorial to install a plugin, clicked browse and got a load failure, stuck at the door for half a day. The official community plugin market is the most direct entry, but direct connection from China often hiccups, the most common hurdle for Chinese readers.
+
+Where to hunt: the official new Obsidian Community is a unified directory of plugins plus themes, filter by category, each project with screenshots and a safety scorecard; Obsidian Stats ranks by downloads, stars and update activity, and shows Beta plugins not yet in the official market; Obsidian Mate browses themes, plugins, vaults in one place; the awesome-obsidian list gathers classic projects by category. Smooth install in China: use PKMer's Market plugin, one-click accelerated download of official-market plugins and themes, with Chinese docs, a free monthly quota after sign-up, basically saying goodbye to network anxiety. Pick without getting burned: first see downloads and stars, mass-market plugins with tens of thousands of downloads are usually stable; then see recent updates, half a year idle may mean abandoned; plugins with network permission or file reading deserve an extra look at reviews, install only those you trust.
+
+Remember, before installing think clearly which specific stuck point to solve, do not install whichever is hot.
 
 ## 91. My vault gets slower with use, how to health-check and slim down?
 
-Someone timed with a stopwatch, listed which plugins especially slow performance, the conclusion consistent: more installed, slower. The first step of health check is look at plugin count, turn off unused ones.
+Someone timed with a stopwatch, listed which plugins especially slow performance, the conclusion consistent: more installed, slower. The first step of health check is look at plugin count, turn off unused ones. Others stuffed the vault with thousands of images and large PDFs, global search and startup noticeably slower, especially on mobile, because large attachments eat the most memory and sync quota.
 
 Someone specifically health-checks the vault, finding which pages are sourceless islands, which concepts repeatedly mentioned but not independent pages, which connections are noise. The hard truth of slimming is less is more, cut plugins to two or three, subtract notes, the vault naturally fast. Someone switched from pursuing perfect structure to dropping real ideas into the inbox every day, and the vault got lighter. You do a round of health check periodically, delete islands, merge duplicates, turn off idle plugins, the vault's health is kept, do not wait until too slow to use to clean up. There is also a handy hard metric: use one command to list all tags by count, checking island notes costs only about a hundred tokens while scanning the whole vault takes millions, and the agent understands structure and heals broken links, far more efficient than flipping through the vault by hand.
 
