@@ -27,7 +27,7 @@ Requires: the Copilot plugin
 
 Resource: Copilot https://community.obsidian.md/plugins/copilot · Dataview https://community.obsidian.md/plugins/dataview · Templater https://community.obsidian.md/plugins/templater-obsidian · Obsidian Stats https://www.obsidianstats.com
 
-## 32. Can I play without an API key? How to start local models at zero cost
+## 32. Can I play without an API key? How to start local models at zero cost?
 
 You can, and it costs nothing. Running an open-source model locally needs no platform registration and no key, and the data never leaves your computer, so privacy is settled. Install Ollama, type two lines, you have output. The cost is your own hardware and slower answers; for short note Q&A that gap is a few seconds, no big deal. On desktop the whole thing runs in a few minutes, so take the local path first to learn what AI-reading-notes feels like, then pay for cloud once speed starts bothering you.
 
@@ -82,7 +82,7 @@ After that, run a full-text search for `sk-` across the vault. Zero results mean
 
 Resource: 1Password https://1password.com/ · Bitwarden https://bitwarden.com/
 
-## 35. How to install a local model (Ollama), minimum steps to run in half an hour
+## 35. How to install a local model (Ollama), minimum steps to run in half an hour?
 
 Half an hour is plenty, four steps total: install Ollama from the site, pull a lightweight model with `ollama pull qwen2.5:7b`, go to Settings → Community plugins → Copilot → Options and fill Base URL `http://localhost:11434/v1` and Model `qwen2.5:7b`, then open today's diary and ask "which to-dos did I mention in this note". Once `curl http://localhost:11434/v1/models` returns a model list, the service is up.
 
@@ -137,7 +137,7 @@ Requires: Ollama and either the Copilot or Smart Connections plugin
 
 Resource: bge-m3 https://huggingface.co/BAAI/bge-m3 · Ollama https://ollama.com/ · Smart Connections https://github.com/brianpetro/obsidian-smart-connections
 
-## 37. Old computer with insufficient VRAM, which small models can run? State the cost
+## 37. Old computer with insufficient VRAM, which small models can run? State the cost?
 
 The cost first, so you do not waste an afternoon: local models eat your own hardware, and comfort starts at GPU 8GB or Mac 16GB. A 16GB Mac realistically handles 7B to 8B and lags above that; a phone on CPU only produces about 10 tok/s, which does output text, slowly enough to test your patience.
 
@@ -367,7 +367,7 @@ Requires: Termux, Ollama and the Copilot plugin
 
 Resource: Ollama https://ollama.com/
 
-## 46. Models update fast, will today's config be useless tomorrow? How not to be dragged by versions
+## 46. Models update fast, will today's config be useless tomorrow? How not to be dragged by versions?
 
 Part of it will break, so do not hard-code the config. AI plugins get dragged by versions harder than ordinary ones: embeddings reset and need hours of re-running, key formats change and need reconfiguring, model APIs get deprecated and need rollbacks, and as of 2026 there is still no built-in one-click downgrade, so guardrails are yours to build.
 

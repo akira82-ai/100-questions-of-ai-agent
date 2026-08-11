@@ -2,7 +2,7 @@
 
 Chapters one through six taught you how to drop the conversation into your own vault so AI actually works for you. This chapter flips the camera and walks the crash sites. Almost everyone steps into these pits, the only difference being early or late. Treat the eight below as cautionary tales, cheaper than waiting to hit them yourself.
 
-## 93. The 5 pits beginners most easily step on
+## 93. What are the 5 pits beginners most easily step on?
 
 Beginners crash on the same handful of moves, so set three hard lines up front: no more than two always-on plugins, no folder deeper than two levels, and week one is for writing notes only, no system building.
 
@@ -60,7 +60,7 @@ Depends on: any chat model; inside the vault, pair it with the Copilot plugin
 
 Resource: Official forum knowledge management category https://forum.obsidian.md/c/knowledge-management/6 · Copilot https://community.obsidian.md/plugins/copilot
 
-## 95. Connected AI but notes messier? How to avoid "AI junkyard"
+## 95. Connected AI but notes got messier, how do I avoid an "AI junkyard"?
 
 Connect AI and the notes get messier because AI output and your own writing share one pool with no exit. Once the pool is dirty, searching your own stuff returns other people's machine text instead of your own words.
 
@@ -88,7 +88,7 @@ Depends on: Dataview plugin, code block language set to dataview
 
 Resource: Dataview https://community.obsidian.md/plugins/dataview · File Cleaner https://community.obsidian.md/plugins/obsidian-file-cleaner
 
-## 96. Privacy three-piece set: private data, untrusted content, outbound channel
+## 96. What is the privacy three-piece set: private data, untrusted content, outbound channel?
 
 Local files are not the same as safe files. Obsidian stays open all day, the vault sits in plaintext most of that time, and any other program on the machine can read it. Work out who you are actually afraid of before deciding which layer to block. Encrypting everything on day one only makes your own workflow miserable.
 
@@ -119,7 +119,7 @@ model's logs? If no, it stays in private/.
 
 Resource: Cryptomator https://cryptomator.org/ · Meld Encrypt https://community.obsidian.md/plugins/meld-encrypt
 
-## 97. Local models are not zero-cost, how to self-check and stop-loss on performance
+## 97. Local models are not zero-cost, how do I self-check and stop-loss on performance?
 
 Local models are not zero-cost. With lag, isolate the layer before you change anything, do not dive in swapping models, quantization, and backends at random.
 
@@ -155,7 +155,7 @@ question answering moves to pay-as-you-go cloud -> still rough, disable all AI p
 
 Resource: Official help on debugging https://help.obsidian.md/Advanced+topics/Debugging · Ollama https://ollama.com/
 
-## 98. Don't let conversations go to waste, but "full automation" is the bigger pit
+## 98. Don't let conversations go to waste, but why is "full automation" the bigger pit?
 
 Full automation is the bigger pit. Automation may move and file things, every trade-off and every deletion needs your nod. Earlier chapters taught you to capture conversations so they leave a trace. This one adds the other half: keep a hand on the wheel.
 
@@ -190,7 +190,7 @@ Weekly: git log --oneline --since="7 days ago"
 
 Resource: Obsidian Git https://community.obsidian.md/plugins/obsidian-git · Official help on file recovery https://help.obsidian.md/plugins/file-recovery
 
-## 99. The second brain is mythologized, which promises you must never believe
+## 99. Which promises about the second brain should you never believe?
 
 The second brain is mythologized. Any promise containing "automatic", "once and for all", or "you never have to remember anything again" should be heard at half volume. The vault is your external drive and you are the CPU. Get that ordering right and it will not disappoint you. Using it as an external drive is genuinely convenient, but the moment you expect it to produce insight for you, disappointment is guaranteed. It cannot do the thinking, and what gets outsourced is only your reflection, at the cost of your own mind. Do not buy the sweet talk about "automatic".
 
@@ -218,7 +218,7 @@ find . -name "*.md" | wc -l
 
 Resource: Official forum knowledge management category https://forum.obsidian.md/c/knowledge-management/6 · Official help on graph view https://help.obsidian.md/plugins/graph
 
-## 100. 3 things understood only after a year of use
+## 100. What are the 3 things you only understand after a year of use?
 
 Three lessons, each with something you can do today: less is more, AI drafts and you decide, the notes are yours.
 

@@ -12,7 +12,7 @@ What happens when you actually use this place? Three real pictures. You gather r
 
 This book is for people who want daily input to become accumulation and output, and for people willing to add a little manual tagging while taking notes. It is not for people chasing zero manual, fully automatic setups, not for people who use AI to think for them, and not for teams that need one shared knowledge base. If you are in the last groups, the path ahead may disappoint you.
 
-## 1. I chat with AI every day and forget it all. Did I waste the chat? Pop that claim first, then act.
+## 1. I chat with AI every day and forget it all. Did I waste the chat?
 
 No, you did not waste it, but chatting without writing it down is basically the same as wasting it. Your most valuable thinking evaporates into the chat log and you end up with a pile that only takes in and never gives out.
 
@@ -112,7 +112,7 @@ If you have old notes, do not rush to move them all. Copy the important ones ove
 
 Resource: Obsidian Help https://help.obsidian.md/
 
-## 6. First time opening Obsidian, what are the only three things I should do? One more is a burden.
+## 6. First time opening Obsidian, what are the only three things I should do?
 
 Create a vault, keep an inbox, write your first diary entry. Plugins, double links, and the graph view all wait.
 
@@ -170,7 +170,7 @@ Copy-paste template (use directly):
 
 Resource: Obsidian Help https://help.obsidian.md/
 
-## 9. What is the easiest way to sync notes between phone and computer? Do not jump to plugins.
+## 9. What is the easiest way to sync notes between phone and computer without jumping to plugins right away?
 
 Beginners start light, pick one of official Sync, iCloud, or Nutstore. Git and self hosted stuff wait until a real pain point stops you.
 
@@ -182,7 +182,7 @@ Two principles hold regardless of plan. Editing on multiple devices at once inev
 
 Resource: Obsidian Sync https://obsidian.md/sync
 
-## 10. Folders or double links, which do I pick? Give me a no agonizing method.
+## 10. Folders or double links, which do I pick?
 
 You do not pick one. Folders tell you where something lives, links and backlinks tell you what it relates to. They manage two different things.
 
@@ -216,7 +216,7 @@ Connect AI after that week and you have real things to read. It tunes to your no
 
 Resource: Obsidian Help https://help.obsidian.md/
 
-## 12. Is the free Obsidian enough, or should I buy membership? State the boundary.
+## 12. Is the free Obsidian enough, or should I buy membership?
 
 Personal use is completely free. Core editing, bidirectional links, and community plugins are all there, with no feature paywall.
 

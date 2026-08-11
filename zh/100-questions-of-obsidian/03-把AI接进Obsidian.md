@@ -2,7 +2,7 @@
 
 接 AI 这一步最容易卡在配置和隐私上。这一章给你一条最小路径：能本地就本地，要连云也带护栏。配置只是手段，让 AI 读得动你的笔记才是目的，它读的是你自己的积累，答得靠不靠谱，根就扎在你这堆笔记上。
 
-## 31. 第一次给 Obsidian 接 AI，只装一个插件行不行？装哪个
+## 31. 第一次给 Obsidian 接 AI，只装一个插件行不行？装哪个？
 
 行，一个就够，装 Copilot。它在 Obsidian 里直接开聊，能基于你的笔记问答，选中一段文字也能让它当场改。今天三步就能跑通：设置 → 第三方插件 → 浏览 → 搜 Copilot → 安装并启用，然后打开任意一篇笔记，选中一段文字问它一句，能从你笔记里答出内容就算通了。
 
@@ -27,7 +27,7 @@
 
 资源：Copilot https://community.obsidian.md/plugins/copilot · Dataview https://community.obsidian.md/plugins/dataview · Templater https://community.obsidian.md/plugins/templater-obsidian · Obsidian Stats https://www.obsidianstats.com
 
-## 32. 没有 API key 能不能玩？本地模型怎么零成本起步
+## 32. 没有 API key 能不能玩？本地模型怎么零成本起步？
 
 能玩，而且零成本。本地跑开源模型不用注册任何平台、不用填 key，数据全程留在你自己的电脑里，隐私这块最稳。装完 Ollama 敲两行命令就有结果，代价是吃你自己的硬件、答得比云端慢；对个人笔记问答这种短问答，慢几秒无所谓。桌面端几分钟跑起来，先走本地这条路摸清 AI 读笔记的手感，觉得不够快再考虑掏钱走云端。
 
@@ -82,7 +82,7 @@ ollama run qwen2.5:7b "用一句话介绍 Obsidian"
 
 资源：1Password https://1password.com/ · Bitwarden https://bitwarden.com/
 
-## 35. 本地模型怎么装（Ollama），半小时跑通的最小步骤
+## 35. 本地模型怎么装（Ollama），半小时跑通的最小步骤？
 
 半小时够了，拢共四步：官网下 Ollama 装上，命令行 `ollama pull qwen2.5:7b` 拉一个中文轻量模型，去 设置 → 第三方插件 → Copilot → 设置 里把 Base URL 填 `http://localhost:11434/v1`、Model 填 `qwen2.5:7b`，最后打开今天的日记问它「这篇里我提到了哪几个待办」。装完用 `curl http://localhost:11434/v1/models` 能返回模型列表，就说明服务通了。
 
@@ -137,7 +137,7 @@ ollama pull bge-m3
 
 资源：bge-m3 https://huggingface.co/BAAI/bge-m3 · Ollama https://ollama.com/ · Smart Connections https://github.com/brianpetro/obsidian-smart-connections
 
-## 37. 老旧电脑显存不够，能跑哪些小模型？说清代价
+## 37. 老旧电脑显存不够，能跑哪些小模型？说清代价？
 
 先说代价，省得你白折腾：本地模型吃的是自己的硬件，GPU 8GB 以上或者 Mac 16GB 以上才谈得上舒服。16GB 的 Mac 实际只跑得动 7B 到 8B，再往上就开始卡；手机 CPU-only 大约 10 tok/s，字出得来，等得人心焦。
 
@@ -367,7 +367,7 @@ ollama serve
 
 资源：Ollama https://ollama.com/
 
-## 46. 模型更新快，今天配的明天会不会废？怎么不被版本拖死
+## 46. 模型更新快，今天配的明天会不会废？怎么不被版本拖死？
 
 会废掉一部分，所以别把配置写死。AI 插件比普通插件更容易被版本拖死：embedding 被重置要重跑几个小时，key 格式变了要重配，模型 API 弃用要回滚，而截至 2026 还没有内置的一键降级，护栏只能自己搭。
 

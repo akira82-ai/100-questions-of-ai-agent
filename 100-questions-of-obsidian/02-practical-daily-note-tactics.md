@@ -54,7 +54,7 @@ sort file.name asc
 
 Resource: Dataview https://community.obsidian.md/plugins/dataview
 
-## 18. How do I tag without abusing it? Three counter-examples
+## 18. How do I tag without abusing it?
 
 Three counter-examples, straight up. First, one concept spelled three ways: advml, AdvML, advanced-machine-learning each stored separately, aggregating to nothing at search time. Second, the tag used exactly once, never picked up by a second note, pure noise. Third, five or six tags per note, tag count explodes, and one topic ends up smeared across a dozen words.
 
@@ -64,7 +64,7 @@ Sprawl is fixable. Merge the near-duplicates first, normalize the casing and hyp
 
 Resource: Dataview https://community.obsidian.md/plugins/dataview
 
-## 19. Should I learn templates (Templater)? Just copy these 3 and you are set
+## 19. Should I learn templates (Templater)?
 
 Yes, but stop at the point where you can copy one. You never need the engine internals. Templater beats the core template plugin because it auto-fills the current date, the note title, the weekday, and can even pop up a picker.
 

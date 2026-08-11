@@ -25,7 +25,7 @@ If you cannot fill the blank, uninstall it.
 
 Resource: Obsidian Stats https://www.obsidianstats.com · Official plugin directory https://obsidian.md/plugins
 
-## 84. Which to install, which not: the 2-3 plugins most worth keeping in 2026
+## 84. In 2026, which 2-3 plugins are worth keeping, and which should I skip?
 
 Keep your always-on plugin count under three, and for every extra one you should be able to name the step it removes from your day. A programmer rewrote Homepage and Nldates down to a few dozen lines and replaced Obsidian Git with a cronjob, all for one reason: a plugin can read every note in your vault, so install none you can do without. That is the same posture as the official "less is safer" stance.
 
