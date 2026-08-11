@@ -1,271 +1,325 @@
-# Chapter 4 · Turning Notes into Assets with AI: from storing to using
+# Chapter 4 · AI Turns Your Notes Into Assets: From Storing to Using
 
-Hundreds of notes piled up and still gathering dust: the problem is not the recording, it is that nothing gets used. This chapter is about making AI turn your accumulation into something usable, not another smarter favorites folder. The real value starts after you connect AI. The more AI can answer from what you have stored, the more your notes become assets instead of a digital junk pile.
+Hundreds of notes piling up are still just dust if they are never used. The real value starts only after you connect AI: the more your accumulated notes can be answered from by AI, the more they become assets instead of a dump of digital garbage. This chapter is about making AI turn your accumulation into something usable, from an identity file that lets AI understand you, to a knowledge-base structure that keeps raw and wiki apart, and on to the daily loop of compile, query, and health-check.
 
-## 47. My notes pile into a mountain, how does AI help me "use" them instead of "store" them?
+## 47. How do I make AI truly "get me" without re-introducing myself every time?
 
-Store without processing and everything in the inbox loses value on a slope. Give it a few weeks and you will not bother opening it yourself. There are only two signs of actually using it: related old notes jump out on their own while you write, and AI answers your questions from what you recorded before rather than inventing from zero.
+Put a me.md at the root of your vault that states who you are, what you are doing, what you care about, and what not to do to you, and have AI read it at the start of every session. Think of it as your portable identity for AI. Any AI that reads it can use it, so you never repeat your self-introduction.
 
-Someone installed Smart Connections, wrote one paragraph, and three notes from six months ago floated up in the sidebar. That is what using feels like. Storing moves things into a warehouse; using makes the warehouse feed you back. Do not wait for a perfectly organized vault before connecting AI. Make it readable first, and one real thought dropped into the inbox each day is enough. Once links weave the notes into a web, AI can also surface patterns you never noticed, like stalling on the same type of goal every quarter-end.
+The practice breaks into three blocks: identity (one line on your role, field, current state), projects (main line, side line, and where you are stuck), and how to use your vault (directory rules, fewer but real links, answers must cite sources). Claude.md can even be just one line, "go immediately to me.md", and AI acting on that line finds your identity file. Retrieval, answers, and note surfacing all rest on AI understanding you first; without it, AI can only guess from the literal text.
 
-Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
+Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections · YouTube "me.md" https://www.youtube.com/watch?v=rRa9td4oe7k
 
-Copy-paste template (use directly):
-
-```
-# Three switch-on moves, from "store" to "use"
-1. Install Smart Connections so old notes float into the sidebar while you write
-2. Drop 1 thought with your own judgment into inbox/ each day (not just a link)
-3. Ask your vault once a week (copy this to your AI):
-   What did I record about [topic] in the last six months? List it by date,
-   mark which note each item comes from, and add nothing that is not in the vault.
-```
-
-## 48. What is Vault QA, and how do I get AI to answer from my accumulation?
-
-Vault QA means treating your notes as the knowledge base: AI reads the vault first, then answers, so the answer comes from your own accumulation. It has a ceiling. When notes are not connected, or the question needs synthesis across several years, retrieval tends to grab a few superficially related items and answer off target.
-
-A workable vault has two layers: raw/ for original material, wiki/ for processed concept pages, with a master index.md inside wiki/. Before asking, have AI read index.md to get the whole picture, then require it to point at the specific source page and to say plainly when the vault has nothing. Ask "what was my conclusion about X last year" and it flips through your own notes instead of generic web talk. The denser the links and the more you process afterwards, the more accurate it gets.
-
-Resource: Copilot for Obsidian https://community.obsidian.md/plugins/copilot
-
-Copy-paste template (use directly):
+Copy-paste template:
 
 ```
-Please first read wiki/index.md to understand the whole, then answer my question based on wiki/ content: [your question]
-When answering, cite the specific source page in wiki/; if the knowledge base has no related info, please tell me.
-
-# The two-layer structure (build it like this)
-raw/    original material, keep source_url, no processing
-wiki/   processed concept pages, source noted at the top of each page
-wiki/index.md   master index, AI reads this first every time
-```
-
-## 49. While writing, AI auto-surfaces related old notes. How do I turn on this "cheat"?
-
-The cheat is Smart Connections. It embeds your notes so related old ones surface beside you while you write, with no manual searching. The premise is that the notes have content and connections; an empty vault has nothing to surface.
-
-Someone migrating from another tool made dropping the perfect-folder-tree habit their first move, because surfacing while writing beats a tidy directory. You are writing a thought about a concept and it lists three notes you wrote six months ago, and you pick up the old thread at a glance. After installing, open any note and start writing; the right sidebar comes alive. For a non-English vault, pick the matching embedding model (see Q36), since the wrong one degrades surfacing quality badly.
-
-Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
-
-Copy-paste template (use directly):
-
-```
-1. Settings → Community plugins → Browse → search Smart Connections → install and enable
-2. First open prompts embedding generation (match the model to your vault language, see Q36)
-3. Open any note and start writing; related old notes surface in the right sidebar
-4. When surfacing is off, go add the links that should exist; quality follows connections
-
-# Connect a new note to old accumulation on the spot (ask AI on the open note)
-Based on the notes already in my vault, list 3-5 links worth adding to this note,
-each with one sentence on why. Put anything uncertain in a separate list for me to decide.
-```
-
-## 50. Will my second brain just be a logbook? How do I tell if it really "thinks"?
-
-A big vault does not equal thinking. A logbook only records without processing: one entry today, one tomorrow, nothing connected, and looking back gives you a stream of sludge. Real thinking means you made a judgment while recording, that these two relate, that one overturned an earlier conclusion, and you go back and revise on a schedule.
-
-Someone kept a vault for over five years and then deleted it, saying they had only been a mover, shifting things from one place to another with the brain switched off. Treating favoriting as effort and vault size as growth mostly hoards things you never read. Three self-checks are the most direct: are there connections between notes, have you processed them afterwards, can the old ones be used when you write something new. All three empty and it really is just a logbook. Whether your vault thinks decides whether what AI answers from it later has roots.
-
-Resource: Dataview https://community.obsidian.md/plugins/dataview
-
-Copy-paste template (use directly):
-
-```
-# Is your second brain "thinking" or a "logbook"? Three self-checks
-- Are there connections between notes? (MOC / links)
-- Have you processed them afterwards? (periodic review, updated conclusions)
-- Can the old ones be used when writing something new? (AI can answer from accumulation)
-All three empty → just a mover; add processing before it counts as thinking
-
-# Quantify check one: pull out every island note
-# Install and enable the Dataview plugin first, then put these three lines in a code block tagged dataview
-LIST
-WHERE length(file.outlinks) = 0 AND length(file.inlinks) = 0
-SORT file.mtime DESC
-```
-
-## 51. AI auto-builds my links/MOC. Is that laziness or really useful?
-
-AI-built links are acceleration, on the condition that you review every one it creates. An MOC is a map gathering same-topic notes; AI drops the scattered ones into the right MOC and saves you the manual labor, while accuracy stays your call.
-
-Someone installed an auto-complete link plugin to save effort and ended up linking unrelated notes on reflex, producing more noise than value. So fix the flow in two steps: AI drafts, you cut and edit. Use completion plugins as typing accelerators, pick from the popup yourself, and never let them decide what connects to what. The value of links sits in the connection itself; AI only spreads the work of connecting.
-
-Resource: Various Complements https://community.obsidian.md/plugins/various-complements
-
-Copy-paste template (use directly):
-
-```
-# Let AI draft the MOC (you cut and edit)
-Scan every note under notes/ and cluster them into 5-8 topic groups. For each group give me:
-1. A suggested MOC name
-2. The notes in that group (written as [[links]])
-3. One sentence on why they group together
-Put anything uncertain under "undecided"; do not force it into a group.
-Only output note names that actually exist in the vault; invent nothing.
-```
-
-## 52. Letting AI review old notes periodically, how do I set it up without notification hell?
-
-For reviewing, frequency matters more than intensity. Set it too dense with daily popups and you will eventually switch off the whole system, dragging the accumulation you already built down with it.
-
-Someone paired periodic notes with a review plugin, set reminders to daily, and uninstalled two weeks later. The fix is simple: pick the lowest frequency you will actually keep, say flipping through the inbox and this week's additions every two weeks, put the review on the weekend, and give it one fixed slot on the calendar where AI does all its work. Use Periodic Notes with Calendar to generate weekly and monthly notes, turn every notification off, and trigger the review by opening the note. That is far more reliable than reminders.
-
-Resource: Periodic Notes https://community.obsidian.md/plugins/periodic-notes · Calendar https://community.obsidian.md/plugins/calendar
-
-Copy-paste template (use directly):
-
-```
-# Let AI run your periodic review (every two weeks, not daily)
-Read my inbox and daily notes from the last two weeks, pick out old notes related to [current project],
-list them, and add one sentence per item on how it can be used now.
-Only list notes that actually exist; invent nothing.
-
-# Companion setup
-Settings → Community plugins → install Periodic Notes and Calendar
-In Periodic Notes enable weekly and monthly only; turn the daily reminder off
-Fix the review slot at Sunday evening; click that calendar cell and start
-```
-
-## 53. How does AI distill my old fragments into a long article?
-
-Fragments scattered everywhere are exhausting to string together by hand, and asking AI to "just write it" gives you a piece that does not sound like you. The workable route is gather first, write second: AI compiles the fragments into source-backed concept pages, and you write your viewpoints on top of that skeleton.
-
-Give it one clear instruction: read the new material in raw/, generate a source-summary page for each while keeping the original link, extract important concepts to update or create concept pages, then update the master index. When compiling finishes you hold a skeleton with citations, and the long article grows out of your own accumulation. Do not skip the source-marking step, because without it you will never trace where a sentence came from.
-
-Resource: Copilot for Obsidian https://community.obsidian.md/plugins/copilot
-
-Copy-paste template (use directly):
-
-```
-# Step 1: compile (AI does this)
-Please read the new material in raw/ and compile it into wiki/.
-1. Generate a source-summary page for each material, keep source_url.
-2. Extract important concepts, update or create concept pages in wiki/concepts/.
-3. Update wiki/index.md master index.
-
-# Step 2: skeleton (AI does this)
-Based on the pages in wiki/concepts/ related to [topic], give me a long-article outline:
-under each section list the concept pages that support it, leave the viewpoint slots empty for me.
-
-# Step 3: write (you do this)
-Viewpoints, trade-offs and conclusions are yours; AI only fills in facts and sources.
-```
-
-## 54. Using AI to organize notes, how do I avoid making it messier (the AI junkyard)?
-
-Turn AI loose on organizing and the usual result is a vault that got no clearer plus an extra layer of sourceless AI-generated pages, one junk pile stacked on another. The way to block it is a regular health check that puts every round of output through review.
-
-Someone runs a health check on the vault monthly: read the master index, find which pages lack sources, which concept definitions contradict each other, which pages sit as islands with no links, which concepts get mentioned repeatedly without a page of their own. Treat the result as a checklist only; deleting or filling stays your decision. This kind of check can also live as a standing Dataview query, and the community keeps ready-made example vaults you can copy, which beats writing from scratch. AI organizing is round after round of review, and clarifying sources and connections each round is what keeps the vault from getting dirtier.
-
-Resource: Dataview https://community.obsidian.md/plugins/dataview · Dataview example vault https://github.com/s-blu/obsidian_dataview_example_vault
-
-Copy-paste template (use directly):
-
-```
-# Monthly health check (copy this to your AI)
-Please read wiki/index.md and run a health check:
-1. Which pages lack sources 2. Which concept definitions conflict with each other
-3. Which pages are islands with no links 4. Which concepts are mentioned repeatedly but have no page yet.
-List only pages that actually exist, return a checklist, and do not delete or edit anything for me.
-
-# Standing query: catch pages with no source
-# Install and enable the Dataview plugin first, then put these three lines in a code block tagged dataview
-TABLE file.mtime AS Modified
-FROM "wiki"
-WHERE !source AND !source_url
-```
-
-## 55. Should I trust everything AI answers? Three ways to spot errors
-
-AI answering from your vault does not mean it gets things right. The vaguer your question, the more likely it patches in content the vault never contained. Three ways to catch it on the spot.
-
-First, check whether the answer points at a specific note; vague talk with no source gets a question mark. Second, follow up with "which sentence in which note did you just cite". Anything that truly read your vault can point, and fabrication exposes itself immediately. Third, test it against a fact you know: you remember writing the opposite conclusion last month and it claims the vault has nothing, that is hallucination. Someone using Smart Connections caught fabrication exactly with that second question. The last gate is always your own known judgment.
-
-Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
-
-Copy-paste template (use directly):
-
-```
-# Spot AI hallucination: three follow-ups (copy and ask)
-1. Which sentence in which note did you just cite?
-2. Paste that sentence verbatim so I can see it
-3. Checking against a known fact: I recorded the opposite conclusion, you say I did not. Explain.
-No specific source → probably fabricating, do not adopt
-```
-
-## 56. What does "an AI that gets me" rely on, links or the preface I wrote?
-
-Links and prefaces give two different things, and missing either leaves AI with half the picture. Links give structure, telling it these notes belong together. The preface gives intent: write at the top of a note what problem it solves and which project it belongs to, and AI knows why you recorded it instead of reading only the surface.
-
-Someone adds frontmatter to every note, marking topic, status and relations in the header, so retrieval filters correctly on the first pass. One level up, put a usage manual for the whole vault in the root directory (commonly named CLAUDE.md or AGENTS.md) explaining the folder structure, the naming rules, and how you want AI to work with this vault, so it reads that first every time. Worth more than the manual is a me.md: who I am, what I am working on, what I care about, what not to do to me. Any AI can read that file, and you stop reintroducing yourself every time.
-
-Resource: Obsidian Properties documentation https://help.obsidian.md/properties
-
-Copy-paste template (use directly):
-
-```
-# me.md minimal skeleton (vault root; have AI read it first every time)
+# me.md minimal skeleton (put at vault root, AI reads it first every session)
 ---
 type: profile
 updated: 2026-08-10
 ---
 
 ## Who I am
-One line: profession / field / current role
+One line: role / field / current identity
 
-## What I am working on
-- Main: [[Project A]] (goal, and where it is stuck right now)
-- Side: [[Project B]]
-- Long-running questions I care about:
+## What I am doing
+- Main line: [[ProjectA]] (what is the goal, where am I stuck)
+- Side line: [[ProjectB]]
+- Questions I care about long term:
 
 ## How my vault is organized
-- inbox/ unprocessed · notes/ processed · wiki/ concept pages
+- inbox/ raw · notes/ processed · wiki/ concept pages
 - Naming rule: YYYY-MM-DD-topic
-- Link only what is genuinely related; fewer and accurate beats many
+- Only link things genuinely related, fewer is better
 
 ## What I want AI to do
-- Answer from this vault, cite the source note for every conclusion
-- Say so plainly when the vault has nothing; do not patch it
-- Conclusions and wording stay mine; you gather, retrieve, and draft
+- Answer from this vault, cite the source note for every claim
+- Say so when the vault has nothing, do not make it up
+- Leave conclusions and wording to me, you only gather, retrieve, draft
 ```
 
-## 57. How do I make AI cite my note sources instead of making things up?
+## 48. What is Vault QA, and how do I let AI answer from my accumulation instead of from scratch?
 
-Fabrication starts where nobody asked for sources. Put "point to which paragraph of which note" into the prompt and hallucination drops by more than half, because it knows you will check and will not risk inventing a note that does not exist.
+Vault QA means treating your notes as a knowledge base: before answering, AI reads the vault first, and the answer comes from your own accumulation. It only works if the notes are retrievable. The more tightly they are linked and the more they are processed, the more accurate the answer.
 
-Beyond adding that line to every question, add a periodic lint: have it review the whole vault for contradictory pages, conclusions overturned by newer material, and sourceless orphan pages, then hand you a report. Demanding sources is not only for your peace of mind, it forces the model to actually read the vault. Ask every time and it runs out of room to bluff, and the answers become accountable.
+Two layers are enough: raw/ holds raw material, wiki/ holds processed concept pages, and wiki/ keeps a master index index.md. Before asking, have AI read index.md to grasp the whole picture, then require it to point to the specific source page after answering, and to say so honestly when the vault has nothing. That way when you ask "what was my conclusion about X last year", it opens your own notes, not generic web talk. Retrieval tends to pull only surface-relevant hits, so for judgments spanning several years, break the question down; do not expect one shot to cover it.
 
 Resource: Copilot for Obsidian https://community.obsidian.md/plugins/copilot
 
-Copy-paste template (use directly):
+Copy-paste template:
 
 ```
-# Make AI cite sources (add this to any vault-based question)
-Answer from my notes and mark which specific paragraph of which note each conclusion comes from;
-if the vault has no such information, tell me plainly and do not fabricate a source.
+First read wiki/index.md to understand the whole picture, then answer my question based on wiki/ content: [your question]
+When answering, cite the specific source pages in wiki/; tell me when the knowledge base has no relevant information.
 
-# Periodic lint: force it to actually read the vault
-Review the entire wiki/: find contradictory pages, conclusions overturned by newer material,
-and sourceless orphan pages. Give a report and suggest blank concepts worth creating.
+# Two-layer vault structure (build it like this)
+raw/    raw material, keep source_url, do not process
+wiki/   processed concept pages, note the source at the top of each page
+wiki/index.md   master index, AI reads it first every time
 ```
 
-## 58. My notes are too shallow for AI to save. How do I record so they are "feedable"?
+## 49. How do I write a "user manual" for my vault so AI behaves?
 
-When everything is a copy-pasted excerpt, AI reads the whole pile and has nothing to say, because none of it is yours. Feedable notes carry a bit of your own processing in every entry, even a single sentence.
+Put a CLAUDE.md at the vault root (write AGENTS.md if you use Codex) that lays out the directory structure, page format, naming rules, and the steps for the three operations: ingest, query, and lint. This file is the most important thing in the whole repo. Without it, AI compiles in a different format every time, pages that should merge do not merge, and a month later you get a pile of AI-flavored fragments.
 
-Someone recorded books with nothing but title, author and rating, then forced one line under each entry saying "this connects to that project from last year", and AI immediately had a thread to follow. The cheapest way is to freeze those lines into a template: what the topic is, why you recorded it, which existing note it relates to. Three lines of frontmatter cost twenty extra seconds, and later AI follows those three lines to string your scattered judgments together instead of reciting excerpts. Bind the skeleton to new notes with a template plugin and it shows up without you thinking about it.
+The minimal content is three blocks: structure (raw/ is original material, add only, never edit; wiki/ is AI's turf), page rules (every page carries frontmatter, internal references use [[wikilink]], every claim traces back to a raw/ source), and iron laws (NEVER delete any file, NEVER edit raw/). There is also a heuristic for new page vs. edit: if other pages will link to it, create new; if it is just supplementary info to an existing page, update in place. Feed the first few items one by one, write the corrections back into CLAUDE.md, and only scale up after training your admin.
 
-Resource: Templater https://community.obsidian.md/plugins/templater-obsidian · Obsidian Properties documentation https://help.obsidian.md/properties
+Resource: Obsidian Properties docs https://help.obsidian.md/properties
 
-Copy-paste template (use directly):
+Copy-paste template:
 
 ```
-# "Feedable" note skeleton (auto-inserted on new notes)
+# CLAUDE.md (put at vault root, AI reads it first)
+## Structure
+- raw/: original material, never modify any file here
+- wiki/: Markdown pages you generate and maintain
+- wiki/index.md: master index, update after every operation
+- wiki/log.md: append-only operation log
+
+## Page rules
+Every wiki page must carry frontmatter:
+  title: page title
+  sources: [source file path under raw/]
+  related: ["[[related page]]"]
+- Internal references always use [[wikilink]]
+- Every claim must trace back to a raw/ source; write no claim without a source
+
+## Ingest flow
+1. Read the specified new file in raw/
+2. Write a summary page, update or create related concept pages
+3. Update index.md, append to log.md
+
+## Query flow
+1. First read index.md to locate relevant pages, read 2-3 pages, then answer
+2. Cite [[pages]] in the answer, give the raw/ path when tracing to source
+
+## Lint flow
+Check: contradictions between pages / old conclusions overturned by new material /
+orphan pages with no inbound links / concepts mentioned but with no page.
+Output a report, make no deletion without my consent.
+
+## Iron laws
+- NEVER delete any file
+- NEVER edit raw/
+- New page vs. edit: create new if other pages will link to it;
+  update in place if it is just supplementary info
+```
+
+## 50. Is my second brain just a journal? How do I tell it really "thinks"?
+
+A big vault is not the same as a thinking one. A journal only records without processing: one line today, one line tomorrow, nothing connects, and looking back it is just a stream. Real thinking means you made a judgment when you wrote: these two are related, that note overturned my earlier conclusion, and you go back and revise on a schedule.
+
+Three self-checks are the most direct: do the notes connect, have you gone back and processed them, and can the old ones be used when you write something new. Treating collection as effort and a big vault as growth tends to stockpile things you never read. If all three are empty, it is just a journal. Whether your vault thinks decides whether what AI later answers from it has any root. Hoarding without review is only搬运, never real thinking.
+
+Resource: Dataview https://community.obsidian.md/plugins/dataview
+
+Copy-paste template:
+
+```
+# Does your second brain "think" or is it a journal? Three self-checks
+- Do the notes connect? (MOC / bidirectional links)
+- Have you gone back and processed them? (periodic review, updated conclusions)
+- Can the old ones be used when you write something new? (AI answers from your accumulation)
+All three empty -> just a mover, add processing to truly think
+
+# Quantify the first check: pull out the island notes
+# Install and enable the Dataview plugin first, then put these three lines in a dataview code block
+LIST
+WHERE length(file.outlinks) = 0 AND length(file.inlinks) = 0
+SORT file.mtime DESC
+```
+
+## 51. What does the three-layer AI knowledge base look like, and why split raw and wiki?
+
+A working AI knowledge base has three layers: raw/ holds original material, wiki/ holds the knowledge entries AI compiles, and the vault root holds a CLAUDE.md with maintenance rules. raw/ is like a warehouse, keeping original evidence without processing. wiki/ is like a bookshelf, where AI turns material into pages you can reread, link, and update, with a master index index.md and a maintenance log log.md. CLAUDE.md is like a manual telling AI that raw/ is immutable, every judgment points to a source, and index and log are updated after each cleanup.
+
+Obsidian is not the AI itself here, only the knowledge-base IDE: you use it to view raw, browse wiki, and inspect link relations. The split keeps AI-generated wiki content from polluting your original material, and any claim can be traced back to the original file in raw/. Feed the first 10 items one by one, correct the format and write it back into CLAUDE.md while compiling, and only scale up after training your admin.
+
+Resource: Various Complements https://community.obsidian.md/plugins/various-complements
+
+Copy-paste template:
+
+```
+AI knowledge base/
+├── raw/                 # original material, add only, do not edit
+│   ├── articles/        # external articles, blogs, tutorials
+│   ├── papers/          # papers, research reports
+│   └── clips/           # web clippings, excerpts
+├── wiki/                # knowledge entries AI compiled
+│   ├── index.md         # master index, quickly know what is in the vault
+│   ├── log.md           # maintenance log, records each addition and compile
+│   ├── concepts/        # concept pages, one file per important concept
+│   ├── entities/        # entity pages: people, orgs, products, projects
+│   ├── syntheses/       # synthesis pages, cross-source topic write-ups
+│   └── sources/         # source summary pages, one per raw item
+├── outputs/             # Q&A, reports, health checks
+│   ├── qa/              # answers to complex questions
+│   └── health/          # health-check reports
+└── CLAUDE.md            # maintenance rules written for AI
+```
+
+## 52. How do I let AI build the whole vault scaffold at once, so I do less?
+
+Give AI a vault-building prompt that directly creates the directory structure, the master index, the maintenance log, and CLAUDE.md, and you get a usable empty scaffold in hand. This step is called init; after it, you start feeding material in.
+
+The prompt must state four things clearly: which directories to create (raw subtypes, wiki's concepts/entities/syntheses/sources, outputs' qa/health), create wiki/index.md and wiki/log.md, create CLAUDE.md with maintenance rules (raw/ is stored only, never deleted or overwritten, every judgment cites a source, unsure info is marked for verification), and write a source-summary template under sources/ (with title/source/source_url/summary/key_points/related_concepts). Have AI tell you in one paragraph how to use the vault once built. Do not chase perfection on the first pass; get it running, then fix in later rounds.
+
+Resource: Copilot for Obsidian https://community.obsidian.md/plugins/copilot
+
+Copy-paste template:
+
+```
+Goal:
+I want to build a Markdown knowledge base ordinary people can use, following the LLM Wiki idea. No enterprise RAG, no complex database; first get the minimal loop running with folders and Markdown.
+
+Please do the following:
+1. Create this directory structure:
+   - raw/articles/
+   - raw/papers/
+   - raw/clips/
+   - wiki/concepts/
+   - wiki/entities/
+   - wiki/syntheses/
+   - wiki/sources/
+   - outputs/qa/
+   - outputs/health/
+2. Create wiki/index.md describing the current themes, material, and entry points of this knowledge base.
+3. Create wiki/log.md recording each addition, compile, page update, and health check.
+4. Create the project rule file: build CLAUDE.md if using Claude Code, or build both AGENTS.md and CLAUDE.md (same content) if unsure.
+   - raw/ only stores original material, do not delete, do not overwrite.
+   - Every important judgment should point to a source.
+   - Mark uncertain info as needs-verification, do not make it up.
+   - After each cleanup, tell me which files you changed.
+5. In wiki/sources/README.md write a source-summary template: title / source / source_url / created / summary / key_points / related_concepts.
+6. In outputs/health/README.md write a health-check note: pages missing sources, conflicting concepts, pages with no links, possibly stale judgments.
+
+Create these directories and files directly. When done, tell me in one paragraph how to use this knowledge base now.
+```
+
+## 53. When new material comes in, how do I let AI auto-compile it into the knowledge base?
+
+Each time you drop a new item into raw/, give AI a compile prompt that generates a source-summary page, updates concept pages, and refreshes the index and log, and you get a skeleton with sources in hand. This action is called compile, and it is the key to the wiki's compounding value.
+
+The prompt should make it do five things: generate a source-summary page for each item and keep source_url; extract key concepts, updating an existing concept page or creating a new one; update wiki/index.md so you quickly know what is in the vault; update wiki/log.md recording what this round processed; and never delete the original material in raw/. Do not chase perfection on the first compile; AI may miss key points and group things wrong, just get it running. After compiling, spend ten minutes in Obsidian: did the summary keep the original link, does the concept page logic hold, is index complete. Note the problems and let AI fix them next round.
+
+Resource: Copilot for Obsidian https://community.obsidian.md/plugins/copilot
+
+Copy-paste template:
+
+```
+Read the new material in raw/ and compile it into wiki/.
+
+Do these things:
+1. Generate a source-summary page for each item, keep source_url.
+2. Extract key concepts; if wiki/concepts/ already has a related page, update it; otherwise create new.
+3. Update wiki/index.md so I quickly know what is in the vault now.
+4. Update wiki/log.md recording which material this round processed.
+5. Do not delete the original material in raw/.
+```
+
+## 54. How do I let AI answer from wiki and cite a source for every claim?
+
+Before asking, have it read wiki/index.md to grasp the whole picture, then answer based on wiki/ content, and require it to cite the specific source page, saying so when the vault has nothing. That way the answer comes from your own accumulation, not generic web talk.
+
+The prompt has two core lines: first read index.md to understand the picture, then answer your question based on wiki/ content, citing the specific source pages in wiki/, and tell you when there is no relevant info. For complex questions, have it save the answer to outputs/qa/. Answers alone are not enough; run health checks on a schedule: read index.md, find pages missing sources, conflicting concepts, island pages with no links, and concepts mentioned often but without their own page, then save the report to outputs/health/ with the top 5 fixes. Checks can also be written as a standing Dataview query; the community has ready-made example vaults you can copy directly.
+
+Resource: Copilot for Obsidian https://community.obsidian.md/plugins/copilot · Dataview example vault https://github.com/s-blu/obsidian_dataview_example_vault
+
+Copy-paste template:
+
+```
+# Ask (ask the vault first, do not search the web from scratch)
+First read wiki/index.md to understand the current knowledge base, then answer my question based on wiki/ content: [your question]
+When answering, cite the specific source pages in wiki/. If the knowledge base has no relevant info, tell me.
+
+# Health check (run weekly)
+First read wiki/index.md to understand the current knowledge base, then run a health check.
+Focus on:
+1. Which pages lack sources.
+2. Which concept definitions conflict.
+3. Which pages have almost no links, like islands.
+4. Which important concepts are mentioned often but have no page yet.
+5. Which pages may be stale and need re-verification.
+Save the report to outputs/health/ and give the top 5 fixes to prioritize.
+```
+
+## 55. Should I trust everything AI answers? How do I catch it making things up on the spot?
+
+AI answering from your vault does not mean it cannot be wrong. RAG retrieval only takes the top 3-5; if the relevant note is not in the top few, AI can only fabricate. And it is semantic retrieval, not keyword retrieval, so short phrases like "1 on 1" get preprocessed as stopwords and dropped, so they are never even retrieved.
+
+Three ways to catch it on the spot. First, watch whether its answer points to a specific note; vague talk with no source gets a question mark. Second, push back: "which exact sentence in which note did you just cite", a real reader points it out, a fabricator is exposed on the spot. Third, check against facts you know: if you remember writing the opposite conclusion and it says the vault has none, that is a hallucination. The final gate is always your own known judgment; do not treat ChatGPT as an infallible oracle, it is a predicted-text generator by design.
+
+Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
+
+Copy-paste template:
+
+```
+# Spot AI hallucination: three push-back questions (copy and ask)
+1. Which exact sentence in which note did you just cite?
+2. Paste that sentence verbatim for me to see.
+3. I check against known facts: I recorded the opposite conclusion, you said none exists, explain.
+Cannot give a specific source -> probably making it up, do not adopt.
+```
+
+## 56. How do I let AI run a "regular health check" on the vault so it does not get messier?
+
+Handing cleanup entirely to AI most often leaves the vault no clearer, only adding a layer of source-less AI-generated pages on top of the pile. The fix is a regular Lint that reviews every round of output.
+
+The Lint flow checks four things: contradictions between pages, old conclusions overturned by new material, orphan pages with no inbound links, and concepts mentioned but without their own page. Treat the report only as a checklist; you decide whether to delete or fill in, and without your consent AI must not delete anything. Such checks can also be written as standing queries; the community has ready-made example vaults you can copy directly, far more accurate than writing from scratch. AI cleanup is reviewed round by round, and only by clarifying sources and links each round does the vault stay clean.
+
+Resource: Dataview https://community.obsidian.md/plugins/dataview · Dataview example vault https://github.com/s-blu/obsidian_dataview_example_vault
+
+Copy-paste template:
+
+```
+# Regular Lint: force it to have really read the vault (copy and ask AI)
+Review the whole wiki/: find contradictory pages, conclusions overturned by new material,
+source-less orphan pages, give a report and suggest blank concepts worth creating.
+Make no deletion without my consent.
+
+# Standing query: catch pages missing sources
+# Install and enable the Dataview plugin first, then put these three lines in a dataview code block
+TABLE file.mtime AS modified
+FROM "wiki"
+WHERE !source AND !source_url
+```
+
+## 57. Using AI as a second brain, how do I prevent cognitive atrophy?
+
+Cognitive atrophy hits people who use it well, because AI is so convenient you easily hand over the thinking part too. Three risks sit there: memory atrophy, storing everything in the vault and never memorizing yourself; absorption atrophy, only reading AI's summaries and never the original; competence illusion, assuming that having it in the vault means you understand it.
+
+Hold three defensive lines: make the key judgments yourself, at least occasionally go back to the original when AI gives a summary, and keep a paragraph of your own writing in every note. To judge whether a note passes, check whether it contains one line only you could have written. The generative processing theory says learning happens when external tasks trigger internal cognitive processing, and linking a note to existing knowledge is exactly that kind of generative activity; storing without processing simply never triggers it. The second brain is an add-on; the thinking part stays yours.
+
+Resource: Periodic Notes https://community.obsidian.md/plugins/periodic-notes
+
+Copy-paste template:
+
+```
+# Three risks + three defenses of cognitive atrophy
+Risks: 1 Memory atrophy (store only, never memorize) 2 Absorption atrophy (read summaries, skip originals) 3 Competence illusion (having = understanding)
+Defenses: 1 Make key judgments yourself 2 At least occasionally reread originals from AI summaries 3 Keep your own written paragraph in every note
+The second brain is an add-on; the thinking part stays yours.
+
+# One slot per day (write it in your daily template)
+## One thing I figured out myself today
+(no paste, no AI ghostwriting, one sentence counts)
+```
+
+## 58. My notes are too shallow, even AI cannot save them. How do I make them "feedable"?
+
+If it is all copy-paste excerpts, AI reads around and still says nothing useful, because there is none of you in it. A feedable note carries a bit of your own processing in every entry, even just one line, and uses frontmatter to mark the structure so AI retrieval and filtering work.
+
+The easiest practice is to fix a few lines into a template: what the topic is, why you noted it, which existing note it relates to. The property system makes Dataview queries and AI filtering run; Claude finds all active projects by reading type and status, and you see this month's notes by querying created. Three lines of frontmatter cost twenty seconds when writing, and later AI strings your scattered judgments along these lines instead of just repeating excerpts. Bind this skeleton to new notes with Templater, and it is there before you even think about it.
+
+Resource: Templater https://community.obsidian.md/plugins/templater-obsidian · Obsidian Properties docs https://help.obsidian.md/properties
+
+Copy-paste template:
+
+```
+# "Feedable" note skeleton (auto-insert on new note)
 ---
 topic: 
-why_recorded: 
+why noted: 
 related: [[]]
 status: raw
 date: 2026-08-10
@@ -275,95 +329,98 @@ date: 2026-08-10
 
 
 ## My judgment
-One sentence is enough. Pick any of these:
-what it overturns for me / what it confirms / what I plan to do with it
+One sentence is enough, state any one of these:
+what it overturned in my earlier view / what it confirmed / what I plan to do with it
 
-# How to bind it
-Settings → Community plugins → install Templater → point Template folder at templates/
-Save the block above as templates/new-note.md and insert it with one command
+# How to bind
+Settings -> Community plugins -> install Templater -> point Template folder to templates/
+Save the above as templates/new-note.md, insert with one click when creating a note
 ```
 
-## 59. What is it like when AI uses my links, and why is careful linking worth it?
+## 59. What is it like when AI uses your links, and why is linking carefully worth it?
 
-AI reading your vault is not plain keyword matching; it walks the links as a graph, and two notes you linked are treated as related and pulled together. Links you got right convert straight into retrieval quality.
+AI reading your vault is not just keyword matching; it does graph retrieval along the links: two notes you linked are treated as related and pulled together. A correct link directly trades for retrieval quality.
 
-Ask about a concept and it returns not only the title match but the notes attached through links, even ones that never contain the word you asked about. Someone migrating vaults moved all the folder-tidying effort into linking for exactly this reason. Random linking manufactures noise, while few and accurate links make AI visibly better at understanding you. To decide whether a link belongs, ask one question: when I later land on A, will I want to find B?
+When you ask about a concept, it does not only find the page whose title hits; it also pulls the few pages connected by links, even if those pages never contain the word you asked. To decide whether a link should exist, ask one question: when I see A later, will I want to find B. Linking randomly creates noise; fewer but accurate links make AI clearly understand you better. Every permanent note carries at least two explicit links; the first is usually obvious, the second is where you must think how the idea fits the existing network, and that harder thinking produces better connections.
 
 Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
 
-Copy-paste template (use directly):
+Copy-paste template:
 
 ```
-# Link trade-off (run this after finishing a note)
-Ask yourself: when I later land on A, will I want to find B?
-  Yes → link it; hesitating → skip it (fewer and accurate)
-Leave at least 1 outgoing link per note, pointing to a higher-level MOC or concept page
+# Link trade-off (review after each note)
+Ask yourself: when I see A later, will I want to find B?
+  yes -> link; hesitate -> do not link (fewer is better)
+Every note keeps at least 1 outbound link to a higher MOC or concept page
 
-# Ten minutes of link repair each week (copy to your AI)
-List the notes in my vault with zero outgoing and zero incoming links, sorted by modified time;
-give me 2 candidate links per note with one sentence of reasoning, and I will decide.
+# 10 minutes of link-catch-up per week (copy and ask AI)
+List the notes in my vault with zero outbound and zero inbound links, sorted by modified time;
+give me 2 candidate links and one reason per note, I decide.
 ```
 
-## 60. AI writes my weekly report. How do I stop it from thinking for me and keep it to writing?
+## 60. AI helps with periodic review and weekly reports, how do I let it write for me but not think for me?
 
-The boundary for AI-written weekly reports has to be hard: it writes for you, it does not think for you. Hand it your daily notes, project notes and meeting records and let it draft; which items matter, how to phrase them, what deserves expansion, you decide.
+The boundary for AI doing review must be strict: it writes for you, not thinks for you. Hand it your daily notes, project notes, and meeting records to draft; you decide what matters, how to phrase it, and what to expand.
 
-Someone deleted their second brain because everything got tossed to the tool to summarize, and over time they stopped bothering to organize their own thoughts. The way around it is a template with holes in it: the "biggest gain this week" and "next week's focus" columns must arrive empty, forcing you to fill them. AI saves the typing and the aggregation; the judgment stays with you. Those two columns are the only truly valuable part of a weekly report, and AI cannot supply them.
+The concrete practice is to fix a minimum frequency you will actually keep, say reviewing the inbox and this week's additions every two weeks, with review bundled into the weekend and triggered by opening the note, which beats relying on reminders. The most important blank in the weekly template is the two columns "biggest gain this week" and "focus next week" left empty for you to fill; that forces your own thinking. It saves the typing and summarizing effort; the judgment part stays with you, and those two columns are exactly what is valuable in a weekly report, which AI cannot give. Standard metadata (unified tags, dates, project links) also lowers AI retrieval cost.
 
-Resource: Periodic Notes https://community.obsidian.md/plugins/periodic-notes
+Resource: Periodic Notes https://community.obsidian.md/plugins/periodic-notes · Calendar https://community.obsidian.md/plugins/calendar
 
-Copy-paste template (use directly):
+Copy-paste template:
 
 ```
 # Let AI draft the weekly report (you decide conclusions)
-Draft a weekly report from this week's daily notes, project notes and meeting records:
+Based on this week's daily notes, project notes, and meeting records, draft a weekly report:
 1. List what moved forward this week (grouped by project)
-2. Mark the points worth expanding
-3. Leave "biggest gain this week" and "next week's focus" empty for me
-Write for me, do not think for me; conclusions and wording are mine.
+2. Flag the points worth expanding
+3. Leave "biggest gain this week" and "focus next week" empty for me to fill
+Write for me only, not think for me; conclusions and wording are mine.
+
+# Companion setup
+Settings -> Community plugins -> install Periodic Notes and Calendar
+In Periodic Notes enable only weekly and monthly notes, turn off daily reminders
+Fix review time to Sunday night, click that slot on the calendar to start
 ```
 
-## 61. Can AI dig out hidden relationships between notes? How?
+## 61. Can AI dig out hidden relations between notes, and how?
 
-It can, and this is where AI beats people. Hidden relationships hide in semantics: you did not notice two notes were related while recording them, and AI reading the whole vault can compare, say a project pitfall from six months ago against a similar problem in another project last month.
+Yes, and this is where AI beats people. Hidden relations live in semantics; you did not realize two notes were related when you wrote them, but AI reading the whole vault can match them, like a pit from a project half a year ago and a similar problem in another project last month.
 
-Someone used this to discover they had written the same lesson into project reviews three years running, treating it as a new problem every time. Accuracy depends entirely on how tightly you constrain the instruction: give a time range, require paired note names as output, and demand one sentence of relationship judgment per pair. Leave the range open and you get a pile of "both relate to productivity" filler. Review the pairs yourself, and when you accept one, add the link so the next retrieval uses it. Same premise as always: the notes need real content, an empty vault yields nothing.
+How accurate the dig is depends entirely on how tightly the instruction is bounded: give a time range, require paired note names, and attach one relation judgment per pair. Without bounds it only gives you empty talk like "both about efficiency". You review the pairs it digs out, and when you accept one, add a link, which immediately helps next retrieval. The premise holds: notes must have real content; an empty vault yields nothing. Each week, have AI scan recently created and modified notes for strong relations not yet made explicit; people are lazy to do this, AI can.
 
 Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections
 
-Copy-paste template (use directly):
+Copy-paste template:
 
 ```
-# Hidden relationship mining (time range + paired output + relationship judgment)
+# Hidden-relation mining (bound time range + paired output + relation judgment)
 Look only at notes I created between 2025-01-01 and 2026-08-01.
-Find 10 pairs of notes that are clearly related in content but currently have no link between them.
-Output in this format:
+Find 10 pairs of notes that are clearly related but currently have no link, output in this format:
 
-[[Note A]] <-> [[Note B]]
-Relationship: one sentence on why they relate, chosen from:
-      same pitfall / mutually confirming / the later one overturns the earlier /
-      same method applied twice / different stages of the same problem
+[[NoteA]] <-> [[NoteB]]
+Relation: one sentence on why, pick from: same pit / confirm each other /
+  later overturns earlier / two applications of one method / two stages of one problem
 
 Requirements:
-1. Only output note names that actually exist in the vault; invent nothing
-2. Be specific; filler like "both relate to productivity" is rejected
-3. Put uncertain pairs in a separate "unsure" section
-4. Finish by telling me which single pair is most worth linking today
+1. Output only note names that really exist in the vault, do not invent
+2. Be specific about the relation, no empty talk like "both about efficiency"
+3. Put uncertain pairs in a separate "unsure" column
+4. At the end tell me: of these 10 pairs, which one most deserves a link today
 ```
 
-## 62. My vault spans years. How does AI understand "me across time"?
+## 62. My vault spans several years, how does AI use Dataview to index "me in time"?
 
-For AI to read time out of a multi-year vault, every note needs a time mark. Name daily notes by day, group periodic notes by week, month, quarter and year, and write the date field clearly in frontmatter, so AI can walk the timeline and pull both ends together for comparison.
+For a multi-year vault to be read in time by AI, every note must carry a time mark, and you use a query like Dataview to pull notes out as a database. Daily notes are named by day, periodic notes grouped by week/month/season/year, and the date field in frontmatter is clear, so AI can pull notes from both ends along the timeline to compare.
 
-Someone fixed four kinds of review notes, weekly, monthly, quarterly and yearly, so AI could look back and plan at different scales, and last year's you and this year's you finally get laid side by side. Ask "how does my view of X differ from two years ago" and this line is exactly what it needs. Keep recording, keep the time marks, and the vault gradually becomes your own time archive. The Dataview query below pulls the last 30 days of daily notes into a list. Install the Dataview plugin before you copy it: without the plugin, pasting it just renders a plain code block and returns nothing.
+The Dataview query below pulls the last 30 days of daily notes into a list; note that you must install the Dataview plugin before copying, otherwise pasting it only shows as a plain code block and runs nothing. Fix four review notes per week/month/season/year, and AI reviews and plans at different scales, so last year's you and this year's you are laid side by side. When you ask "how did my view on X two years ago differ from now", it needs exactly that line. Keep writing and add time marks, and the vault slowly becomes your own archive in time.
 
-Resource: Dataview https://community.obsidian.md/plugins/dataview · Periodic Notes https://community.obsidian.md/plugins/periodic-notes
+Resource: Dataview https://community.obsidian.md/plugins/dataview · Dataview example vault https://github.com/s-blu/obsidian_dataview_example_vault
 
-Copy-paste template (use directly):
+Copy-paste template:
 
 ```
-# Install and enable the Dataview plugin first, or this renders as a plain code block
-# Usage: create a code block, tag the language as dataview, put these three lines inside
+# Install and enable the Dataview plugin first, otherwise it only shows as a plain code block
+# Usage: create a code block, label the language as dataview, put these three lines in
 LIST FROM #diary
 WHERE file.cday >= date(today) - dur(30 days)
 SORT file.cday DESC
@@ -374,48 +431,76 @@ date: 2026-08-10
 tags: [diary]
 ---
 
-# Cross-time comparison (copy to your AI)
-Walk the timeline and find my notes about [topic] from 2024 and from 2026,
-list 3 from each side, and tell me which part of my view changed and which part did not.
+# Cross-time comparison (copy and ask AI)
+Along the timeline, find my notes on [topic] from 2024 and 2026,
+list 3 from each side, and state where my view changed and where it did not.
 ```
 
-## 63. Letting AI be my "second brain", how do I prevent cognitive atrophy?
+## 63. How do I use daily notes to string scattered notes into "me in time"?
 
-Cognitive atrophy happens to the people who use it well. Three risks sit there: memory atrophy, where everything goes into the vault and nothing into your head; absorption atrophy, where you read AI summaries and never the original; and the competence illusion, where having it in the vault feels like understanding it.
+The daily note is the front door of the vault; everything lands in that day's note first, you only capture during the day and make no filing decisions, and process at night. One note per day, timestamped, recording what happened, what you captured, what you decided, and the timeline grows naturally.
 
-Someone retreated from digital tools back to pen and paper to force their own thinking. You do not need to retreat that far. Hold three lines instead: make the key judgments yourself, revisit the original behind an AI summary at least occasionally, and keep one passage you wrote yourself in every note. To judge whether a note passes, look for one sentence only you could have written. The second brain is an add-on, and the thinking part cannot be handed over.
+The concrete practice: mark type: daily and date in the frontmatter of each daily note, and leave blocks for Morning Context, The One Thing, Captures, Decisions Made, End of Day. In the morning, have AI generate a brief from yesterday's open loops and project status and auto-link it in, so context is there the moment you open the note. AI can also read your daily note's Captures in the background, file tasks to project notes, turn ideas into permanent notes, and carry open loops to tomorrow's daily note. Do not ritualize the capture step; leave the structuring to compile, and let the daily note only record honestly.
 
-Resource: Periodic Notes https://community.obsidian.md/plugins/periodic-notes
+Resource: Calendar https://community.obsidian.md/plugins/calendar · Obsidian Daily notes docs https://help.obsidian.md/Daily+notes
 
-Copy-paste template (use directly):
-
-```
-# Three atrophy risks + three defenses
-Risks: ① memory atrophy (store but never retain) ② absorption atrophy (summaries only, never originals) ③ competence illusion (having = understanding)
-Defenses: ① make key judgments yourself ② revisit originals behind AI summaries at least occasionally ③ keep one passage you wrote in every note
-The second brain is an add-on; the thinking part stays yours.
-
-# One slot a day (put it in the daily note template)
-## One thing I figured out myself today
-(No pasting, no AI ghostwriting; one sentence counts)
-```
-
-## 64. AI is not here to remember for you, it is here to help you think. How does that land day to day?
-
-Landing this line depends on a few tiny daily actions, not on one big cleanup. Fix the division of labor first: AI gathers, retrieves and marks sources; you think and write.
-
-When recording, add one line of your own judgment instead of copying only. While writing, let AI surface related old notes and do the connecting and the trade-offs yourself instead of transcribing. When asking AI, require sources and keep the verification step. For weekly reports it drafts, and you fill in the biggest-gain column. Hold that line daily and the vault is an asset, not another warehouse gathering dust.
-
-Resource: Smart Connections https://github.com/brianpetro/obsidian-smart-connections · Periodic Notes https://community.obsidian.md/plugins/periodic-notes
-
-Copy-paste template (use directly):
+Copy-paste template:
 
 ```
-# Five minutes a day: point AI at "helping you think"
-Morning: open today's daily note, write one line about what you figured out yesterday (yourself)
-Midday: for every quick capture, add one line of "why I recorded it" (yourself)
-Evening: copy this to your AI (it gathers, you judge)
-    Find 2-3 groups where what I recorded today relates to older notes in my vault.
-    Give the note names and one sentence of relationship per group, using only notes that exist.
-Weekend: have it draft the weekly report with "biggest gain this week" left empty for you
+---
+type: daily
+date: 2026-08-10
+day: Tuesday
+---
+
+# August 10, 2026
+
+## Morning Context
+[[2026-08-10-morning-brief]]
+
+## The One Thing
+> The single most important outcome for today
+
+## Captures
+* Everything that comes in lands here, no filing decisions during the day *
+
+## Decisions Made
+DECISION:
+CONTEXT:
+REASONING:
+
+## Open Loops
+* Unfinished items to carry forward *
+
+## End of Day
+What happened:
+Carrying forward:
+Tomorrow's One Thing:
+```
+
+## 64. How do I design tags and properties so AI retrieval does not drift?
+
+AI retrieval relies on the structured fields in frontmatter; the taxonomy in your head is something it cannot read. Fix type, status, created, and tags, and Dataview queries and AI filtering have something to grab, otherwise it can only guess from full text.
+
+Make the naming convention "type + status + date + topic", so partial keywords locate any note: you know the type, roughly when it was created, and the topic, and those three pieces make every note findable without navigating folders. Use flat specific tags (like productivity, compounding, knowledge-systems), not deep hierarchies, so AI clustering by tag and filtering by property are both more accurate. Standard metadata (unified tags, dates, project-link format) directly lowers AI retrieval cost. Mark the type clearly in every permanent note's frontmatter, and the model gets the new-page vs. edit-page call right nine times out of ten.
+
+Resource: Obsidian Properties docs https://help.obsidian.md/properties · Templater https://community.obsidian.md/plugins/templater-obsidian
+
+Copy-paste template:
+
+```
+# Property system (carry in every note's frontmatter)
+---
+type: permanent        # permanent / literature / project / decision / daily
+status: active         # active / archived / draft
+created: 2026-08-10
+tags: [productivity, compounding, knowledge-systems]
+---
+
+# Naming convention: type + status + date + topic
+2026-08-10-permanent-obsidian-ai-note.md
+2026-08-10-project-second-brain.md
+
+# Templater binding (auto-fill date and type on new note)
+Settings -> Community plugins -> install Templater -> point Template folder to templates/
 ```
