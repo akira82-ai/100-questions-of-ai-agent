@@ -8,7 +8,7 @@ Worth doing, but do not reverse the order: read through your own notes once firs
 
 Feed one chapter at a time. Paste that chapter's body text in, require it to write questions using only that text, and require a gap table afterwards: which test points you covered at the definition level, which ones you can restate the derivation for, and which are just a heading you copied. That table is worth more than the questions. It tells you which section to fix tonight. Do not throw away the questions you answered. Fold the ones you got wrong back into the original note, and next round they become the new key points.
 
-Someone preparing for a math exam linked formulas and derivations into a web, then had AI write cross-section questions along those links, which lands much closer to a real paper than grinding chapter by chapter. If you do not want to build a vault from scratch, the community has ready student-oriented example vaults; cloning and adapting one beats starting from blank.
+Link formulas and derivations into a web with [[ ]], then have AI write cross-section questions along those links; that lands much closer to a real paper than grinding chapter by chapter. If you do not want to build a vault from scratch, the community has ready student-oriented example vaults; cloning and adapting one beats starting from blank.
 
 ```
 # Generate mock questions from my notes (swap [[Chapter X notes]] for your filename)
@@ -29,7 +29,7 @@ Resource: Obsidian Garden Gallery https://vaults.obsidian-community.com/ · Life
 
 Pick the destination before you start. If you want to review across devices and see forgetting-curve statistics, go to Anki. If you want to stay inside your vault and refuse to open another app, install the Spaced Repetition plugin and mark cards inside the notes. Running both means maintaining two copies. Pick one.
 
-Someone got stuck wanting to card an entire book and finished exactly zero cards. The correct opening is to cut only your weakest chapter, get the import working, then expand. Let AI read the note body, cut it into one question and one answer per card, review once and delete the strained ones, then batch import. For Anki, the thing that matters is a fixed field order of `Front,Back,Tags`. Get the order right and you stop remapping columns every time.
+Do not try to card an entire book at once; that finishes exactly zero cards. Cut only your weakest chapter, get the import working, then expand. Let AI read the note body, cut it into one question and one answer per card, review once and delete the strained ones, then batch import. For Anki, the thing that matters is a fixed field order of `Front,Back,Tags`. Get the order right and you stop remapping columns every time.
 
 The cards come from what you actually wrote, so they test your actual weak points. Do not skip the review pass. A badly cut question stays in the deck and you keep memorizing it wrong.
 
@@ -70,7 +70,7 @@ When you are stuck, make AI retrieve, never let it write the prose. The moment i
 
 The concrete move is a three-column table: usable material, which note it came from, which paragraph of yours it attaches to. Dredge in three groups: settings and scenes you can reuse as is, similar passages you recorded six months ago and have since forgotten, and pairs of records that contradict each other. The third group is the valuable one, because a contradiction is already the seed of a conflict.
 
-Someone writing long-form splits each scene into its own file and uses Longform to order and compile them, so getting stuck on one scene means dredging that scene only instead of the whole vault. Screen what comes up yourself. Using a third of it is usually enough to break the block; the rest stays in the pool.
+When writing long-form, split each scene into its own file and use Longform to order and compile them, so getting stuck on one scene means dredging that scene only instead of the whole vault. Screen what comes up yourself. Using a third of it is usually enough to break the block; the rest stays in the pool.
 
 ```
 # Material dredge when stuck (retrieve only, write nothing)
@@ -118,7 +118,7 @@ A topic drought is usually a retrieval problem. Your vault holds three months of
 
 Frame with the built-in query syntax: `path:` limits the folder, `tag:` limits the theme, and a leading minus excludes. One query pulls three months of daily notes clean. Paste the results in and require every topic to merge at least two fragments, dropping anything a single fragment cannot carry. That one rule kills eighty percent of the filler.
 
-Someone keeps the habit of picking five or six writable topics from the list and parking the rest in a topic pool to rescan next month. The selection criterion is material depth, not how good the headline sounds.
+Pick five or six writable topics from the list and park the rest in a topic pool to rescan next month. The selection criterion is material depth, not how good the headline sounds.
 
 ```
 # Step one: frame the range in the Obsidian search bar (paste directly)
@@ -182,7 +182,7 @@ Resource: Zotero Integration https://community.obsidian.md/plugins/obsidian-zote
 
 Confidential or unpublished literature goes to a local model only. There is no middle option here. If the hardware cannot keep up, drop to a smaller model, not to the cloud. Slow still finishes; one leak never comes back.
 
-Someone assumed that typing a localhost address into settings settled the matter, without ever checking whether traffic left the machine. After pulling the model and pointing the plugin at the local endpoint, run an offline test: turn off Wi-Fi and ask again. A normal answer proves the whole path is local. Keep the original confidential files on an encrypted volume, unmount it when done, and let the vault hold only de-identified notes.
+Typing a localhost address into settings does not settle the matter; most leaks happen because nobody checked whether traffic left the machine. After pulling the model and pointing the plugin at the local endpoint, run an offline test: turn off Wi-Fi and ask again. A normal answer proves the whole path is local. Keep the original confidential files on an encrypted volume, unmount it when done, and let the vault hold only de-identified notes.
 
 A 7B-class model is enough for summarizing, extracting claims, and spotting contradictions. Move up only when you need reasoning across a long document, and expect the wait to grow noticeably.
 
@@ -252,7 +252,7 @@ Resource: Tasks https://community.obsidian.md/plugins/obsidian-tasks-plugin
 
 Past a certain client count, hunting through folders always loses. Switch to semantic surfacing: while you write a proposal for client A, the sidebar lists the A preferences you recorded, the pitfall from last time, and the playbook from a similar project.
 
-Someone installed the plugin, found the surfacing inaccurate, and the cause was almost entirely in the notes. Vector retrieval eats text, and a client note containing one line saying "follow up next week" gives it nothing to work with. The fix is two or three plain sentences of summary at the top of each client note covering industry, need, and current stage; surfacing quality changes immediately. Manually linking one similar project for a new client gives it a starting point.
+If the surfacing comes back inaccurate, the cause is almost entirely in the notes. Vector retrieval eats text, and a client note containing one line saying "follow up next week" gives it nothing to work with. The fix is two or three plain sentences of summary at the top of each client note covering industry, need, and current stage; surfacing quality changes immediately. Manually linking one similar project for a new client gives it a starting point.
 
 Do not skip the "their exact words" section in the template. Original phrasing is the best retrieval anchor, and paraphrasing strips out the very keywords that would have matched.
 
@@ -361,7 +361,7 @@ Remembering the review in December is already too late. The quality of an annual
 
 Get weekly notes running with the periodic notes plugin, on a fixed four-section template: what I finished, biggest gain, what went badly, top three for next week. Force the gain section to state why it counts as a gain, or a year later you will not decode what you meant. In December paste all 52 weekly notes in at once and require four things per quarter, each citing a specific date: what you actually finished (only with an artifact), the same problem you kept stalling on (listed only if it appears three or more times), how your focus migrated, and what you said you would do and never touched.
 
-Someone dreads the fourth item most, which is exactly why it is the useful one. Explicitly forbid conclusions like "you grew". Facts and dates only; the conclusion is yours.
+The fourth item, what you said you would do and never touched, is the most useful one, which is exactly why it gets skipped. Explicitly forbid conclusions like "you grew". Facts and dates only; the conclusion is yours.
 
 ```
 ## What I finished this week
