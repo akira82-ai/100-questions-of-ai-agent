@@ -23,3 +23,11 @@
 
 # 中文书本地管理(不提交,仅本地)
 zh/
+
+# 项目辅助设计稿 / 提示词模板(本地素材,不入库)
+100问系列-skill设计稿.md
+100问系列-内容创作流水线.md
+x-comment-prompt.md
+ai-leishu-template-breakdown.svg
+ai-leishu-template-checklist.svg
+ai-leishu-template-compare.svg
