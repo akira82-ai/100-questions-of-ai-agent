@@ -244,7 +244,7 @@ Resource: Vault Physician https://github.com/tejnaren07/vault-physician · Obsid
 
 You can leave anytime, as long as your body text has not been captured by plugin syntax. A direct self-test: disable every community plugin, restart, and open ten notes at random. If the screen fills with code blocks and fields that no longer render, that content is now tied to a plugin.
 
-Count before you move. Dataview blocks, tasks markers, and excalidraw files all degrade into raw text in another editor. If there are only a few, rewrite them as static content by hand. If there are many, gather them into one folder and deal with them separately at migration time so they stay out of your body text. A user running a vault of forty thousand files migrated by copying the folder to a new machine, which shows local Markdown portability holds at that scale.
+Count before you move. Dataview blocks, tasks markers, and excalidraw files all degrade into raw text in another editor. If there are only a few, rewrite them as static content by hand. If there are many, gather them into one folder and deal with them separately at migration time so they stay out of your body text. A vault of forty thousand files migrated by copying the folder to a new machine, which shows local Markdown portability holds at that scale.
 
 The move itself is two things: copy the whole folder, and copy the attachment folder with it. Wiki-style links work as-is in any editor that supports them, and for editors that do not, one command converts them to standard Markdown links. Run that conversion on the backup copy first.
 
