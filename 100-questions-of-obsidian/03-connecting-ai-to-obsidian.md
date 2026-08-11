@@ -1,10 +1,10 @@
 # Chapter 3 · Connecting AI to Obsidian: the minimum path, don't quit over config
 
-Many people get stuck at connecting AI: afraid of installing plugins, afraid of configuring models, afraid of privacy problems. This chapter breaks those stuck points and hands you one minimum viable path: local when you can, guardrails when you go cloud. Config is only the means; getting AI to actually read your notes is the point. It reads your own accumulation, and how reliable the answers are depends on how solid that root is.
+The step that trips people up most is config and privacy. This chapter hands you one minimum path: local when you can, guardrails when you go cloud. Config is only the means; getting AI to actually read your notes is the point. It reads your own accumulation, and how reliable the answers are comes down to how solid that pile of notes is.
 
 ## 31. First time connecting AI to Obsidian, is installing just one plugin enough? Which one?
 
-Yes, one is enough. Install Copilot. It chats inside Obsidian, answers from your notes, and rewrites whatever text you select. Three steps today: Settings → Community plugins → Browse → search Copilot → install and enable, then open any note, select a passage and ask it something. If the answer comes out of your own note, it works.
+Yes, one is enough. Install Copilot. It chats inside Obsidian, answers from your notes, and rewrites whatever text you select. Three steps today get it running: Settings → Community plugins → Browse → search Copilot → install and enable, then open any note, select a passage and ask it something. If the answer comes out of your own note, it works.
 
 If installing plugins feels like too much, there is a zero-plugin path: paste the full file path of a note to a desktop AI, and it locates that file and rewrites it directly. Same feel of AI reading your notes, nothing installed.
 
@@ -29,9 +29,9 @@ Resource: Copilot https://community.obsidian.md/plugins/copilot · Dataview http
 
 ## 32. Can I play without an API key? How to start local models at zero cost
 
-You can, and it costs nothing. Running an open-source model locally needs no platform registration and no key, and the data never leaves your computer. Install Ollama, type two lines, you have output. The cost is your own hardware and slower answers, and for personal note Q&A that gap does not matter.
+You can, and it costs nothing. Running an open-source model locally needs no platform registration and no key, and the data never leaves your computer, so privacy is settled. Install Ollama, type two lines, you have output. The cost is your own hardware and slower answers; for short note Q&A that gap is a few seconds, no big deal. On desktop the whole thing runs in a few minutes, so take the local path first to learn what AI-reading-notes feels like, then pay for cloud once speed starts bothering you.
 
-Someone pushed it through on a phone CPU and still got it working, roughly 10 tok/s, slow but usable; desktop is far more comfortable. Use the local path first to learn what AI-reading-notes actually feels like, then pay for cloud once speed starts bothering you. Installation details are in the next question.
+For memory-tight machines, confirm available memory before picking a model tier, do not force a big one (see Q37). On Android, Termux plus Ollama also runs small models at about 10 tok/s, slow but usable; the phone setup is in Q45.
 
 Copy-paste template (use directly):
 
@@ -49,23 +49,21 @@ Requires: Ollama and the Copilot plugin
 
 Resource: Ollama https://ollama.com/
 
-## 33. Copilot, Smart Connections, ObsidianRAG, how to choose without agonizing?
+## 33. Copilot, Smart Connections, how to choose without agonizing?
 
-Choose by the one thing you want most and you can decide in thirty seconds. Want to chat inside Obsidian, rewrite selected text, ask questions against your notes: Copilot. Want AI to recognize your vault on its own and surface related old notes while you write: Smart Connections, which embeds your notes so older ones float up mid-sentence. Want fully local RAG Q&A with no dependence on a chat interface: self-host Khoj, or turn on Copilot's Vault QA mode against local Ollama, same tier of result.
-
-Names like ObsidianRAG show up in the same conversations; they all do the same job, local retrieval plus a local model. Judge them on one metric only: any updates in the last six months. Skip anything unmaintained.
+Choose by the one thing you want most and you can decide in thirty seconds. Want to chat inside Obsidian, rewrite selected text, ask questions against your notes: Copilot. Want AI to recognize your vault on its own and surface related old notes while you write: Smart Connections, which embeds your notes so older ones float up mid-sentence. Want fully local RAG Q&A with no dependence on a chat interface: turn on Copilot's Vault QA mode against local Ollama, same tier of result.
 
 There is also a path with no plugin at all: give a desktop AI read access to the vault folder, it builds its own index and can read and edit. To change a single note, pasting that file's full path is enough.
 
 Installing all three at once is where the stuck begins. Install the one that fits today, use it for two solid weeks, then decide about a second.
 
-Resource: Copilot https://community.obsidian.md/plugins/copilot · Smart Connections https://github.com/brianpetro/obsidian-smart-connections · Khoj https://community.obsidian.md/plugins/khoj · ChatGPT https://chat.openai.com · Gemini https://gemini.google.com
+Resource: Copilot https://community.obsidian.md/plugins/copilot · Smart Connections https://github.com/brianpetro/obsidian-smart-connections · ChatGPT https://chat.openai.com · Gemini https://gemini.google.com
 
 ## 34. Afraid of API key leakage, how to open an account most safely?
 
-The worry is correct, and the rule is absolute: a key never goes into the body of a note, and never into Git, private repos included, because commit history keeps it around. Do three things the day you open the account. Use a dedicated email to open a sub-account for the key, never your main mailbox. The moment the key is generated, store it in a password manager. Set a spend cap and an expiry date on that key in the provider console.
+The worry is right, so set one hard rule first: a key never goes into the body of a note, and never into Git, private repos included, because commit history keeps it around. Do three things the day you open the account. Use a dedicated email to open a sub-account for the key, never your main mailbox. The moment the key is generated, store it in a password manager. Set a spend cap and an expiry date on that key in the provider console.
 
-Rotation follows a fixed order, new key first, old key last, so service never drops. Step one: generate a new key in the provider console and paste it only into your password manager. Step two: back in Obsidian, Settings → Community plugins → Copilot → Options → API Key, clear the old value by hand, paste the new one, save, and ask any question to confirm it still answers. Step three: return to the provider console and hit Revoke on the old key. Run these three steps immediately when any of these hits: the key is 90 days old, you changed machines, the key appeared in a screenshot or recording, or your bill shows calls you did not make.
+Rotation follows a fixed order, new key first, old key last, so service never drops. First generate a new key in the provider console and paste it only into your password manager. Then back in Obsidian, Settings → Community plugins → Copilot → Options → API Key, clear the old value by hand, paste the new one, save, and ask any question to confirm it still answers. Finally return to the provider console and hit Revoke on the old key. Run these three steps immediately when any of these hits: the key is 90 days old, you changed machines, the key appeared in a screenshot or recording, or your bill shows calls you did not make.
 
 Copy-paste template (use directly):
 
@@ -86,9 +84,9 @@ Resource: 1Password https://1password.com/ · Bitwarden https://bitwarden.com/
 
 ## 35. How to install a local model (Ollama), minimum steps to run in half an hour
 
-Half an hour is plenty, four steps total: install Ollama from the site, pull a lightweight model with `ollama pull qwen2.5:7b`, go to Settings → Community plugins → Copilot → Options and fill Base URL `http://localhost:11434/v1` and Model `qwen2.5:7b`, then open today's diary and ask "which to-dos did I mention in this note".
+Half an hour is plenty, four steps total: install Ollama from the site, pull a lightweight model with `ollama pull qwen2.5:7b`, go to Settings → Community plugins → Copilot → Options and fill Base URL `http://localhost:11434/v1` and Model `qwen2.5:7b`, then open today's diary and ask "which to-dos did I mention in this note". Once `curl http://localhost:11434/v1/models` returns a model list, the service is up.
 
-Copy the model name character for character; one missing character in the tag after the colon breaks the connection, and that is where beginners stall most. Someone measured this on a 16GB Mac: the system plus a browser leaves seven or eight GB, so 7B to 8B is what actually runs comfortably, and claims that 16G handles 13B are not worth believing. For a Chinese vault, swap the embedding before you start using it, see the next question.
+Copy the model name character for character; one missing character in the tag after the colon breaks the connection, and that is where beginners stall most. On a 16GB Mac the system plus a browser leaves seven or eight GB, so 7B to 8B is what actually runs comfortably, and claims that 16G handles 13B are not worth believing. For a Chinese vault, swap the embedding before you start using it, see the next question.
 
 Copy-paste template (use directly):
 
@@ -113,7 +111,7 @@ Resource: Ollama https://ollama.com/ · Copilot https://community.obsidian.md/pl
 
 ## 36. Chinese vault with default model fails, how to swap embedding and chat model?
 
-The default embedding is trained on English and cannot hold Chinese semantics; someone tested it and two notes that clearly mean the same thing never matched each other. Two swaps fix it: chat model to the qwen series, embedding to bge-m3, built for Chinese, 1024 dimensions, the balance point between quality and index size.
+The default embedding is trained on English and cannot hold Chinese semantics; two notes that clearly mean the same thing never match each other. Two swaps fix it: chat model to the qwen series, embedding to bge-m3, built for Chinese, 1024 dimensions, the balance point between quality and index size. bge-m3 is the most widely used Chinese embedding, available from both Ollama and SiliconFlow. A Chinese vault stuck at 0% indexing is usually this swap not done.
 
 Swapping the embedding triggers a full re-index: a few minutes for a few hundred notes, half an hour for a thousand. Do not do it on deadline day. When it finishes, search a synonym pair once each; if they recall each other, the swap worked.
 
@@ -168,7 +166,7 @@ Resource: Ollama https://ollama.com/ · Various Complements https://community.ob
 
 Turn on the vault-based switch; that is the one step that matters. There is a mode dropdown at the top of the Copilot chat pane, so set it to Vault QA before asking. It retrieves your notes first and organizes the answer around them, with training knowledge as backup only. Then add a hard requirement in the prompt: answer only from my notes, tag every conclusion with its source filename, and say so plainly when the vault has nothing.
 
-Someone had AI dig out a conclusion they wrote three months earlier and set it against today's thinking; that kind of answer holds up. The acceptance test is simple: an answer with zero filenames in it is made up, so restate the requirement and ask again.
+An answer that can cite a real filename and pull up a three-month-old note against today's thinking holds up. Acceptance comes down to one check: an answer with zero filenames in it is made up, so restate the requirement and ask again.
 
 Copy-paste template (use directly):
 
@@ -189,7 +187,7 @@ Resource: Copilot https://community.obsidian.md/plugins/copilot
 
 Do not open with something an encyclopedia could answer. Ask what only your vault can answer. The most reliable opener: open today's diary and ask "which to-dos did I mention in this note, ordered by urgency". The moment it pulls the answer out of your own words, the feel arrives. If the diary habit has not formed yet, install Periodic Notes plus Calendar so one click on the date gives you that day's note, and AI has something to read.
 
-Someone writing with Smart Connections had a three-month-old note surface on its own, and "it actually remembers" is the moment that lands hardest. On your first connection, run the five questions below in order; ten minutes tells you whether the setup is worth keeping.
+On your first connection, run the five questions below in order; ten minutes tells you whether the setup is worth keeping.
 
 Copy-paste template (use directly):
 
@@ -244,7 +242,7 @@ Skip the either-or, configure both sides, and cut by content sensitivity. Switch
 | Ease of setup | Install Ollama, pull a model, fill the endpoint, half an hour | Get a key, paste it, five minutes |
 | Best for | Diary, client materials, unpublished drafts, finances and credentials | Public study notes, technical docs, long-form rewriting and translation |
 
-Conclusion: if this content leaking would hurt, keep it local; if it would not, send it to the cloud and take the quality and speed. When unsure, go local, because regret costs far more than a few slow seconds. Before sending anything to the cloud, strip real names, company names, amounts, and contact details by hand. For borderline cases like meeting notes, anything touching personnel, compensation, or unannounced decisions goes local, the rest goes cloud.
+If this content leaking would hurt, keep it local; if it would not, send it to the cloud and take the quality and speed. When unsure, go local, because regret costs far more than a few slow seconds. Before sending anything to the cloud, strip real names, company names, amounts, and contact details by hand. For borderline cases like meeting notes, anything touching personnel, compensation, or unannounced decisions goes local, the rest goes cloud.
 
 Resource: Ollama https://ollama.com/ · Copilot https://community.obsidian.md/plugins/copilot
 
@@ -297,7 +295,7 @@ Resource: Copilot https://community.obsidian.md/plugins/copilot · Smart Connect
 
 One rule: a specific pain point first, a plugin second, no stocking up in advance. At the AI-connecting stage two are enough, one for chatting, Copilot, and one to make AI recognize your vault, Smart Connections. Before the vault passes a hundred pages, Dataview and Templater can wait; install them when something actually blocks you, because by then you also know what you want from them.
 
-Someone timed startup plugin by plugin with a stopwatch, and the worst offenders were the ones they had long forgotten installing. Clean house once a quarter with the routine below; five minutes usually cuts the list in half. Fewer plugins means a lighter vault and faster startup, which makes writing easier to keep up.
+The worst offenders are usually the plugins you forgot you installed. Clean house once a quarter with the routine below; five minutes usually cuts the list in half. Fewer plugins means a lighter vault and faster startup, which makes writing easier to keep up.
 
 Copy-paste template (use directly):
 
@@ -319,7 +317,7 @@ Resource: Copilot https://community.obsidian.md/plugins/copilot · Smart Connect
 
 Set the guardrails before connecting AI; the other order comes too late. First, isolate private content: diary and client materials either go through a local model only, or get encrypted with Cryptomator before storage, and never sit in a folder AI can index. Second, review incoming content by hand: whatever AI generates or the web hands you gets one look from you before it enters the vault, with auto-import off. Third, shrink the outbound channel: keys only to the tool that needs them and rotated on schedule, plugins kept to the smallest set.
 
-Someone breaks the risk into two conditions stacking, untrusted content plus an outbound channel, and real damage needs both at once, so cutting either one buys you a lot of safety. Three tiers of folder permission is the least effortful cut; copy the structure below.
+The risk splits into two conditions stacking: untrusted content plus an outbound channel, and real damage needs both at once, so cutting either one buys you a lot of safety. Three tiers of folder permission is the least effortful cut; copy the structure below.
 
 Copy-paste template (use directly):
 
@@ -342,7 +340,7 @@ Resource: Cryptomator https://cryptomator.org/
 
 ## 45. Can I run local AI on my phone, or is it only a sync endpoint?
 
-It can run, but decide whether it is worth it first. Someone got small models working on Android through Termux and Ollama, CPU only at about 10 tok/s, with Obsidian mobile connecting once Base URL is set to `http://localhost:11434/v1`. The cost is that the system killing the background kills the connection, so termux-wake-lock has to hold it, and your Android version and network config decide whether localhost is even reachable.
+It can run, but decide whether it is worth it first. On Android, Termux plus Ollama runs small models, CPU only at about 10 tok/s, and Obsidian mobile connects once Base URL is set to `http://localhost:11434/v1`. The cost is that the system killing the background kills the connection, so termux-wake-lock has to hold it, and your Android version and network config decide whether localhost is even reachable.
 
 The easier division of labor: the computer runs the local model, the phone stays a sync and capture endpoint, and questions on the go go to the machine at home. If you genuinely need offline AI on the phone, accept the slowness and the fiddling, run the sequence below, and stop at whichever step blocks you.
 
@@ -397,4 +395,3 @@ cp -r .obsidian/plugins/copilot .obsidian/plugins/copilot.bak-20260105
 Requires: the Copilot plugin
 
 Resource: Copilot https://community.obsidian.md/plugins/copilot · Smart Connections https://github.com/brianpetro/obsidian-smart-connections
-
