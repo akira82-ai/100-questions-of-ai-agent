@@ -1,125 +1,151 @@
 # Chapter 2 · Practical Daily-Note Tactics
 
-You have probably taken hundreds of notes, but when you really need them not one can be retrieved. This chapter is not about AI; it explains the act of taking notes thoroughly. Only then can AI read your vault, and the premise is that the notes themselves have structure, not a pile of copy-pasted fragments. What you record has structure and connections, so that what AI answers based on it later is rooted.
+This chapter is not about AI. Get the act of note-taking right first, and AI will have something worth reading later.
+
+Eight hundred notes and you cannot pull one out when you need it. The count is rarely the problem. Most of what you stored was the kind of thing that loses value the moment it is written down, links were added densely and without reason, the same concept carries three different tag spellings, and attachments are scattered all over the vault. None of these is fatal on its own. Pile them up and the vault starts to rot, and the rot is not located in any single badly written note, it sits in the shape of the whole graph.
+
+The sixteen questions ahead run from how to capture, how to link, how to tag, how to name, all the way to how to pull a scattered old library back into one place. Every one of them is something you can act on.
 
 ## 15. I took 800 notes and never use them. What counts as "usable"?
 
-Someone reviewing their note library found the most valuable part was the casual fragments jotted down, not the elaborate structure built later.
+You never use them because most of what you stored depreciates the moment you write it. Tool commands, concept explanations, software tutorials: AI can produce a more complete list of those in three seconds, so eight hundred of them are worth close to nothing. What survives is judgment, knowing when to act, when not to, and what signal means it is time to switch routes. That layer cannot be copied out of you, and it gets more valuable the more times you practice.
 
-Judgment: Taking notes without using them, the problem is how you take them, not how many. Storing without processing, the things piled in your inbox slowly lose value, and before long you cannot even be bothered to open them. A truly usable way to take notes is each one carries a bit of your own processing: why you noted it, what it relates to among what you already know.
+So change what you write. Once a week pick one thing and answer a single question: which call did I make this week that AI could not have made. Length does not matter, three hundred words is plenty, but it has to be a real decision, spelling out why you took A and not B at that moment. Fifty of those in a year is your moat.
 
-Action: Drop real ideas into your inbox every day. When you take a note, write one extra sentence such as "this relates to that project of mine," so AI has a thread to connect when it reads here later.
+There is a cheaper habit too. Do not count on scheduled review. Sitting down to reread on a timetable rarely lands, because you are not in the state that made the note relevant, and when you actually are in that state the note never comes to mind. What works is topping up: every time you open an old note for real use, add one new thing to it. Recording facts and information is mostly hoarding. The payoff comes from writing a note and from revisiting it, and nothing in between.
 
-Resource: QuickAdd https://community.obsidian.md/plugins/quickadd
+Resource: Obsidian Help https://help.obsidian.md/
 
 ## 16. Others link like crazy, but when I link it gets messier. Where is the problem?
 
-Judgment: The problem is not the links themselves, but how you link. Links are for things used from different angles, like a concept that connects both to this reading note and to that project.
+It gets messier because there was no relationship there in the first place. The autocomplete popped up and you hit Tab. Trying to thematically tag every note and cross-link every note to every other note is the classic first impulse in Obsidian, and it is the single biggest mistake.
 
-Someone installed a plugin that auto-completes links, which smartly suggests vault titles while typing, and ended up linking unrelated notes on impulse, the noise in the vault growing.
+Check that the relationship exists before you link. Source, extension, belongs to the same project, supports the other, contradicts the other: those are worth a link. A link added so the graph looks fuller just guarantees that jumping out of any node lands you somewhere irrelevant. Do not take the graph view too seriously either. Past a few thousand notes it delivers awe more than navigation, and what you use daily is search plus backlinks.
 
-Action: Before linking, ask: will I jump from the same note to both of these later? If yes, link. Link few but accurate, better than many but messy.
+The autocomplete plugin is fine, its default settings are not. Set the match strategy to prefix and the minimum trigger length to two or three characters so it stops firing on every keystroke. It only gets genuinely good past a hundred notes, when you want to link a concept but cannot recall the exact title. Also put aliases to work: list every way you say the same concept in the aliases field, and typing two brackets will surface the synonyms as well. That beats bolting on a pile of links.
 
 Resource: Various Complements https://community.obsidian.md/plugins/various-complements
 
 ## 17. What is an MOC, and why is it better suited to the AI era than folders?
 
-Judgment: MOC is Map of Content, a directory page that gathers same-topic notes. Say you have a writing topic; build an MOC and list the related reading notes, project reviews, and inspirations all with links.
+An MOC is a Map of Content, a note that does nothing but index. It carries almost no body text, it just lists the other notes on a topic in some structure and becomes the entrance to that topic. Add a Home note listing every MOC and you have a map of maps.
 
-Folders suit clear-boundary things that will not belong to A today and B tomorrow; MOCs suit content that crosses over repeatedly, they do not move files, only surface the relationships. When AI reads your vault, the MOC is ready-made navigation, telling it which notes are a group, more efficient than digging through folders layer by layer. One MOC is a map, saving both you and the AI that will read your vault later.
+Folders are strictly hierarchical, a note lives in exactly one of them, and once the nesting gets deep it builds walls between ideas. An MOC moves no files, it only exposes relationships, so the same note can hang under three maps at once. Vault size stops mattering: from any topic MOC you can locate what you want, and a new note belongs somewhere as soon as one map references it. In the graph an MOC is a dense node, a natural hub, and AI walking through it beats digging down folder by folder.
 
-Someone switched from pursuing a perfect folder tree to using MOCs to gather same-topic notes, and felt relieved.
+To make it actually run you need one rule: every new note links back to at least one MOC. Leave an empty MoC property in your new-note template and fill it as you create. Do not hand-copy the list inside the map either. One Dataview query pulls in every note that links back to the map without linking out itself.
 
 Copy-paste template (use directly):
 
 ```
-# An MOC skeleton (copy and fill)
-# Writing Topic MOC
-- [[Reading Note: Book Title]]
-- [[Project Review: XX]]
-- [[Inspiration: XX]]
-## Resources
-- [[Related Concept A]]
-- [[Related Concept B]]
+# Python Learning Map
+## Basics
+- [[Variables and Data Types]]
+- [[Functions]]
+## Web Frameworks
+- [[Getting Started with FastAPI]]
 ```
 
-Resource: LYT Kit https://github.com/nickmilo/LYT-Kit-in-Mandarin
+Drop this query into the MOC note to auto-collect backlinks:
+
+```dataview
+list from [[]] and !outgoing([[]])
+sort file.name asc
+```
+
+Resource: Dataview https://community.obsidian.md/plugins/dataview
 
 ## 18. How do I tag without abusing it? Three counter-examples
 
-Judgment: Too many tags equals no tags; searching returns a pile of same-named tags and it gets messier. Three common counter-examples: one, emotional tags like important, to-read, where everyone is important means nothing is marked; two, dating by tags, which should go to the filename not tags; three, five or six tags per note, so the same concept scatters across a dozen tags.
+Three counter-examples, straight up. First, one concept spelled three ways: advml, AdvML, advanced-machine-learning each stored separately, aggregating to nothing at search time. Second, the tag used exactly once, never picked up by a second note, pure noise. Third, five or six tags per note, tag count explodes, and one topic ends up smeared across a dozen words.
 
-Someone uses Dataview to query notes as a database, on the premise that tags are clean. The right approach is tags represent a stable category, like reading notes, projects, not one-off states. Few but accurate tags, AI and you can search with the same vocabulary, later querying all reading notes in one sentence, no missing due to tag sprawl.
+Tags that hold up mark categories. Person, paper, talk, concept, tool, project: things you can classify at a glance. Keep fields of study and specific subjects out of tags, that is the job of notes. Dates do not belong in tags either, filenames handle those. You can also push tags down to the bare minimum, reserving them for a few specific Dataview queries and using nothing elsewhere, which stays remarkably clean.
+
+Sprawl is fixable. Merge the near-duplicates first, normalize the casing and hyphenation to one spelling, delete anything used only once. Few and accurate tags mean you and AI search with the same vocabulary, so pulling up every reading note takes one line and nothing gets missed over a spelling mismatch.
 
 Resource: Dataview https://community.obsidian.md/plugins/dataview
 
 ## 19. Should I learn templates (Templater)? Just copy these 3 and you are set
 
-Judgment: Hearing "template engine" gives you a headache, feels Geek-only. Actually a plugin like Templater, a beginner just needs to copy the three most common templates, no need to understand the principle.
+Yes, but stop at the point where you can copy one. You never need the engine internals. Templater beats the core template plugin because it auto-fills the current date, the note title, the weekday, and can even pop up a picker.
 
-Action: Three templates, copy and use. One is a diary template, auto-filling today's date and weekday on new note; one is a reading-note template, fixing columns of one-sentence summary, core viewpoint, inspiration and action, so every book follows this; one is a meeting-notes template, auto-splitting attendees, topics, action items. Install Templater first, set the template folder, copy these three in, and daily recording is immediately tidy.
+Do the config once. After installing, open settings, fill Template folder location in Templater with a folder name such as Templates, and put every template file in there. From then on, create a note, hit Ctrl/Cmd+P, search Templater: Insert template, pick one, and the content drops in with the date replaced by today.
 
-If you do not even want to write these three from scratch, the community has free MIT-licensed diary and GTD templates on Vaultorial, and awesome-obsidian collects starter vaults like PARA Starter Kit and LYT Kit; copying and adapting is faster than writing from a blank YAML.
-
-Resource: Templater https://community.obsidian.md/plugins/templater-obsidian · Vaultorial https://vaultorial.com · awesome-obsidian https://github.com/kmaasrud/awesome-obsidian
+Three templates cover you. A diary template that carries today's date and weekday plus three sections for what happened, what I learned, what to do tomorrow. A reading-note template with frontmatter on top and a fixed body of one-sentence summary, core viewpoint, inspiration and action, golden quotes. A meeting template splitting attendees, topics, discussion and conclusion, action items. Add the rest when you need them. Build a template once a note type keeps recurring, reach for a plugin once a manual action keeps recurring, and do not take on maintenance for a habit that has not formed yet.
 
 Copy-paste template (use directly):
 
 ```
 # <% tp.date.now("YYYY-MM-DD") %> Diary
+
 > Today is <% tp.date.now("dddd") %>.
+
 ## What happened today
+
 ## What I learned today
+
 ## What to do tomorrow
+
 - [ ]
 ```
 
-Config: Settings → Templater → Template folder location fill "Templates"; after creating a note press Ctrl/Cmd+P → Templater: Insert template.
+Resource: Templater https://community.obsidian.md/plugins/templater-obsidian
 
 ## 20. How long should one note be? Too long and AI cannot read it either?
 
-Judgment: How long a note should be depends on whether it covers one thing or several. One note one concept is most stable, like a knowledge card explaining one concept in plain language plus an example plus related concepts. This way when AI reads, the granularity is fine and it can quote precisely, not lost in a five-thousand-word mishmash.
+There is no target length, it depends on whether the note covers one thing or several. In practice most notes stay very short, a few sentences and one figure, and their main job is to be indexed into the vault so other notes can link in. Only the handful that touch your current work deserve length, and those can run several pages.
 
-Action (the rule in one sentence): one note covers one main proposition, stop when done. Too long and AI cannot read it either, and you yourself may not want to revisit. Short but accurate notes are the good raw material of the AI era.
+One idea per note is the safest default. Write a concept card in three moves: explain it in plain language, give one example, list a few related concepts and link out. If you can explain it simply you understood it, and if you cannot, go learn it again. Restate everything in your own words, because a note that copies the original verbatim is worth zero.
 
-Resource: awesome-obsidian https://github.com/kmaasrud/awesome-obsidian
+Do not swing to the other extreme either. Spinning up a mini note for every obscure corner concept is just as pointless. When in doubt do not agonize, wait until a note is visibly bloated and then split it. Once your vault has structure, merging and splitting are quick, you walk the backlinks and fix a few links. Fine granularity pays off because AI can quote precisely instead of losing the thread inside a five-thousand-word grab bag.
+
+Resource: Obsidian Help https://help.obsidian.md/
 
 ## 21. How do I turn links into an AI-usable "knowledge graph" instead of noise?
 
-Judgment: Linked right, AI reads your vault like walking a map; linked wrong, it is scattered fragments. The key is linking with reason. Impulsively added links should be down-weighted, truly repeatedly referenced ones promoted; links you carefully made often represent real relationships, AI following them can dig out hidden connections; randomly linked ones turn the graph into noise.
+Type your links, and only then is it a graph. A plain wikilink says two notes are related but not how. Write fields like hasTopic, isA, subset, author, project into frontmatter and the link carries semantics, so AI following it knows what it is walking.
 
-Action: Auto-complete plugins easily make people link unrelated notes on impulse, and the vault gets messier with use. So think clearly about the relationship before linking, let links become retrievable real associations, then you see the value when AI uses them.
+Hierarchy rides on the same mechanism. Chain topic notes with subset into a directed graph and one topic can sit under two parents at once. Folders cannot do that, and hierarchical tags cannot either, they only grow into trees. Papers and talks hang off topics with hasTopic, they show up automatically in the topic note's backlinks, and the navigator lets you drill down level by level.
+
+Link density has to be high enough. Every concept you want to mention gets wrapped in brackets, even if that note does not exist yet. A note with zero backlinks may be brilliantly written and is still functionally invisible. Vault rot is rarely about one badly written note, it is a graph problem, and once orphan notes, dead links, and single-use tags accumulate, retrieval starts failing. One aside: suggesting related notes for linking does not require semantic understanding, keyword matching is enough, not everything needs an embedding model.
 
 Copy-paste template (use directly):
 
 ```
-# Ask before linking (careful links promoted, impulsive links down-weighted)
-- Will I jump from the same note to both of these later? Link only if yes
-- Is this link a real relationship, or noise from the auto-complete plugin?
-- Truly repeatedly referenced links get auto-promoted in AI retrieval; impulsive links down-weighted
+---
+aliases: [synonym 1, synonym 2]
+hasTopic: "[[Topic Note]]"
+isA: "[[Parent Concept]]"
+project: "[[Related Project]]"
+---
 ```
 
-Resource: Various Complements https://community.obsidian.md/plugins/various-complements
+Topic notes build hierarchy with subset:
+
+```
+---
+subset: "[[Parent Topic]]"
+---
+```
+
+Resource: Obsidian Help https://help.obsidian.md/
 
 ## 22. Daily stream-of-consciousness logging, how to avoid turning into a junk pile?
 
-Logging a daily stream, piled over time, easily becomes a junk pile, impossible to restart.
+Give the daily note a job and let it be a hub. Name the file after the date, make it your starting page every day, and dump the day's output there first: questions you ask yourself, snippets you looked up, half-formed ideas. Whichever one grows up later gets pulled out into its own note.
 
-Judgment: Stream logging itself is not wrong; the wrong part is leaving it there unmanaged after writing. Give each day a light structure and it is enough: what I did today, what I learned, what to do tomorrow, three columns.
+The move that turns it into a hub is writing dates as links. Process steps, appointments, call logs, whoever you met, wherever you went: bracket any date and it links back to that day's note. The daily note then aggregates everything tied to that day on its own, and the backlink list gives you the thread. Add an alias too. Besides the 2026-05-21 style number, write one phrase capturing the day's theme, and that phrase is how you find it again later.
 
-Someone went through a vault turning to junk and had to start over, then switched to spending a minute each day categorizing the day's records and linking one related old note.
-
-Action: Use a capture plugin to send fragments to a designated note with one click, not letting inspiration scatter. Stream plus a little light processing will not rot at the bottom of the warehouse, and when AI reads here later there is a thread to follow.
+For anything you genuinely cannot place, keep a separate scratch pad for material with no home and no guarantee you will finish it. Push capture friction to the floor as well: set up a capture plugin so a hotkey opens an input box and typing plus Enter appends to a chosen note in under three seconds. Stream logging is not the flaw. Writing it and never touching it again is.
 
 Resource: QuickAdd https://community.obsidian.md/plugins/quickadd
 
 ## 23. How to take reading/article notes so it is not "copy-paste then gather dust"?
 
-Reading and articles most easily become copy-paste then gather dust: a whole passage excerpted, never opened again.
+Copying a passage verbatim is worth zero, accept that first. An excerpt pasted in has only changed location, and later you will remember neither what it said nor why you kept it.
 
-Judgment: The problem is not how much you excerpt, but that only the original was stored, not your processing. After excerpting a sentence, write offhand "this relates to that project of mine last month," and this note comes alive; later when AI answers based on it, your thinking is inside, and the dry original text is left behind.
+A note you can reuse needs four blocks at minimum. What this is, summarized in your own words. My call, why it is worth keeping. Next step, what you intend to do with it. Related, which projects or topics it links to. Do not skip the fourth: put a wikilink to the topic page under Related, and afterwards you can click through from here to the topic page and find this note again in that page's backlinks.
 
-Action: Use a fixed template for reading notes, every book filling columns of one-sentence summary, core viewpoint, inspiration and action, golden-quote excerpt, forcing yourself to write one sentence of your own.
+For books, fill one fixed structure every time. Frontmatter on top with title, author, rating, date finished, then a body split into one-sentence summary, core viewpoint, inspiration and action, golden quotes. The real function of that structure is forcing out the sentence that is yours, and failing to produce it means you have not understood the material. Same for loose article clippings: append one line on why it is worth reading, because a clipping saved without a reason never gets opened again.
 
 Copy-paste template (use directly):
 
@@ -141,16 +167,20 @@ Resource: Templater https://community.obsidian.md/plugins/templater-obsidian
 
 ## 24. What is frontmatter (YAML header) for, and why does AI especially like it?
 
-Judgment: Frontmatter is the metadata block wrapped in three dashes at the top of a note, like book, author, tags, date. Its benefit is machine-readable. You write one Dataview query and it lists all notes tagged reading-note, sorted by finish date, into a table; AI can also precisely filter by these fields instead of guessing from full text.
+Frontmatter is the block of fields wrapped in three dashes at the very top of a note, and its job is to make the note filterable by machines. You open a note and see date, status, source, summary up front. Search, plugins, and any AI you granted access see a uniform set of key-value pairs they can filter on exactly, with no guessing from full text.
 
-Someone specifically uses frontmatter to add a structured header to each note, finding AI especially likes it during retrieval. Migrating from another tool, the first move should be adding frontmatter, because without this layer of structure, more notes are just a text pile.
+Fields should be few and good. Lock in four you will really use: updated for last modified, status for state, summary for one line on what the note solves, source for the original link. Adding tags and created is fine too. Too many fields and nobody maintains them, half your notes end up with empty shells, which is worse than having none.
 
-Action: Add a few stable fields to every important note: tags, date, type. Later when AI asks which books you read this year, it pulls straight from frontmatter, no guessing note by note.
+With that layer in place Dataview has something to query. Give reading notes a consistent title, author, rating, date finished, then write one query anywhere and a table sorted by finish date builds itself and updates as you add books. In the other direction, mismatched field names, types flipping between string and number, some notes having the header and some not, are all signals the vault is starting to rot, and running a linter early beats patching later.
 
 Copy-paste template (use directly):
 
 ```
 ---
+updated: 2026-05-21
+status: active
+summary: what problem this note solves
+source: original source or link
 tags: reading-note
 book:
 author:
@@ -159,21 +189,33 @@ date-finished:
 ---
 ```
 
+Companion query, drop it in any note:
+
+```dataview
+TABLE author, rating, date-finished
+FROM #reading-note
+SORT date-finished DESC
+```
+
 Resource: Dataview https://community.obsidian.md/plugins/dataview
 
 ## 25. Using AI to help me write notes, will it make me stop thinking?
 
-Judgment: Using AI to write notes does have a trap: the smoother it gives, the easier you stop thinking, directly treating its output as finished. Cognitively this is called the illusion of competence; you think you mastered it, but actually only read what AI wrote. Even the smartest AI will not proactively connect this chat with what you wrote before.
+It will, so do not hand it the body text. The entire point of taking notes is writing them in your own words and later looking back at how well you actually understood the thing. Outsource that step and the note was pointless.
 
-Action (guardrail): What AI gives is always a draft; rewrite it in your own words, link one related old note, then it truly enters your vault. Let it write for you, not think for you. Hold this line and the notes truly belong to you.
+From a learning standpoint, what pays off is the external action that forces internal processing, and hooking new information onto what you already know is the textbook case. The risk was never how strong the model is, it is using the model as a shortcut around that processing, the same mechanism by which students who let AI write their essays end up writing worse.
 
-Resource: awesome-obsidian https://github.com/kmaasrud/awesome-obsidian
+Draw one line. Q&A, looking things up, writing code, polishing prose: use it freely. The notes in your vault that represent your understanding: write those yourself. Treat anything AI gives you as a draft, rewrite it in your own words, link one related old note, and only then has it really entered your vault. What it is good at is searching, organizing, and continuing the work across the material once you authorize it. Let it write for you, do not let it think for you.
+
+Resource: Copilot https://community.obsidian.md/plugins/copilot
 
 ## 26. How to store meeting/interview records so AI can find them later?
 
-Judgment: Meeting and interview records most easily get stored as one long blob, and later when you want to find who promised what you dig for ages. The key is action items listed separately, each with who does what and a deadline.
+Do not rush to store all of it. Meeting records are highly perishable, most stay relevant for a few weeks, and their biggest value is being shared with others. Obsidian is single-user and passing markdown around is awkward. Transcribe whole sessions into the vault and a few months later they only dilute it.
 
-Action: Each session split attendees, topics, discussion and conclusion, action items. Tag a few labels while recording, project name, client name, and locate that meeting in one sentence during search. Spend two extra minutes structuring at storage, save ten times the search time later for both AI and you.
+What deserves to stay is conclusions and action items. Title the note with the date plus the meeting subject, say 2026-05-21 Product Requirements Review, and split the body into attendees, topics, discussion and conclusion, action items. Record decisions and who owes what, not every utterance. Write action items as task lines with a due date, and then one query block in another note can pull every unfinished task across the vault that is due before tomorrow. Keep a task overview note holding a few queries with different conditions and open that one page daily.
+
+If the meeting is tightly bound to a project, just hang the action items inside the project note and skip the separate file. One more guardrail: company matters stay in company tools, and only your own reviews, calls, and takes go into Obsidian, so changing employers does not hand your accumulation over with it.
 
 Copy-paste template (use directly):
 
@@ -182,58 +224,66 @@ Copy-paste template (use directly):
 ## Topics
 ## Discussion and conclusion
 ## Action items
-- [ ] who does what / deadline
+- [ ] who does what 📅 2026-05-22
+- [ ] who does what ⏳ 2026-05-25
 ```
+
+Put this query in the task overview note:
+
+~~~
+```tasks
+not done
+due before tomorrow
+```
+~~~
 
 Resource: Tasks https://community.obsidian.md/plugins/obsidian-tasks-plugin
 
 ## 27. How do images, screenshots, PDFs enter the vault without becoming disconnected?
 
-Judgment: Images, screenshots, PDFs most easily become disconnected in the vault, stored but with no relation to text notes, impossible to remember to use later.
+Nail the attachment path first. Under Files and links in settings, point the default attachment folder at one directory so every pasted or dragged image and PDF lands in the same place, otherwise they end up scattered across the vault. For finer control, let attachments follow the note: set the new attachment location to ./assets/${noteFileName}, generate attachment filenames from a timestamp, and turn on renaming sync so the attachment folder tracks note renames and references never break.
 
-Someone uses an import plugin to bring material from Word, Notion, EverNote directly into the vault, keeping original structure and not losing links.
+Drag a PDF into the editor and it is in the vault with a link generated. Double-click it in the file list to read and page through, or embed it in the body with an exclamation mark and double brackets around the filename. Audio and video work the same way: drop in mp3, wav, m4a, mp4, webm and reading mode renders a player. Be sparing with video, big files bloat the vault and slow sync, so keep the small ones and park large ones in cloud storage with only a link in the note. If you paste screenshots a lot, install an image toolkit plugin for fullscreen preview, scroll zoom, arrow-key switching, Esc to close, no configuration needed.
 
-Action: Do not just throw attachments into an island folder and call it done; write one sentence next to each image, each PDF, what it says and which note it relates to, link back with a link. This way when AI reads your project note, it can bring in the screenshots and PDFs inside, the material becomes connected, no longer loose sand.
+The thing that prevents disconnection is still one sentence. Next to every image and every PDF, write what it says and which note it belongs to, then link back with a wikilink. Dumping it into the attachment folder is not storing it. For bulk material coming out of Word, Notion, or EverNote, run Importer and the original structure and links survive.
 
 Resource: Importer https://community.obsidian.md/plugins/importer · Image Toolkit https://community.obsidian.md/plugins/image-toolkit
 
 ## 28. What is a dumb-but-stable method for naming and directories?
 
-Someone migrating from another note app was most relieved they used the dumb method back then: numeric prefixes for fixed ordering, folders no more than two levels.
+Numeric prefixes and a two-level ceiling, that is the whole method. Prefixes lock the ordering, 00 Inbox, 01 Diary, 03 Projects, so the system sorts by number and you never memorize the order or get shuffled by first letters. Cap folders at one or two levels and use MOCs and links to connect anything deeper instead of building a nest.
 
-Judgment: Numeric prefixes like 00-Inbox, 01-Diary, 03-Projects, the system sorts by number, you do not need to remember order. Folders only two levels, deeper use MOC and links, not a bunch of nesting. One handy vault beats ten pretty ones, the simpler the structure the easier to stick with.
+Do not copy anyone else's top-level directories. Create a small number based on the material you genuinely handle. Writers may need topics and published, project workers may need in-progress and done. Directories grow out of real work rather than being cloned from a knowledge-management system and stuffed afterwards. Anything you cannot place goes to the inbox and gets cleared periodically.
 
-Action: Diary by year-month-day, project by project name plus status, you know at a glance what it is. If you want a ready-made skeleton, clone a starter vault with the numeric prefixes already arranged, faster than arranging from scratch.
-
-Resource: awesome-obsidian https://github.com/kmaasrud/awesome-obsidian · LYT Kit https://github.com/nickmilo/LYT-Kit-in-Mandarin
+For the folders you live in, put a 00 Index at the top spelling out what is here, where the important material enters, and which notes you open most right now. Add a 00 Rules covering what belongs here, how files are named, whether the sort is by date or importance, and where things go once finished. If the folder is simple, write the rules straight into the Index rather than creating two empty files for form's sake. Use exactly one sort logic per folder, all by date or all by importance, because mixing them makes everything unfindable.
 
 Copy-paste template (use directly):
 
 ```
 my-vault/
-├── 00-Inbox/      # temporary material, to be sorted
+├── 00-Inbox/        # temporary material, to be sorted
 ├── 01-Diary/        # auto-named by YYYY-MM-DD
-├── 02-Weekly/        # YYYY-Www
-├── 03-Projects/        # PARA Projects
+├── 02-Weekly/       # YYYY-Www
+├── 03-Projects/     # PARA Projects
 ├── 04-Areas/        # PARA Areas
-├── 05-Resources/        # PARA Resources
+├── 05-Resources/    # PARA Resources
 │   ├── reading-notes/
 │   ├── knowledge-cards/
 │   └── learning/
-├── 06-Archive/        # PARA Archives
-├── 99-Attachments/        # images, PDFs, etc.
-└── Templates/           # note templates of all kinds
+├── 06-Archive/      # PARA Archives
+├── 99-Attachments/  # images, PDFs, etc.
+└── Templates/       # note templates of all kinds
 ```
+
+Resource: Obsidian Help https://help.obsidian.md/
 
 ## 29. What exactly should a diary record to become AI's future "context"?
 
-Judgment: A diary most easily becomes a stream of what I ate today, and half a year later you do not want to read it yourself. To make the diary AI's future context, record the three columns of what happened today, what I learned, what to do tomorrow, plus a sentence of your current judgment and mood.
+Three sections plus one judgment. What I did today, what I learned today, what to do tomorrow forms the skeleton, and the fourth item is what makes the diary useful later: the call you made that day and why you made it that way. AI reads facts out of the first three, the fourth is the part it cannot copy.
 
-Someone reviewing years of notes said the most valuable was exactly the casual fragments, including the real thoughts in diaries.
+Let tooling carry the rhythm. Enable the core daily notes plugin and pin a calendar panel to the right sidebar so you can see at a glance which days are written and which are blank, and click a date to jump there or create it. One level up, a periodic notes plugin fills in weekly, monthly, quarterly, and yearly notes. Set the weekly format to YYYY-[W]ww, point it at a template and folder, and clicking a week number on the calendar creates that week's note.
 
-Action: Use a periodic-notes plugin with calendar, weekly and monthly notes auto-generated. These real records accumulate, and when AI reads your vault later it can piece together the you across time from the diary, not just see cold documents. The more honestly you write, the more AI understands you, and the answers can catch your thread.
-
-Resource: Periodic Notes https://community.obsidian.md/plugins/periodic-notes · Calendar https://community.obsidian.md/plugins/calendar
+Reserve one review per week. Sunday, fifteen to twenty minutes, four blocks: what I finished this week, my biggest takeaway, where I did badly, the three most important things next week. The last two carry the weight, the first two write themselves, and the hard part is admitting what went wrong and narrowing next week down to three. Keep it up for a month and looking back you will find you did far more than memory suggests. Those honest records accumulate, and when AI reads your vault later it can reassemble you along a timeline.
 
 Copy-paste template (use directly):
 
@@ -242,20 +292,47 @@ Copy-paste template (use directly):
 ## What I learned today
 ## What to do tomorrow
 - [ ]
+## Today's judgment call
+- what I decided / why I decided it that way
 ```
+
+Weekly review template:
+
+```
+## What I finished this week
+## Biggest takeaway
+## Where I did badly
+## Three most important things next week
+1.
+2.
+3.
+```
+
+Resource: Periodic Notes https://community.obsidian.md/plugins/periodic-notes · Calendar https://community.obsidian.md/plugins/calendar
 
 ## 30. My notes are too scattered, AI answers by piecing things together randomly. What to do?
 
-Judgment: The root is not that you have many notes, but that the bottom is not connected. Notes scattered in different tools and places, with no links to each other, so AI can only piece things together randomly. A scattered vault is not scary; what is scary is not gathering and not connecting.
+Set up a single point of entry first. Details can stay where they are, but the vault needs an index note pointing at them so all the connections are visible from one place. Bring bulk material in from Word, Notion, and EverNote with Importer, and for tools like Lark Docs export to Markdown and drag the files in. Dump everything into archive right after the import, which clears the desk instantly without losing a single item of history.
 
-Action (three-step cleanup job, just follow it):
+Then resist rebuilding the whole thing. Backfilling properties and tags across every old note is the kind of job you abandon after a few days. Only touch what you have actually used recently: keep what you will keep using and add a one-line summary, merge duplicates into one main note, move expired but archival material to the archive, and leave alone anything you cannot decide on. Once several notes pile up under one topic, build an index to string them together.
 
-Step 1 Export: Use Importer to bring material from Notion, EverNote, Word, etc. into one vault, keeping original structure and not losing links.
+Own the tradeoff mentally: eighty percent success is a win. Settle on a structure you can live with long term, route every new note through it, digest the old library a bit at a time, and spend energy where you actually benefit. Give old notes a status field and bump it one level each time you touch one, from raw to usable to mature, which turns cleanup from a grand project into a casual motion. Once entry, fields, and maps are all standing, AI answers by walking a map.
 
-Step 2 Unify frontmatter: Add the same YAML header to every note (tags, type, date), so AI can filter precisely by fields instead of guessing from full text.
+Copy-paste template (use directly):
 
-Step 3 Build 3 MOCs: Build one Map of Content each for "Projects / Areas / Resources," list same-topic notes with links, stringing them into one map.
+```
+During migration, give every old note a status field:
 
-After these three steps, AI's answer walks a map, not picking fragments off the floor.
+---
+status: seed        # seed -> sapling -> evergreen
+source: original source
+updated: 2026-05-21
+---
 
-Resource: Importer https://community.obsidian.md/plugins/importer · Dataview https://community.obsidian.md/plugins/dataview · LYT Kit https://github.com/nickmilo/LYT-Kit-in-Mandarin
+Archive strategy:
+
+06-Archive/   # the old library lands here in bulk, history intact
+00-Inbox/     # fish items out when needed, move to a real home once processed
+```
+
+Resource: Importer https://community.obsidian.md/plugins/importer · Dataview https://community.obsidian.md/plugins/dataview
