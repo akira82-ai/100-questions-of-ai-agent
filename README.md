@@ -28,12 +28,13 @@ So this repository is both a knowledge base and a discipline: it pushes me to wr
 
 ## Topics covered
 
-Ten books, 1000 questions, covering the full AI Agent practitioner stack plus essential developer tooling:
+Eleven books, 1100 questions, covering the full AI Agent practitioner stack plus essential developer tooling:
 
 - **Loop Engineering** and **Graph Engineering** — how to orchestrate and supervise multi-agent systems.
 - **Codex** and **vibe Coding** — building software with agents, from first prototype to production.
 - **The AI Product Manager** and **the Forward Deployed Engineer (FDE)** — shipping AI inside real organizations.
 - **WorkBuddy** and **Lark CLI** — agent-native office and CLI tooling.
+- **GitHub**, **Obsidian**, and **Harness Engineering** — developer workflows, personal knowledge systems, and the systems around agents.
 
 Themes running through all of them: RAG, evaluation and guardrails, context engineering, agent architecture, and the gap between a demo and something people actually use.
 
