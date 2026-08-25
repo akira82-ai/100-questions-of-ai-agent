@@ -28,7 +28,7 @@ So this repository is both a knowledge base and a discipline: it pushes me to wr
 
 ## Topics covered
 
-Eleven books, 1100 questions, covering the full AI Agent practitioner stack plus essential developer tooling:
+Twelve books, 1200 questions, covering the full AI Agent practitioner stack plus essential developer tooling:
 
 - **Loop Engineering** and **Graph Engineering** — how to orchestrate and supervise multi-agent systems.
 - **Codex** and **vibe Coding** — building software with agents, from first prototype to production.
@@ -65,5 +65,6 @@ If this collection saves you an afternoon of scattered searching, a star is the 
 | 9 | The 100 Questions of GitHub                              | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-github)            | 2026-08-02 | ~19,400    |
 | 10 | The 100 Questions of Obsidian                          | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-obsidian)       | 2026-08-09 | ~17,900    |
 | 11 | The 100 Questions of Harness Engineering                | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-harness-engineering) | 2026-08-18 | ~13,200    |
+| 12 | The 100 Questions of Prompt Engineering                 | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-prompt-engineering)  | 2026-08-25 | ~34,400    |
 
 Everything in this repository lives on GitHub. Star or watch the repo to follow new books — I post summaries on X, but the source always lands here first.
