@@ -2,6 +2,29 @@
 
 Free, continuously updated books of practical, judgment-first questions covering AI agents, Large Language Models (LLMs), RAG, vibe coding, agent engineering, etc.
 
+## ⭐ Star this repository
+
+If this collection saves you an afternoon of scattered searching, a star is the easiest way to say thanks — and it helps the next person find it too. No account beyond GitHub needed.
+
+## Book list
+
+| # | Title                                                    | Link                                                                                                         | Published  | Words (EN) |
+| - | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------- | ---------- |
+| 1 | The 100 Questions of Loop Engineering                    | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-loop-engineering)  | 2026-07-01 | ~15,900    |
+| 2 | The 100 Questions of WorkBuddy                           | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-workbuddy)         | 2026-07-03 | ~14,200    |
+| 3 | The 100 Questions of Codex                               | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-codex)             | 2026-07-04 | ~34,000    |
+| 4 | The 100 Questions of the AI Product Manager              | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-ai-pm)             | 2026-07-07 | ~30,200    |
+| 5 | The 100 Questions of Lark CLI                            | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-lark-cli)          | 2026-07-12 | ~27,000    |
+| 6 | The 100 Questions of vibe Coding                         | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-vibe-coding)       | 2026-07-14 | ~23,100    |
+| 7 | The 100 Questions of the Forward Deployed Engineer (FDE) | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-fde)               | 2026-07-18 | ~25,500    |
+| 8 | The 100 Questions of Graph Engineering                   | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-graph-engineering) | 2026-07-26 | ~28,000    |
+| 9 | The 100 Questions of GitHub                              | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-github)            | 2026-08-02 | ~19,400    |
+| 10 | The 100 Questions of Obsidian                          | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-obsidian)       | 2026-08-09 | ~17,900    |
+| 11 | The 100 Questions of Harness Engineering                | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-harness-engineering) | 2026-08-18 | ~13,200    |
+| 12 | The 100 Questions of Prompt Engineering                 | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-prompt-engineering)  | 2026-08-25 | ~34,400    |
+
+Everything in this repository lives on GitHub. Star or watch the repo to follow new books — I post summaries on X, but the source always lands here first.
+
 ## Contact
 
 - WeChat: `AIRay1015`
@@ -45,26 +68,3 @@ Treat it as a directly readable topic library.
 Read it to learn, to build a quick overall picture of a topic, or to distill the questions, structures, and source paths into your own articles, courses, checklists, or research frameworks.
 
 If you are building Agents, content systems, or knowledge bases, or writing your own skills, this repository works as a content reference. Many of the topic-breakdown methods, chapter organizations, question designs, and source-to-text paths are reusable.
-
-## ⭐ Star this repository
-
-If this collection saves you an afternoon of scattered searching, a star is the easiest way to say thanks — and it helps the next person find it too. No account beyond GitHub needed.
-
-## Book list
-
-| # | Title                                                    | Link                                                                                                         | Published  | Words (EN) |
-| - | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------- | ---------- |
-| 1 | The 100 Questions of Loop Engineering                    | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-loop-engineering)  | 2026-07-01 | ~15,900    |
-| 2 | The 100 Questions of WorkBuddy                           | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-workbuddy)         | 2026-07-03 | ~14,200    |
-| 3 | The 100 Questions of Codex                               | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-codex)             | 2026-07-04 | ~34,000    |
-| 4 | The 100 Questions of the AI Product Manager              | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-ai-pm)             | 2026-07-07 | ~30,200    |
-| 5 | The 100 Questions of Lark CLI                            | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-lark-cli)          | 2026-07-12 | ~27,000    |
-| 6 | The 100 Questions of vibe Coding                         | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-vibe-coding)       | 2026-07-14 | ~23,100    |
-| 7 | The 100 Questions of the Forward Deployed Engineer (FDE) | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-fde)               | 2026-07-18 | ~25,500    |
-| 8 | The 100 Questions of Graph Engineering                   | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-graph-engineering) | 2026-07-26 | ~28,000    |
-| 9 | The 100 Questions of GitHub                              | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-github)            | 2026-08-02 | ~19,400    |
-| 10 | The 100 Questions of Obsidian                          | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-obsidian)       | 2026-08-09 | ~17,900    |
-| 11 | The 100 Questions of Harness Engineering                | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-harness-engineering) | 2026-08-18 | ~13,200    |
-| 12 | The 100 Questions of Prompt Engineering                 | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-prompt-engineering)  | 2026-08-25 | ~34,400    |
-
-Everything in this repository lives on GitHub. Star or watch the repo to follow new books — I post summaries on X, but the source always lands here first.
