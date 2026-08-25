@@ -15,8 +15,12 @@
 # 例外:docs/ 是 GitHub Pages 公开站点目录,其图片需入库
 !docs/**
 
+# 例外:英文书的 images/ 是正文配图,需入库(否则 *.png/*.jpg 规则会静默吞掉)
+!100-questions-of-*/images/**
+
 # 本地调研素材(官网镜像 HTML、资料.txt 等,不公开)
 资料/
+.firecrawl/
 
 # AI 工作日志(内部过程,不入库)
 .workbuddy/
@@ -26,6 +30,7 @@ zh/
 zh/100-questions-of-obsidian/
 
 # 项目辅助设计稿 / 提示词模板(本地素材,不入库)
+发书营销文案.md
 100问系列-skill设计稿.md
 100问系列-内容创作流水线.md
 x-comment-prompt.md
