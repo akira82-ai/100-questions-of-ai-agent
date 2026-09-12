@@ -24,6 +24,7 @@ If this collection saves you an afternoon of scattered searching, a star is the 
 | 12 | The 100 Questions of Prompt Engineering                 | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-prompt-engineering)  | 2026-08-25 | ~34,400    |
 | 13 | The 100 Questions of Agent Skills                       | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-agent-skill)        | 2026-08-31 | ~19,800    |
 | 14 | The 100 Questions of Context Engineering                | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-context-engineering) | 2026-09-08 | ~31,200    |
+| 15 | The 100 Questions of Doubao Work | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-doubao) | 2026-09-12 | ~22,600 |
 
 Everything in this repository lives on GitHub. Star or watch the repo to follow new books — I post summaries on X, but the source always lands here first.
 
@@ -53,7 +54,7 @@ So this repository is both a knowledge base and a discipline: it pushes me to wr
 
 ## Topics covered
 
-Fourteen books, 1400 questions, covering the full AI Agent practitioner stack plus essential developer tooling:
+Fifteen books, 1500 questions, covering the full AI Agent practitioner stack plus essential developer tooling:
 
 - **Loop Engineering** and **Graph Engineering** — how to orchestrate and supervise multi-agent systems.
 - **Codex** and **vibe Coding** — building software with agents, from first prototype to production.
@@ -62,6 +63,7 @@ Fourteen books, 1400 questions, covering the full AI Agent practitioner stack pl
 - **GitHub**, **Obsidian**, and **Harness Engineering** — developer workflows, personal knowledge systems, and the systems around agents.
 - **Agent Skills** — giving agents reusable capabilities: SKILL.md authoring, progressive disclosure, triggers, host compatibility, and skill security.
 - **Context Engineering** — curating what enters the model's window: attention budgets, context rot, compaction, memory systems, cache economics, and evaluation.
+- **Doubao Work** — delegating real work to an AI coworker: capability boundaries, task delegation and verification, subscription economics, Feishu-powered team rollout, and the office-agent turf war.
 
 Themes running through all of them: RAG, evaluation and guardrails, context engineering, agent architecture, and the gap between a demo and something people actually use.
 
