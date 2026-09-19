@@ -25,6 +25,7 @@ If this collection saves you an afternoon of scattered searching, a star is the 
 | 13 | The 100 Questions of Agent Skills                       | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-agent-skill)        | 2026-08-31 | ~19,800    |
 | 14 | The 100 Questions of Context Engineering                | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-context-engineering) | 2026-09-08 | ~31,200    |
 | 15 | The 100 Questions of Doubao Work | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-doubao) | 2026-09-12 | ~22,600 |
+| 16 | The 100 Questions of Eval Engineering | [Read](https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-eval-engineering) | 2026-09-19 | ~34,000 |
 
 Everything in this repository lives on GitHub. Star or watch the repo to follow new books — I post summaries on X, but the source always lands here first.
 
@@ -54,7 +55,7 @@ So this repository is both a knowledge base and a discipline: it pushes me to wr
 
 ## Topics covered
 
-Fifteen books, 1500 questions, covering the full AI Agent practitioner stack plus essential developer tooling:
+Sixteen books, 1600 questions, covering the full AI Agent practitioner stack plus essential developer tooling:
 
 - **Loop Engineering** and **Graph Engineering** — how to orchestrate and supervise multi-agent systems.
 - **Codex** and **vibe Coding** — building software with agents, from first prototype to production.
@@ -64,6 +65,7 @@ Fifteen books, 1500 questions, covering the full AI Agent practitioner stack plu
 - **Agent Skills** — giving agents reusable capabilities: SKILL.md authoring, progressive disclosure, triggers, host compatibility, and skill security.
 - **Context Engineering** — curating what enters the model's window: attention budgets, context rot, compaction, memory systems, cache economics, and evaluation.
 - **Doubao Work** — delegating real work to an AI coworker: capability boundaries, task delegation and verification, subscription economics, Feishu-powered team rollout, and the office-agent turf war.
+- **Eval Engineering** — measuring and improving AI quality end to end: error analysis and golden sets, LLM-as-judge calibration, agent outcome vs trajectory metrics, production monitoring and eval debt, and the benchmark trust crisis.
 
 Themes running through all of them: RAG, evaluation and guardrails, context engineering, agent architecture, and the gap between a demo and something people actually use.
 
