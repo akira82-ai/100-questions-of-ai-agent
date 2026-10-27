@@ -2,14 +2,15 @@
 
 > English mirror of `18-发书营销文案.md`. Keep both files in sync (edit together).
 > Cover three questions = main-post three questions = Q037 (read-only bank leak) / Q041 (email steals private key) / Q087 (where to stop on the delegation ladder). Confirmed with the author, 2026-10-27.
-> Links: official Chinese channel link to be backfilled after the Feishu wiki goes live; English edition is a Stage-10 placeholder.
+> Links: official Chinese channel (Feishu wiki, live 2026-10-27): https://my.feishu.cn/wiki/FC6ZwnwWWi0dWpke56act61gnUd#share-CktZdS9E9odiB9x74wHcJ6Yqnbg
+> English edition: https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-personal-agent
 
 ## Main post (copy-paste ready; backfill links after publishing)
 
 ```
 Book #18 in the series is out 😄
 
-100 Questions about Personal Agent 【Chinese official link — to be backfilled】
+100 Questions about Personal Agent https://my.feishu.cn/wiki/FC6ZwnwWWi0dWpke56act61gnUd#share-CktZdS9E9odiB9x74wHcJ6Yqnbg
 
 English edition: https://github.com/akira82-ai/100-questions-of-ai-agent/tree/main/100-questions-of-personal-agent
 
